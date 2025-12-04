@@ -143,11 +143,16 @@ dmypy.json
 # Data files
 data/raw/
 data/processed/
+data/synapse/
+synapse_downloads/
 *.csv
 *.json
 *.jsonl
 *.parquet
 *.feather
+*.mtx
+*.tsv
+*.txt
 
 # Model checkpoints and logs
 checkpoints/

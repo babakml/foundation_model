@@ -1,0 +1,10 @@
+2025-10-02 09:23:09,401 - INFO - Directories set up in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model
+2025-10-02 09:23:09,403 - INFO - Starting streaming pipeline - MEMORY OPTIMIZED MODE
+Traceback (most recent call last):
+  File "/pfs/data6/home/ul/ul_neurorku/ul_oqn09/als_foundation_model/src/streaming_pipeline_memory_optimized.py", line 1685, in <module>
+    main()
+  File "/pfs/data6/home/ul/ul_neurorku/ul_oqn09/als_foundation_model/src/streaming_pipeline_memory_optimized.py", line 1682, in main
+    pipeline.run_pipeline()
+  File "/pfs/data6/home/ul/ul_neurorku/ul_oqn09/als_foundation_model/src/streaming_pipeline_memory_optimized.py", line 1595, in run_pipeline
+    self.check_storage()
+AttributeError: 'StreamingPipeline' object has no attribute 'check_storage'

@@ -1,0 +1,145 @@
+ALS Single-Cell Transcriptomics Databases and Resources
+========================================================
+
+This document contains information about databases and repositories where ALS single-cell transcriptomics data can be found, based on research conducted for foundation model development.
+
+## Primary Data Repositories
+
+### 1. Gene Expression Omnibus (GEO)
+- **URL**: https://www.ncbi.nlm.nih.gov/geo/
+- **Description**: Most comprehensive repository for high-throughput gene expression data
+- **Search Strategy**: Use terms "ALS" + "single cell" + "RNA-seq"
+- **Key Datasets to Investigate**:
+  - GSE124439: Motor cortex single-cell data
+  - GSE137810: Spinal cord single-cell profiling
+  - GSE153960: Neuromuscular junction studies
+- **Data Formats**: FASTQ, BAM, processed count matrices
+- **Download Method**: SRA Toolkit, direct download links
+
+### 2. Single Cell Portal (Broad Institute)
+- **URL**: https://singlecell.broadinstitute.org/
+- **Description**: Curated single-cell datasets with standardized formats
+- **Search Strategy**: Browse by disease/condition, search for ALS-related studies
+- **Data Formats**: H5AD, Loom, RDS
+- **Download Method**: Direct download from portal
+
+### 3. Human Cell Atlas (HCA)
+- **URL**: https://data.humancellatlas.org/
+- **Description**: Comprehensive single-cell reference data across human tissues
+- **Search Strategy**: Filter by tissue type (brain, spinal cord, muscle)
+- **Data Formats**: H5AD, Loom, Zarr
+- **Download Method**: HCA Data Portal, AWS S3
+
+### 4. European Genome-Phenome Archive (EGA)
+- **URL**: https://www.ega-archive.org/
+- **Description**: Controlled access datasets requiring approval
+- **Search Strategy**: Search for ALS, neurodegenerative diseases
+- **Key Dataset**: EGAD00001006325 - "Single-cell Full Transcriptome RNA sequencing"
+- **Access Requirements**: Data access agreement, research purpose justification
+- **Download Method**: EGA download tools (after approval)
+
+## Secondary Resources
+
+### 5. NeMO Data Archive
+- **URL**: https://assets.nemoarchive.org/
+- **Description**: Neurological datasets including motor cortex studies
+- **Key Dataset**: BICCN_MOp_scRNA_10X_v2_AIBS - "An integrated transcriptomic and epigenomic atlas of mouse primary motor cortex cell types"
+- **Data Formats**: Various (check individual datasets)
+- **Download Method**: Direct download from archive
+
+### 6. Single Cell Expression Atlas (EBI)
+- **URL**: https://www.ebi.ac.uk/gxa/sc/home
+- **Description**: Single-cell expression data across various conditions
+- **Search Strategy**: Search by disease, tissue, or cell type
+- **Data Formats**: H5AD, processed matrices
+- **Download Method**: Direct download from EBI
+
+### 7. 10x Genomics Datasets
+- **URL**: https://www.10xgenomics.com/resources/datasets
+- **Description**: Datasets generated using 10x Genomics technology
+- **Search Strategy**: Filter by tissue type, look for neurological studies
+- **Data Formats**: H5, H5AD, Cell Ranger output
+- **Download Method**: Direct download from 10x website
+
+### 8. ArrayExpress (EBI)
+- **URL**: https://www.ebi.ac.uk/arrayexpress/
+- **Description**: Functional genomics data repository
+- **Search Strategy**: Search for ALS, single-cell, RNA-seq
+- **Data Formats**: Various (check individual experiments)
+- **Download Method**: Direct download, FTP access
+
+## Specialized Databases
+
+### 9. Respiratory Cell Atlas Database
+- **URL**: https://respcellatlas.gznl.org/database/
+- **Description**: Single-cell datasets including immune cell studies
+- **Relevant Dataset**: GSE126030 - "Single-cell transcriptomics of human T cells reveals tissue and activation signatures in health and disease"
+- **Note**: May contain relevant immune cell data for ALS studies
+
+### 10. Human Protein Atlas
+- **URL**: https://www.proteinatlas.org/humanproteome/single%2Bcell/single%2Bcell%2Btype/data
+- **Description**: Single-cell type data across various tissues
+- **Use Case**: Reference data for comparative analyses
+- **Data Formats**: Processed expression data
+- **Download Method**: Direct download from website
+
+### 11. Registry of Open Data on AWS
+- **URL**: https://registry.opendata.aws/tag/single-cell-transcriptomics/
+- **Description**: AWS-hosted single-cell datasets
+- **Key Resource**: Seattle Alzheimer's Disease Brain Cell Atlas (SEA-AD)
+- **Note**: While focused on Alzheimer's, provides insights into neurodegeneration
+- **Download Method**: AWS CLI, S3 access
+
+## Search Strategies and Tips
+
+### Effective Search Terms:
+- "ALS" + "single cell" + "RNA-seq"
+- "amyotrophic lateral sclerosis" + "scRNA-seq"
+- "motor neuron" + "single cell"
+- "spinal cord" + "single cell" + "transcriptomics"
+- "neuromuscular junction" + "single cell"
+
+### Data Format Considerations:
+- **Raw Data**: FASTQ, BAM files (larger, more flexible)
+- **Processed Data**: H5AD, Loom, RDS (smaller, ready for analysis)
+- **Quality Control**: Check for batch effects, cell number, gene coverage
+
+### Download Considerations:
+- **File Sizes**: Single-cell datasets can be 10-100+ GB
+- **Storage**: Use cluster storage for large datasets
+- **Access Requirements**: Some datasets require approval or agreements
+- **Format Compatibility**: Ensure compatibility with your analysis pipeline
+
+## Cluster Computing Notes
+
+### Recommended Storage Locations:
+- `/scratch/username/` - Temporary processing
+- `/work/username/` - Shared datasets
+- `/home/username/` - Small files and scripts
+
+### Download Tools for Cluster:
+- `wget` or `curl` for direct downloads
+- `sra-toolkit` for GEO/SRA data
+- `aws s3 cp` for AWS-hosted datasets
+- Job submission scripts for large downloads
+
+### Important Reminders:
+- Check cluster storage quotas and policies
+- Verify network bandwidth limitations
+- Ensure data retention compliance
+- Contact cluster administrators for specific guidance
+
+## Next Steps for Manual Search:
+
+1. Start with GEO using the search terms above
+2. Check Single Cell Portal for curated datasets
+3. Explore HCA for reference data
+4. Consider EGA for controlled access datasets
+5. Use secondary resources for additional datasets
+6. Document findings with dataset IDs, descriptions, and access methods
+7. Prioritize datasets based on sample size, quality, and relevance to ALS
+
+---
+Generated for ALS Foundation Model Project
+Date: 2024
+Purpose: Manual search guidance for single-cell transcriptomics datasets

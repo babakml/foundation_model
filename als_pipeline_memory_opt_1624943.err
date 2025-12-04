@@ -1,0 +1,12 @@
+2025-10-02 09:14:51,744 - INFO - Directories set up in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model
+2025-10-02 09:14:51,748 - INFO - Starting streaming pipeline - MEMORY OPTIMIZED MODE
+Traceback (most recent call last):
+  File "/pfs/data6/home/ul/ul_neurorku/ul_oqn09/als_foundation_model/src/streaming_pipeline_memory_optimized.py", line 1682, in <module>
+    main()
+  File "/pfs/data6/home/ul/ul_neurorku/ul_oqn09/als_foundation_model/src/streaming_pipeline_memory_optimized.py", line 1679, in main
+    pipeline.run_pipeline()
+  File "/pfs/data6/home/ul/ul_neurorku/ul_oqn09/als_foundation_model/src/streaming_pipeline_memory_optimized.py", line 1575, in run_pipeline
+    if not datasets:
+  File "/home/ul/ul_neurorku/ul_oqn09/.local/lib/python3.9/site-packages/pandas/core/generic.py", line 1580, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().

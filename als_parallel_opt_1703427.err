@@ -1,0 +1,1230 @@
+2025-10-06 11:36:54,563 - INFO - 🚀 Parallel Optimized Pipeline initialized
+2025-10-06 11:36:54,564 - INFO - 🚀 Starting Parallel Optimized Pipeline
+2025-10-06 11:36:54,587 - INFO - 📊 Dataset categorization:
+2025-10-06 11:36:54,587 - INFO -   - To download: 121
+2025-10-06 11:36:54,587 - INFO -   - To process: 40
+2025-10-06 11:36:54,587 - INFO -   - Already completed: 101
+2025-10-06 11:36:54,589 - INFO - 📥 Starting download: GSM5292143
+2025-10-06 11:36:54,589 - INFO - 📥 Starting download: GSM5292144
+2025-10-06 11:36:54,590 - INFO - 📥 Starting download: GSM5292145
+2025-10-06 11:36:54,590 - INFO - 📥 Starting download: GSM5292146
+2025-10-06 11:36:54,590 - INFO - 📥 Starting download: GSM5292147
+2025-10-06 11:36:54,590 - INFO - 📥 Starting download: GSM5292148
+2025-10-06 11:36:54,590 - INFO - 📥 Starting download: GSM5292149
+2025-10-06 11:36:54,591 - INFO - 📥 Starting download: GSM5292150
+2025-10-06 11:36:54,591 - INFO - 📥 Starting download: GSM5292151
+2025-10-06 11:36:54,591 - INFO - 📥 Starting download: GSM5292152
+2025-10-06 11:36:54,591 - INFO - 📥 Starting download: GSM5292153
+2025-10-06 11:36:54,592 - INFO - 📥 Starting download: GSM5292154
+2025-10-06 11:36:55,589 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:55,589 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:55,589 - INFO - 🔍 Searching for SRA data: GSM5292151
+2025-10-06 11:36:55,590 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:55,590 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:55,590 - INFO - 🔍 Searching for SRA data: GSM5292148
+2025-10-06 11:36:55,599 - INFO - 🔍 Searching for SRA data: GSM5292145
+2025-10-06 11:36:55,600 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:55,600 - INFO - 🔍 Searching for SRA data: GSM5292146
+2025-10-06 11:36:55,601 - INFO - 🔍 Searching for SRA data: GSM5292152
+2025-10-06 11:36:55,601 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:55,602 - INFO - 🔍 Searching for SRA data: GSM5292143
+2025-10-06 11:36:55,610 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:55,610 - INFO - 🔍 Searching for SRA data: GSM5292147
+2025-10-06 11:36:55,616 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:55,617 - INFO - 🔍 Searching for SRA data: GSM5292144
+2025-10-06 11:36:55,625 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:55,625 - INFO - 🔍 Searching for SRA data: GSM5292150
+2025-10-06 11:36:55,634 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:55,635 - INFO - 🔍 Searching for SRA data: GSM5292153
+2025-10-06 11:36:55,671 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:55,672 - INFO - 🔍 Searching for SRA data: GSM5292154
+2025-10-06 11:36:55,885 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:55,885 - INFO - 🔍 Searching for SRA data: GSM5292149
+2025-10-06 11:36:55,927 - WARNING - Failed to search SRA data for GSM5292147: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292147&retmode=json&retmax=100
+2025-10-06 11:36:55,928 - INFO - ℹ️ No SRA data found for GSM5292147
+2025-10-06 11:36:55,934 - INFO - Found 1 SRA runs for GSM5292143
+2025-10-06 11:36:55,934 - WARNING - Failed to search SRA data for GSM5292145: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292145&retmode=json&retmax=100
+2025-10-06 11:36:55,935 - ERROR - ❌ Download failed: GSM5292147
+2025-10-06 11:36:55,936 - WARNING - Failed to search SRA data for GSM5292144: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292144&retmode=json&retmax=100
+2025-10-06 11:36:55,937 - INFO - ℹ️ No SRA data found for GSM5292145
+2025-10-06 11:36:55,937 - INFO - Found 1 SRA runs for GSM5292152
+2025-10-06 11:36:55,937 - INFO - 📥 Starting download: GSM5292155
+2025-10-06 11:36:55,938 - INFO - Found 1 SRA runs for GSM5292151
+2025-10-06 11:36:55,938 - ERROR - ❌ Task failed
+2025-10-06 11:36:55,938 - INFO - 📥 Downloading SRA run: 14440497
+2025-10-06 11:36:55,939 - INFO - ℹ️ No SRA data found for GSM5292144
+2025-10-06 11:36:55,941 - INFO - Found 1 SRA runs for GSM5292146
+2025-10-06 11:36:55,942 - INFO - 📥 Downloading SRA run: 14440506
+2025-10-06 11:36:55,951 - ERROR - ❌ Download failed: GSM5292145
+2025-10-06 11:36:55,953 - INFO - 📥 Downloading SRA run: 14440505
+2025-10-06 11:36:55,954 - WARNING - Failed to search SRA data for GSM5292153: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292153&retmode=json&retmax=100
+2025-10-06 11:36:55,954 - WARNING - Failed to search SRA data for GSM5292150: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292150&retmode=json&retmax=100
+2025-10-06 11:36:55,968 - INFO - 📥 Starting download: GSM5292156
+2025-10-06 11:36:55,968 - ERROR - ❌ Download failed: GSM5292144
+2025-10-06 11:36:55,969 - WARNING - Failed to search SRA data for GSM5292154: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292154&retmode=json&retmax=100
+2025-10-06 11:36:55,969 - INFO - 📥 Downloading SRA run: 14440500
+2025-10-06 11:36:55,969 - ERROR - ❌ Task failed
+2025-10-06 11:36:55,979 - INFO - ℹ️ No SRA data found for GSM5292153
+2025-10-06 11:36:55,982 - INFO - ℹ️ No SRA data found for GSM5292150
+2025-10-06 11:36:55,992 - INFO - 📥 Starting download: GSM5292157
+2025-10-06 11:36:55,994 - INFO - Found 1 SRA runs for GSM5292148
+2025-10-06 11:36:56,005 - INFO - ℹ️ No SRA data found for GSM5292154
+2025-10-06 11:36:56,006 - ERROR - ❌ Task failed
+2025-10-06 11:36:56,018 - ERROR - ❌ Download failed: GSM5292153
+2025-10-06 11:36:56,027 - ERROR - ❌ Download failed: GSM5292150
+2025-10-06 11:36:56,028 - INFO - 📥 Downloading SRA run: 14440502
+2025-10-06 11:36:56,028 - INFO - 📥 Starting download: GSM5292158
+2025-10-06 11:36:56,028 - ERROR - ❌ Task failed
+2025-10-06 11:36:56,029 - INFO - 📥 Starting download: GSM5292159
+2025-10-06 11:36:56,031 - ERROR - ❌ Task failed
+2025-10-06 11:36:56,031 - ERROR - ❌ Download failed: GSM5292154
+2025-10-06 11:36:56,040 - INFO - 📥 Starting download: GSM5292160
+2025-10-06 11:36:56,047 - ERROR - ❌ Task failed
+2025-10-06 11:36:56,207 - WARNING - Failed to search SRA data for GSM5292149: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292149&retmode=json&retmax=100
+2025-10-06 11:36:56,208 - INFO - ℹ️ No SRA data found for GSM5292149
+2025-10-06 11:36:56,211 - ERROR - ❌ Download failed: GSM5292149
+2025-10-06 11:36:56,211 - INFO - 📥 Starting download: GSM5292161
+2025-10-06 11:36:56,212 - ERROR - ❌ Task failed
+2025-10-06 11:36:56,841 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:56,841 - INFO - 🔍 Searching for SRA data: GSM5292156
+2025-10-06 11:36:56,863 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:56,863 - INFO - 🔍 Searching for SRA data: GSM5292155
+2025-10-06 11:36:56,878 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:56,878 - INFO - 🔍 Searching for SRA data: GSM5292160
+2025-10-06 11:36:56,900 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:56,900 - INFO - 🔍 Searching for SRA data: GSM5292159
+2025-10-06 11:36:57,029 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:57,030 - INFO - 🔍 Searching for SRA data: GSM5292161
+2025-10-06 11:36:57,104 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:57,104 - INFO - 🔍 Searching for SRA data: GSM5292158
+2025-10-06 11:36:57,160 - INFO - Found 1 SRA runs for GSM5292156
+2025-10-06 11:36:57,161 - INFO - 📥 Downloading SRA run: 14440510
+2025-10-06 11:36:57,177 - INFO - Found 1 SRA runs for GSM5292155
+2025-10-06 11:36:57,179 - INFO - 📥 Downloading SRA run: 14440509
+2025-10-06 11:36:57,209 - INFO - Found 1 SRA runs for GSM5292160
+2025-10-06 11:36:57,210 - INFO - 📥 Downloading SRA run: 14440514
+2025-10-06 11:36:57,211 - WARNING - Failed to search SRA data for GSM5292159: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292159&retmode=json&retmax=100
+2025-10-06 11:36:57,221 - INFO - ℹ️ No SRA data found for GSM5292159
+2025-10-06 11:36:57,224 - ERROR - ❌ Download failed: GSM5292159
+2025-10-06 11:36:57,224 - INFO - 📥 Starting download: GSM5292162
+2025-10-06 11:36:57,224 - ERROR - ❌ Task failed
+2025-10-06 11:36:57,315 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:57,315 - INFO - 🔍 Searching for SRA data: GSM5292157
+2025-10-06 11:36:57,343 - WARNING - Failed to search SRA data for GSM5292161: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292161&retmode=json&retmax=100
+2025-10-06 11:36:57,344 - INFO - ℹ️ No SRA data found for GSM5292161
+2025-10-06 11:36:57,347 - ERROR - ❌ Download failed: GSM5292161
+2025-10-06 11:36:57,347 - INFO - 📥 Starting download: GSM5292163
+2025-10-06 11:36:57,347 - ERROR - ❌ Task failed
+2025-10-06 11:36:57,409 - WARNING - Failed to search SRA data for GSM5292158: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292158&retmode=json&retmax=100
+2025-10-06 11:36:57,410 - INFO - ℹ️ No SRA data found for GSM5292158
+2025-10-06 11:36:57,413 - ERROR - ❌ Download failed: GSM5292158
+2025-10-06 11:36:57,413 - INFO - 📥 Starting download: GSM5292164
+2025-10-06 11:36:57,413 - ERROR - ❌ Task failed
+2025-10-06 11:36:57,468 - ERROR - ❌ SRA download failed: 14440497 - 2025-10-06T09:36:57 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440497' - Cannot resolve accession ( 404 ); ncbi_phid='1D325CA120A2A8550000454B924BDCFC.1.m_2'
+
+2025-10-06 11:36:57,496 - ERROR - ❌ SRA download failed: 14440506 - 2025-10-06T09:36:57 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440506' - Cannot resolve accession ( 404 ); ncbi_phid='1D343AA9469B65750000585874BC8045.1.m_2'
+
+2025-10-06 11:36:57,510 - ERROR - ❌ SRA download failed: 14440505 - 2025-10-06T09:36:57 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440505' - Cannot resolve accession ( 404 ); ncbi_phid='1D325CA120A2A8550000254B925CF53C.1.m_2'
+
+2025-10-06 11:36:57,518 - ERROR - ❌ SRA download failed: 14440500 - 2025-10-06T09:36:57 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440500' - Cannot resolve accession ( 404 ); ncbi_phid='1D343AA9469B65750000655874C1359E.1.m_2'
+
+2025-10-06 11:36:57,567 - ERROR - ❌ SRA download failed: 14440502 - 2025-10-06T09:36:57 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440502' - Cannot resolve accession ( 404 ); ncbi_phid='1D343AA9469B65750000375874D3D327.1.m_2'
+
+2025-10-06 11:36:57,617 - WARNING - Failed to search SRA data for GSM5292157: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292157&retmode=json&retmax=100
+2025-10-06 11:36:57,618 - INFO - ℹ️ No SRA data found for GSM5292157
+2025-10-06 11:36:57,621 - ERROR - ❌ Download failed: GSM5292157
+2025-10-06 11:36:57,621 - INFO - 📥 Starting download: GSM5292165
+2025-10-06 11:36:57,622 - ERROR - ❌ Task failed
+2025-10-06 11:36:57,776 - WARNING - Failed to get run info for 14440497: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440497&retmode=xml
+2025-10-06 11:36:57,777 - WARNING - ⚠️ All download methods failed for 14440497
+2025-10-06 11:36:57,777 - ERROR - ❌ Failed to download any SRA data for GSM5292143
+2025-10-06 11:36:57,780 - ERROR - ❌ Download failed: GSM5292143
+2025-10-06 11:36:57,780 - INFO - 📥 Starting download: GSM5292166
+2025-10-06 11:36:57,781 - ERROR - ❌ Task failed
+2025-10-06 11:36:57,803 - WARNING - Failed to get run info for 14440505: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440505&retmode=xml
+2025-10-06 11:36:57,804 - WARNING - Failed to get run info for 14440506: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440506&retmode=xml
+2025-10-06 11:36:57,805 - WARNING - ⚠️ All download methods failed for 14440505
+2025-10-06 11:36:57,806 - WARNING - ⚠️ All download methods failed for 14440506
+2025-10-06 11:36:57,806 - ERROR - ❌ Failed to download any SRA data for GSM5292151
+2025-10-06 11:36:57,806 - ERROR - ❌ Failed to download any SRA data for GSM5292152
+2025-10-06 11:36:57,809 - ERROR - ❌ Download failed: GSM5292151
+2025-10-06 11:36:57,809 - INFO - 📥 Starting download: GSM5292167
+2025-10-06 11:36:57,809 - ERROR - ❌ Task failed
+2025-10-06 11:36:57,819 - ERROR - ❌ Download failed: GSM5292152
+2025-10-06 11:36:57,820 - INFO - 📥 Starting download: GSM5292168
+2025-10-06 11:36:57,820 - ERROR - ❌ Task failed
+2025-10-06 11:36:57,835 - WARNING - Failed to get run info for 14440500: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440500&retmode=xml
+2025-10-06 11:36:57,837 - WARNING - ⚠️ All download methods failed for 14440500
+2025-10-06 11:36:57,837 - ERROR - ❌ Failed to download any SRA data for GSM5292146
+2025-10-06 11:36:57,839 - ERROR - ❌ Download failed: GSM5292146
+2025-10-06 11:36:57,840 - INFO - 📥 Starting download: GSM5292170
+2025-10-06 11:36:57,840 - ERROR - ❌ Task failed
+2025-10-06 11:36:57,877 - WARNING - Failed to get run info for 14440502: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440502&retmode=xml
+2025-10-06 11:36:57,878 - WARNING - ⚠️ All download methods failed for 14440502
+2025-10-06 11:36:57,878 - ERROR - ❌ Failed to download any SRA data for GSM5292148
+2025-10-06 11:36:57,881 - ERROR - ❌ Download failed: GSM5292148
+2025-10-06 11:36:57,881 - INFO - 📥 Starting download: GSM5292171
+2025-10-06 11:36:57,881 - ERROR - ❌ Task failed
+2025-10-06 11:36:58,045 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:58,046 - INFO - 🔍 Searching for SRA data: GSM5292162
+2025-10-06 11:36:58,147 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:58,148 - INFO - 🔍 Searching for SRA data: GSM5292163
+2025-10-06 11:36:58,366 - INFO - Found 1 SRA runs for GSM5292162
+2025-10-06 11:36:58,367 - INFO - 📥 Downloading SRA run: 14440516
+2025-10-06 11:36:58,368 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:58,368 - INFO - 🔍 Searching for SRA data: GSM5292164
+2025-10-06 11:36:58,455 - INFO - Found 1 SRA runs for GSM5292163
+2025-10-06 11:36:58,456 - INFO - 📥 Downloading SRA run: 14440517
+2025-10-06 11:36:58,486 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:58,486 - INFO - 🔍 Searching for SRA data: GSM5292165
+2025-10-06 11:36:58,635 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:58,636 - INFO - 🔍 Searching for SRA data: GSM5292168
+2025-10-06 11:36:58,692 - ERROR - ❌ SRA download failed: 14440509 - 2025-10-06T09:36:58 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440509' - Cannot resolve accession ( 404 ); ncbi_phid='1D325CA120A2A85500005A4B94F8938A.1.m_2'
+
+2025-10-06 11:36:58,694 - ERROR - ❌ SRA download failed: 14440510 - 2025-10-06T09:36:58 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440510' - Cannot resolve accession ( 404 ); ncbi_phid='1D325CA120A2A85500005E4B94FB252F.1.m_2'
+
+2025-10-06 11:36:58,699 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:58,699 - INFO - 🔍 Searching for SRA data: GSM5292170
+2025-10-06 11:36:58,727 - INFO - Found 1 SRA runs for GSM5292164
+2025-10-06 11:36:58,728 - INFO - 📥 Downloading SRA run: 14440518
+2025-10-06 11:36:58,738 - ERROR - ❌ SRA download failed: 14440514 - 2025-10-06T09:36:58 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440514' - Cannot resolve accession ( 404 ); ncbi_phid='1D325CA120A2A8550000324B95087661.1.m_2'
+
+2025-10-06 11:36:58,777 - WARNING - Failed to search SRA data for GSM5292165: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292165&retmode=json&retmax=100
+2025-10-06 11:36:58,778 - INFO - ℹ️ No SRA data found for GSM5292165
+2025-10-06 11:36:58,780 - ERROR - ❌ Download failed: GSM5292165
+2025-10-06 11:36:58,781 - INFO - 📥 Starting download: GSM5292172
+2025-10-06 11:36:58,781 - ERROR - ❌ Task failed
+2025-10-06 11:36:58,790 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:58,791 - INFO - 🔍 Searching for SRA data: GSM5292166
+2025-10-06 11:36:58,869 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:58,870 - INFO - 🔍 Searching for SRA data: GSM5292167
+2025-10-06 11:36:58,952 - WARNING - Failed to search SRA data for GSM5292168: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292168&retmode=json&retmax=100
+2025-10-06 11:36:58,954 - INFO - ℹ️ No SRA data found for GSM5292168
+2025-10-06 11:36:58,957 - ERROR - ❌ Download failed: GSM5292168
+2025-10-06 11:36:58,957 - INFO - 📥 Starting download: GSM5292174
+2025-10-06 11:36:58,957 - ERROR - ❌ Task failed
+2025-10-06 11:36:58,986 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:58,987 - WARNING - Failed to get run info for 14440509: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440509&retmode=xml
+2025-10-06 11:36:58,987 - INFO - 🔍 Searching for SRA data: GSM5292171
+2025-10-06 11:36:58,988 - WARNING - ⚠️ All download methods failed for 14440509
+2025-10-06 11:36:58,989 - ERROR - ❌ Failed to download any SRA data for GSM5292155
+2025-10-06 11:36:58,992 - ERROR - ❌ Download failed: GSM5292155
+2025-10-06 11:36:58,992 - INFO - 📥 Starting download: GSM5292175
+2025-10-06 11:36:58,993 - ERROR - ❌ Task failed
+2025-10-06 11:36:59,004 - WARNING - Failed to get run info for 14440510: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440510&retmode=xml
+2025-10-06 11:36:59,005 - WARNING - Failed to search SRA data for GSM5292170: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292170&retmode=json&retmax=100
+2025-10-06 11:36:59,006 - WARNING - ⚠️ All download methods failed for 14440510
+2025-10-06 11:36:59,007 - INFO - ℹ️ No SRA data found for GSM5292170
+2025-10-06 11:36:59,007 - ERROR - ❌ Failed to download any SRA data for GSM5292156
+2025-10-06 11:36:59,010 - ERROR - ❌ Download failed: GSM5292170
+2025-10-06 11:36:59,010 - INFO - 📥 Starting download: GSM5292176
+2025-10-06 11:36:59,011 - ERROR - ❌ Task failed
+2025-10-06 11:36:59,021 - ERROR - ❌ Download failed: GSM5292156
+2025-10-06 11:36:59,021 - INFO - 📥 Starting download: GSM5292177
+2025-10-06 11:36:59,022 - ERROR - ❌ Task failed
+2025-10-06 11:36:59,050 - WARNING - Failed to get run info for 14440514: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440514&retmode=xml
+2025-10-06 11:36:59,052 - WARNING - ⚠️ All download methods failed for 14440514
+2025-10-06 11:36:59,052 - ERROR - ❌ Failed to download any SRA data for GSM5292160
+2025-10-06 11:36:59,054 - ERROR - ❌ Download failed: GSM5292160
+2025-10-06 11:36:59,055 - INFO - 📥 Starting download: GSM5292178
+2025-10-06 11:36:59,055 - ERROR - ❌ Task failed
+2025-10-06 11:36:59,108 - WARNING - Failed to search SRA data for GSM5292166: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292166&retmode=json&retmax=100
+2025-10-06 11:36:59,109 - INFO - ℹ️ No SRA data found for GSM5292166
+2025-10-06 11:36:59,112 - ERROR - ❌ Download failed: GSM5292166
+2025-10-06 11:36:59,113 - INFO - 📥 Starting download: GSM5292180
+2025-10-06 11:36:59,113 - ERROR - ❌ Task failed
+2025-10-06 11:36:59,179 - WARNING - Failed to search SRA data for GSM5292167: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292167&retmode=json&retmax=100
+2025-10-06 11:36:59,180 - INFO - ℹ️ No SRA data found for GSM5292167
+2025-10-06 11:36:59,183 - ERROR - ❌ Download failed: GSM5292167
+2025-10-06 11:36:59,183 - INFO - 📥 Starting download: GSM5292181
+2025-10-06 11:36:59,183 - ERROR - ❌ Task failed
+2025-10-06 11:36:59,301 - WARNING - Failed to search SRA data for GSM5292171: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292171&retmode=json&retmax=100
+2025-10-06 11:36:59,302 - INFO - ℹ️ No SRA data found for GSM5292171
+2025-10-06 11:36:59,305 - ERROR - ❌ Download failed: GSM5292171
+2025-10-06 11:36:59,306 - INFO - 📥 Starting download: GSM5292182
+2025-10-06 11:36:59,306 - ERROR - ❌ Task failed
+2025-10-06 11:36:59,704 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:59,705 - INFO - 🔍 Searching for SRA data: GSM5292172
+2025-10-06 11:36:59,817 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:59,817 - INFO - 🔍 Searching for SRA data: GSM5292175
+2025-10-06 11:36:59,828 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:59,828 - INFO - 🔍 Searching for SRA data: GSM5292176
+2025-10-06 11:36:59,863 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:59,863 - INFO - 🔍 Searching for SRA data: GSM5292174
+2025-10-06 11:36:59,899 - ERROR - ❌ SRA download failed: 14440516 - 2025-10-06T09:36:59 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440516' - Cannot resolve accession ( 404 ); ncbi_phid='1D325CA120A2A8550000584B97C59229.1.m_2'
+
+2025-10-06 11:36:59,919 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:36:59,919 - INFO - 🔍 Searching for SRA data: GSM5292178
+2025-10-06 11:36:59,978 - ERROR - ❌ SRA download failed: 14440517 - 2025-10-06T09:36:59 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440517' - Cannot resolve accession ( 404 ); ncbi_phid='1D325CA120A2A85500005C4B97EE348F.1.m_2'
+
+2025-10-06 11:37:00,002 - INFO - Found 1 SRA runs for GSM5292172
+2025-10-06 11:37:00,003 - INFO - 📥 Downloading SRA run: 14440526
+2025-10-06 11:37:00,064 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:00,065 - INFO - 🔍 Searching for SRA data: GSM5292177
+2025-10-06 11:37:00,141 - INFO - Found 1 SRA runs for GSM5292175
+2025-10-06 11:37:00,142 - INFO - 📥 Downloading SRA run: 14440529
+2025-10-06 11:37:00,145 - INFO - Found 1 SRA runs for GSM5292176
+2025-10-06 11:37:00,154 - INFO - 📥 Downloading SRA run: 14440530
+2025-10-06 11:37:00,165 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:00,165 - INFO - 🔍 Searching for SRA data: GSM5292180
+2025-10-06 11:37:00,170 - WARNING - Failed to search SRA data for GSM5292174: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292174&retmode=json&retmax=100
+2025-10-06 11:37:00,171 - INFO - ℹ️ No SRA data found for GSM5292174
+2025-10-06 11:37:00,172 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:00,172 - INFO - 🔍 Searching for SRA data: GSM5292182
+2025-10-06 11:37:00,175 - ERROR - ❌ Download failed: GSM5292174
+2025-10-06 11:37:00,176 - INFO - 📥 Starting download: GSM5292183
+2025-10-06 11:37:00,176 - ERROR - ❌ Task failed
+2025-10-06 11:37:00,192 - WARNING - Failed to get run info for 14440516: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440516&retmode=xml
+2025-10-06 11:37:00,193 - WARNING - ⚠️ All download methods failed for 14440516
+2025-10-06 11:37:00,193 - ERROR - ❌ Failed to download any SRA data for GSM5292162
+2025-10-06 11:37:00,201 - ERROR - ❌ Download failed: GSM5292162
+2025-10-06 11:37:00,202 - INFO - 📥 Starting download: GSM5292184
+2025-10-06 11:37:00,202 - ERROR - ❌ Task failed
+2025-10-06 11:37:00,235 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:00,235 - INFO - 🔍 Searching for SRA data: GSM5292181
+2025-10-06 11:37:00,241 - WARNING - Failed to search SRA data for GSM5292178: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292178&retmode=json&retmax=100
+2025-10-06 11:37:00,242 - INFO - ℹ️ No SRA data found for GSM5292178
+2025-10-06 11:37:00,244 - ERROR - ❌ Download failed: GSM5292178
+2025-10-06 11:37:00,245 - INFO - 📥 Starting download: GSM5292185
+2025-10-06 11:37:00,245 - ERROR - ❌ Task failed
+2025-10-06 11:37:00,264 - ERROR - ❌ SRA download failed: 14440518 - 2025-10-06T09:37:00 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440518' - Cannot resolve accession ( 404 ); ncbi_phid='1D325CA120A2A8550000394B989D8CEF.1.m_2'
+
+2025-10-06 11:37:00,273 - WARNING - Failed to get run info for 14440517: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440517&retmode=xml
+2025-10-06 11:37:00,274 - WARNING - ⚠️ All download methods failed for 14440517
+2025-10-06 11:37:00,274 - ERROR - ❌ Failed to download any SRA data for GSM5292163
+2025-10-06 11:37:00,276 - ERROR - ❌ Download failed: GSM5292163
+2025-10-06 11:37:00,277 - INFO - 📥 Starting download: GSM5292186
+2025-10-06 11:37:00,277 - ERROR - ❌ Task failed
+2025-10-06 11:37:00,364 - WARNING - Failed to search SRA data for GSM5292177: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292177&retmode=json&retmax=100
+2025-10-06 11:37:00,365 - INFO - ℹ️ No SRA data found for GSM5292177
+2025-10-06 11:37:00,368 - ERROR - ❌ Download failed: GSM5292177
+2025-10-06 11:37:00,368 - INFO - 📥 Starting download: GSM5292187
+2025-10-06 11:37:00,368 - ERROR - ❌ Task failed
+2025-10-06 11:37:00,461 - WARNING - Failed to search SRA data for GSM5292180: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292180&retmode=json&retmax=100
+2025-10-06 11:37:00,462 - INFO - ℹ️ No SRA data found for GSM5292180
+2025-10-06 11:37:00,465 - ERROR - ❌ Download failed: GSM5292180
+2025-10-06 11:37:00,465 - INFO - 📥 Starting download: GSM5292188
+2025-10-06 11:37:00,465 - ERROR - ❌ Task failed
+2025-10-06 11:37:00,490 - WARNING - Failed to search SRA data for GSM5292182: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292182&retmode=json&retmax=100
+2025-10-06 11:37:00,491 - INFO - ℹ️ No SRA data found for GSM5292182
+2025-10-06 11:37:00,494 - ERROR - ❌ Download failed: GSM5292182
+2025-10-06 11:37:00,495 - INFO - 📥 Starting download: GSM5292189
+2025-10-06 11:37:00,495 - ERROR - ❌ Task failed
+2025-10-06 11:37:00,549 - WARNING - Failed to search SRA data for GSM5292181: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292181&retmode=json&retmax=100
+2025-10-06 11:37:00,550 - INFO - ℹ️ No SRA data found for GSM5292181
+2025-10-06 11:37:00,553 - ERROR - ❌ Download failed: GSM5292181
+2025-10-06 11:37:00,553 - INFO - 📥 Starting download: GSM5292190
+2025-10-06 11:37:00,554 - ERROR - ❌ Task failed
+2025-10-06 11:37:00,587 - WARNING - Failed to get run info for 14440518: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440518&retmode=xml
+2025-10-06 11:37:00,588 - WARNING - ⚠️ All download methods failed for 14440518
+2025-10-06 11:37:00,588 - ERROR - ❌ Failed to download any SRA data for GSM5292164
+2025-10-06 11:37:00,591 - ERROR - ❌ Download failed: GSM5292164
+2025-10-06 11:37:00,591 - INFO - 📥 Starting download: GSM5292191
+2025-10-06 11:37:00,591 - ERROR - ❌ Task failed
+2025-10-06 11:37:01,010 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:01,010 - INFO - 🔍 Searching for SRA data: GSM5292184
+2025-10-06 11:37:01,059 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:01,060 - INFO - 🔍 Searching for SRA data: GSM5292185
+2025-10-06 11:37:01,080 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:01,081 - INFO - 🔍 Searching for SRA data: GSM5292186
+2025-10-06 11:37:01,131 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:01,131 - INFO - 🔍 Searching for SRA data: GSM5292183
+2025-10-06 11:37:01,311 - INFO - Found 1 SRA runs for GSM5292184
+2025-10-06 11:37:01,313 - INFO - 📥 Downloading SRA run: 14440538
+2025-10-06 11:37:01,313 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:01,313 - INFO - 🔍 Searching for SRA data: GSM5292189
+2025-10-06 11:37:01,375 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:01,375 - INFO - 🔍 Searching for SRA data: GSM5292190
+2025-10-06 11:37:01,378 - INFO - Found 1 SRA runs for GSM5292185
+2025-10-06 11:37:01,388 - INFO - 📥 Downloading SRA run: 14440539
+2025-10-06 11:37:01,422 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:01,422 - INFO - 🔍 Searching for SRA data: GSM5292188
+2025-10-06 11:37:01,451 - INFO - Found 1 SRA runs for GSM5292183
+2025-10-06 11:37:01,452 - INFO - 📥 Downloading SRA run: 14440537
+2025-10-06 11:37:01,596 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:01,597 - INFO - 🔍 Searching for SRA data: GSM5292187
+2025-10-06 11:37:01,615 - WARNING - Failed to search SRA data for GSM5292189: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292189&retmode=json&retmax=100
+2025-10-06 11:37:01,616 - INFO - ℹ️ No SRA data found for GSM5292189
+2025-10-06 11:37:01,619 - ERROR - ❌ SRA download failed: 14440526 - 2025-10-06T09:37:01 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440526' - Cannot resolve accession ( 404 ); ncbi_phid='1D325CA120A2A8550000444B9AA8399A.1.m_2'
+
+2025-10-06 11:37:01,619 - ERROR - ❌ Download failed: GSM5292189
+2025-10-06 11:37:01,620 - INFO - 📥 Starting download: GSM5292193
+2025-10-06 11:37:01,620 - ERROR - ❌ Task failed
+2025-10-06 11:37:01,671 - WARNING - Failed to search SRA data for GSM5292190: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292190&retmode=json&retmax=100
+2025-10-06 11:37:01,672 - INFO - ℹ️ No SRA data found for GSM5292190
+2025-10-06 11:37:01,675 - ERROR - ❌ SRA download failed: 14440530 - 2025-10-06T09:37:01 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440530' - Cannot resolve accession ( 404 ); ncbi_phid='1D325CA120A2A85500003B4B9AF0CDF8.1.m_2'
+
+2025-10-06 11:37:01,675 - ERROR - ❌ Download failed: GSM5292190
+2025-10-06 11:37:01,675 - INFO - 📥 Starting download: GSM5292194
+2025-10-06 11:37:01,675 - ERROR - ❌ SRA download failed: 14440529 - 2025-10-06T09:37:01 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440529' - Cannot resolve accession ( 404 ); ncbi_phid='1D325CA120A2A8550000454B9AF6D387.1.m_2'
+
+2025-10-06 11:37:01,676 - ERROR - ❌ Task failed
+2025-10-06 11:37:01,717 - WARNING - Failed to search SRA data for GSM5292188: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292188&retmode=json&retmax=100
+2025-10-06 11:37:01,718 - INFO - ℹ️ No SRA data found for GSM5292188
+2025-10-06 11:37:01,721 - ERROR - ❌ Download failed: GSM5292188
+2025-10-06 11:37:01,721 - INFO - 📥 Starting download: GSM5292195
+2025-10-06 11:37:01,722 - ERROR - ❌ Task failed
+2025-10-06 11:37:01,817 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:01,817 - INFO - 🔍 Searching for SRA data: GSM5292191
+2025-10-06 11:37:01,903 - WARNING - Failed to search SRA data for GSM5292187: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292187&retmode=json&retmax=100
+2025-10-06 11:37:01,904 - INFO - ℹ️ No SRA data found for GSM5292187
+2025-10-06 11:37:01,908 - WARNING - Failed to search SRA data for GSM5292186: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292186&retmode=json&retmax=100
+2025-10-06 11:37:01,908 - ERROR - ❌ Download failed: GSM5292187
+2025-10-06 11:37:01,908 - INFO - 📥 Starting download: GSM5292196
+2025-10-06 11:37:01,909 - INFO - ℹ️ No SRA data found for GSM5292186
+2025-10-06 11:37:01,909 - ERROR - ❌ Task failed
+2025-10-06 11:37:01,920 - ERROR - ❌ Download failed: GSM5292186
+2025-10-06 11:37:01,921 - INFO - 📥 Starting download: GSM5292197
+2025-10-06 11:37:01,921 - ERROR - ❌ Task failed
+2025-10-06 11:37:01,933 - WARNING - Failed to get run info for 14440526: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440526&retmode=xml
+2025-10-06 11:37:01,935 - WARNING - ⚠️ All download methods failed for 14440526
+2025-10-06 11:37:01,935 - ERROR - ❌ Failed to download any SRA data for GSM5292172
+2025-10-06 11:37:01,938 - ERROR - ❌ Download failed: GSM5292172
+2025-10-06 11:37:01,939 - INFO - 📥 Starting download: GSM5292198
+2025-10-06 11:37:01,939 - ERROR - ❌ Task failed
+2025-10-06 11:37:01,975 - WARNING - Failed to get run info for 14440530: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440530&retmode=xml
+2025-10-06 11:37:01,976 - WARNING - ⚠️ All download methods failed for 14440530
+2025-10-06 11:37:01,976 - ERROR - ❌ Failed to download any SRA data for GSM5292176
+2025-10-06 11:37:01,979 - WARNING - Failed to get run info for 14440529: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440529&retmode=xml
+2025-10-06 11:37:01,980 - ERROR - ❌ Download failed: GSM5292176
+2025-10-06 11:37:01,981 - WARNING - ⚠️ All download methods failed for 14440529
+2025-10-06 11:37:01,981 - INFO - 📥 Starting download: GSM5292199
+2025-10-06 11:37:01,981 - ERROR - ❌ Task failed
+2025-10-06 11:37:01,981 - ERROR - ❌ Failed to download any SRA data for GSM5292175
+2025-10-06 11:37:01,990 - ERROR - ❌ Download failed: GSM5292175
+2025-10-06 11:37:01,991 - INFO - 📥 Starting download: GSM5292200
+2025-10-06 11:37:01,991 - ERROR - ❌ Task failed
+2025-10-06 11:37:02,126 - WARNING - Failed to search SRA data for GSM5292191: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292191&retmode=json&retmax=100
+2025-10-06 11:37:02,127 - INFO - ℹ️ No SRA data found for GSM5292191
+2025-10-06 11:37:02,130 - ERROR - ❌ Download failed: GSM5292191
+2025-10-06 11:37:02,130 - INFO - 📥 Starting download: GSM5292201
+2025-10-06 11:37:02,130 - ERROR - ❌ Task failed
+2025-10-06 11:37:02,433 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:02,434 - INFO - 🔍 Searching for SRA data: GSM5292193
+2025-10-06 11:37:02,530 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:02,530 - INFO - 🔍 Searching for SRA data: GSM5292195
+2025-10-06 11:37:02,576 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:02,576 - INFO - 🔍 Searching for SRA data: GSM5292194
+2025-10-06 11:37:02,763 - INFO - Found 1 SRA runs for GSM5292193
+2025-10-06 11:37:02,765 - INFO - 📥 Downloading SRA run: 14440547
+2025-10-06 11:37:02,816 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:02,816 - INFO - 🔍 Searching for SRA data: GSM5292198
+2025-10-06 11:37:02,833 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:02,833 - INFO - 🔍 Searching for SRA data: GSM5292196
+2025-10-06 11:37:02,841 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:02,841 - INFO - 🔍 Searching for SRA data: GSM5292199
+2025-10-06 11:37:02,848 - ERROR - ❌ SRA download failed: 14440538 - 2025-10-06T09:37:02 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440538' - Cannot resolve accession ( 404 ); ncbi_phid='1D325CA120A2A85500003F4B9D21EA32.1.m_2'
+
+2025-10-06 11:37:02,857 - INFO - Found 1 SRA runs for GSM5292195
+2025-10-06 11:37:02,858 - INFO - 📥 Downloading SRA run: 14440549
+2025-10-06 11:37:02,891 - INFO - Found 1 SRA runs for GSM5292194
+2025-10-06 11:37:02,892 - INFO - 📥 Downloading SRA run: 14440548
+2025-10-06 11:37:02,916 - ERROR - ❌ SRA download failed: 14440539 - 2025-10-06T09:37:02 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440539' - Cannot resolve accession ( 404 ); ncbi_phid='1D325CA120A2A85500003B4B9D462326.1.m_2'
+
+2025-10-06 11:37:02,971 - ERROR - ❌ SRA download failed: 14440537 - 2025-10-06T09:37:02 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440537' - Cannot resolve accession ( 404 ); ncbi_phid='1D325CA120A2A8550000304B9D624127.1.m_2'
+
+2025-10-06 11:37:02,986 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:02,986 - INFO - 🔍 Searching for SRA data: GSM5292201
+2025-10-06 11:37:03,036 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:03,037 - INFO - 🔍 Searching for SRA data: GSM5292200
+2025-10-06 11:37:03,045 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:03,045 - INFO - 🔍 Searching for SRA data: GSM5292197
+2025-10-06 11:37:03,112 - WARNING - Failed to search SRA data for GSM5292198: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292198&retmode=json&retmax=100
+2025-10-06 11:37:03,113 - INFO - ℹ️ No SRA data found for GSM5292198
+2025-10-06 11:37:03,116 - ERROR - ❌ Download failed: GSM5292198
+2025-10-06 11:37:03,117 - INFO - 📥 Starting download: GSM5292202
+2025-10-06 11:37:03,117 - ERROR - ❌ Task failed
+2025-10-06 11:37:03,139 - WARNING - Failed to search SRA data for GSM5292196: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292196&retmode=json&retmax=100
+2025-10-06 11:37:03,141 - INFO - ℹ️ No SRA data found for GSM5292196
+2025-10-06 11:37:03,144 - ERROR - ❌ Download failed: GSM5292196
+2025-10-06 11:37:03,144 - INFO - 📥 Starting download: GSM5292203
+2025-10-06 11:37:03,144 - ERROR - ❌ Task failed
+2025-10-06 11:37:03,156 - WARNING - Failed to get run info for 14440538: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440538&retmode=xml
+2025-10-06 11:37:03,157 - WARNING - ⚠️ All download methods failed for 14440538
+2025-10-06 11:37:03,157 - ERROR - ❌ Failed to download any SRA data for GSM5292184
+2025-10-06 11:37:03,160 - ERROR - ❌ Download failed: GSM5292184
+2025-10-06 11:37:03,160 - INFO - 📥 Starting download: GSM5292204
+2025-10-06 11:37:03,160 - ERROR - ❌ Task failed
+2025-10-06 11:37:03,171 - WARNING - Failed to search SRA data for GSM5292199: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292199&retmode=json&retmax=100
+2025-10-06 11:37:03,173 - INFO - ℹ️ No SRA data found for GSM5292199
+2025-10-06 11:37:03,175 - ERROR - ❌ Download failed: GSM5292199
+2025-10-06 11:37:03,176 - INFO - 📥 Starting download: GSM5292205
+2025-10-06 11:37:03,176 - ERROR - ❌ Task failed
+2025-10-06 11:37:03,206 - WARNING - Failed to get run info for 14440539: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440539&retmode=xml
+2025-10-06 11:37:03,207 - WARNING - ⚠️ All download methods failed for 14440539
+2025-10-06 11:37:03,207 - ERROR - ❌ Failed to download any SRA data for GSM5292185
+2025-10-06 11:37:03,209 - ERROR - ❌ Download failed: GSM5292185
+2025-10-06 11:37:03,210 - INFO - 📥 Starting download: GSM5292206
+2025-10-06 11:37:03,210 - ERROR - ❌ Task failed
+2025-10-06 11:37:03,284 - WARNING - Failed to search SRA data for GSM5292201: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292201&retmode=json&retmax=100
+2025-10-06 11:37:03,285 - INFO - ℹ️ No SRA data found for GSM5292201
+2025-10-06 11:37:03,288 - ERROR - ❌ Download failed: GSM5292201
+2025-10-06 11:37:03,289 - INFO - 📥 Starting download: GSM5292207
+2025-10-06 11:37:03,289 - WARNING - Failed to get run info for 14440537: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440537&retmode=xml
+2025-10-06 11:37:03,289 - ERROR - ❌ Task failed
+2025-10-06 11:37:03,290 - WARNING - ⚠️ All download methods failed for 14440537
+2025-10-06 11:37:03,291 - ERROR - ❌ Failed to download any SRA data for GSM5292183
+2025-10-06 11:37:03,301 - ERROR - ❌ Download failed: GSM5292183
+2025-10-06 11:37:03,302 - INFO - 📥 Starting download: GSM5292208
+2025-10-06 11:37:03,302 - ERROR - ❌ Task failed
+2025-10-06 11:37:03,344 - WARNING - Failed to search SRA data for GSM5292200: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292200&retmode=json&retmax=100
+2025-10-06 11:37:03,345 - INFO - ℹ️ No SRA data found for GSM5292200
+2025-10-06 11:37:03,348 - WARNING - Failed to search SRA data for GSM5292197: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292197&retmode=json&retmax=100
+2025-10-06 11:37:03,349 - ERROR - ❌ Download failed: GSM5292200
+2025-10-06 11:37:03,349 - INFO - ℹ️ No SRA data found for GSM5292197
+2025-10-06 11:37:03,350 - INFO - 📥 Starting download: GSM8840140
+2025-10-06 11:37:03,350 - ERROR - ❌ Task failed
+2025-10-06 11:37:03,360 - ERROR - ❌ Download failed: GSM5292197
+2025-10-06 11:37:03,361 - INFO - 📥 Starting download: GSM8840141
+2025-10-06 11:37:03,361 - ERROR - ❌ Task failed
+2025-10-06 11:37:03,926 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:03,927 - INFO - 🔍 Searching for SRA data: GSM5292202
+2025-10-06 11:37:03,973 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:03,974 - INFO - 🔍 Searching for SRA data: GSM5292205
+2025-10-06 11:37:03,993 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:03,993 - INFO - 🔍 Searching for SRA data: GSM5292204
+2025-10-06 11:37:04,103 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:04,103 - INFO - 🔍 Searching for SRA data: GSM5292203
+2025-10-06 11:37:04,112 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:04,112 - INFO - 🔍 Searching for SRA data: GSM5292207
+2025-10-06 11:37:04,200 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:04,201 - INFO - 🔍 Searching for SRA data: GSM5292206
+2025-10-06 11:37:04,216 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:04,216 - INFO - 🔍 Searching for SRA data: GSM8840141
+2025-10-06 11:37:04,225 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:04,225 - INFO - 🔍 Searching for SRA data: GSM8840140
+2025-10-06 11:37:04,230 - INFO - Found 1 SRA runs for GSM5292202
+2025-10-06 11:37:04,232 - INFO - 📥 Downloading SRA run: 14440556
+2025-10-06 11:37:04,239 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:04,240 - INFO - 🔍 Searching for SRA data: GSM5292208
+2025-10-06 11:37:04,296 - INFO - Found 1 SRA runs for GSM5292205
+2025-10-06 11:37:04,297 - INFO - 📥 Downloading SRA run: 14440559
+2025-10-06 11:37:04,298 - ERROR - ❌ SRA download failed: 14440547 - 2025-10-06T09:37:04 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440547' - Cannot resolve accession ( 404 ); ncbi_phid='1D343AA9469B657500004B5879C8ACB1.1.m_2'
+
+2025-10-06 11:37:04,311 - INFO - Found 1 SRA runs for GSM5292204
+2025-10-06 11:37:04,313 - INFO - 📥 Downloading SRA run: 14440558
+2025-10-06 11:37:04,372 - ERROR - ❌ SRA download failed: 14440549 - 2025-10-06T09:37:04 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440549' - Cannot resolve accession ( 404 ); ncbi_phid='1D343AA9469B657500005C5879D4A29F.1.m_2'
+
+2025-10-06 11:37:04,403 - ERROR - ❌ SRA download failed: 14440548 - 2025-10-06T09:37:04 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440548' - Cannot resolve accession ( 404 ); ncbi_phid='1D325CA120A2A8550000494B9FDAA8CE.1.m_2'
+
+2025-10-06 11:37:04,414 - WARNING - Failed to search SRA data for GSM5292203: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292203&retmode=json&retmax=100
+2025-10-06 11:37:04,415 - INFO - ℹ️ No SRA data found for GSM5292203
+2025-10-06 11:37:04,418 - ERROR - ❌ Download failed: GSM5292203
+2025-10-06 11:37:04,418 - INFO - 📥 Starting download: GSM8840142
+2025-10-06 11:37:04,418 - ERROR - ❌ Task failed
+2025-10-06 11:37:04,429 - WARNING - Failed to search SRA data for GSM5292207: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292207&retmode=json&retmax=100
+2025-10-06 11:37:04,432 - INFO - ℹ️ No SRA data found for GSM5292207
+2025-10-06 11:37:04,435 - ERROR - ❌ Download failed: GSM5292207
+2025-10-06 11:37:04,435 - INFO - 📥 Starting download: GSM8840143
+2025-10-06 11:37:04,435 - ERROR - ❌ Task failed
+2025-10-06 11:37:04,532 - WARNING - Failed to search SRA data for GSM8840141: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840141&retmode=json&retmax=100
+2025-10-06 11:37:04,533 - INFO - ℹ️ No SRA data found for GSM8840141
+2025-10-06 11:37:04,534 - WARNING - Failed to search SRA data for GSM5292206: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292206&retmode=json&retmax=100
+2025-10-06 11:37:04,535 - INFO - ℹ️ No SRA data found for GSM5292206
+2025-10-06 11:37:04,536 - WARNING - Failed to search SRA data for GSM8840140: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840140&retmode=json&retmax=100
+2025-10-06 11:37:04,538 - INFO - ℹ️ No SRA data found for GSM8840140
+2025-10-06 11:37:04,539 - ERROR - ❌ Download failed: GSM8840141
+2025-10-06 11:37:04,539 - INFO - 📥 Starting download: GSM8840144
+2025-10-06 11:37:04,539 - ERROR - ❌ Task failed
+2025-10-06 11:37:04,548 - ERROR - ❌ Download failed: GSM5292206
+2025-10-06 11:37:04,550 - INFO - 📥 Starting download: GSM8840145
+2025-10-06 11:37:04,550 - ERROR - ❌ Task failed
+2025-10-06 11:37:04,553 - WARNING - Failed to search SRA data for GSM5292208: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM5292208&retmode=json&retmax=100
+2025-10-06 11:37:04,553 - ERROR - ❌ Download failed: GSM8840140
+2025-10-06 11:37:04,554 - INFO - ℹ️ No SRA data found for GSM5292208
+2025-10-06 11:37:04,554 - INFO - 📥 Starting download: GSM8840146
+2025-10-06 11:37:04,554 - ERROR - ❌ Task failed
+2025-10-06 11:37:04,573 - ERROR - ❌ Download failed: GSM5292208
+2025-10-06 11:37:04,575 - INFO - 📥 Starting download: GSM8840147
+2025-10-06 11:37:04,575 - ERROR - ❌ Task failed
+2025-10-06 11:37:04,622 - WARNING - Failed to get run info for 14440547: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440547&retmode=xml
+2025-10-06 11:37:04,623 - WARNING - ⚠️ All download methods failed for 14440547
+2025-10-06 11:37:04,624 - ERROR - ❌ Failed to download any SRA data for GSM5292193
+2025-10-06 11:37:04,626 - ERROR - ❌ Download failed: GSM5292193
+2025-10-06 11:37:04,627 - INFO - 📥 Starting download: GSM8840148
+2025-10-06 11:37:04,627 - ERROR - ❌ Task failed
+2025-10-06 11:37:04,687 - WARNING - Failed to get run info for 14440549: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440549&retmode=xml
+2025-10-06 11:37:04,688 - WARNING - ⚠️ All download methods failed for 14440549
+2025-10-06 11:37:04,688 - ERROR - ❌ Failed to download any SRA data for GSM5292195
+2025-10-06 11:37:04,691 - ERROR - ❌ Download failed: GSM5292195
+2025-10-06 11:37:04,691 - INFO - 📥 Starting download: GSM8840149
+2025-10-06 11:37:04,691 - ERROR - ❌ Task failed
+2025-10-06 11:37:04,715 - WARNING - Failed to get run info for 14440548: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440548&retmode=xml
+2025-10-06 11:37:04,717 - WARNING - ⚠️ All download methods failed for 14440548
+2025-10-06 11:37:04,717 - ERROR - ❌ Failed to download any SRA data for GSM5292194
+2025-10-06 11:37:04,719 - ERROR - ❌ Download failed: GSM5292194
+2025-10-06 11:37:04,720 - INFO - 📥 Starting download: GSM8840150
+2025-10-06 11:37:04,720 - ERROR - ❌ Task failed
+2025-10-06 11:37:05,291 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:05,292 - INFO - 🔍 Searching for SRA data: GSM8840143
+2025-10-06 11:37:05,388 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:05,388 - INFO - 🔍 Searching for SRA data: GSM8840144
+2025-10-06 11:37:05,413 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:05,413 - INFO - 🔍 Searching for SRA data: GSM8840142
+2025-10-06 11:37:05,433 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:05,433 - INFO - 🔍 Searching for SRA data: GSM8840146
+2025-10-06 11:37:05,445 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:05,445 - INFO - 🔍 Searching for SRA data: GSM8840148
+2025-10-06 11:37:05,535 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:05,536 - INFO - 🔍 Searching for SRA data: GSM8840150
+2025-10-06 11:37:05,541 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:05,541 - INFO - 🔍 Searching for SRA data: GSM8840145
+2025-10-06 11:37:05,549 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:05,550 - INFO - 🔍 Searching for SRA data: GSM8840147
+2025-10-06 11:37:05,598 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:05,598 - INFO - 🔍 Searching for SRA data: GSM8840149
+2025-10-06 11:37:05,612 - INFO - Found 0 SRA runs for GSM8840143
+2025-10-06 11:37:05,613 - INFO - ℹ️ No SRA data found for GSM8840143
+2025-10-06 11:37:05,616 - ERROR - ❌ Download failed: GSM8840143
+2025-10-06 11:37:05,617 - INFO - 📥 Starting download: GSM8840151
+2025-10-06 11:37:05,617 - ERROR - ❌ Task failed
+2025-10-06 11:37:05,736 - INFO - Found 0 SRA runs for GSM8840144
+2025-10-06 11:37:05,736 - INFO - Found 0 SRA runs for GSM8840142
+2025-10-06 11:37:05,737 - INFO - ℹ️ No SRA data found for GSM8840144
+2025-10-06 11:37:05,738 - INFO - ℹ️ No SRA data found for GSM8840142
+2025-10-06 11:37:05,739 - WARNING - Failed to search SRA data for GSM8840148: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840148&retmode=json&retmax=100
+2025-10-06 11:37:05,740 - WARNING - Failed to search SRA data for GSM8840146: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840146&retmode=json&retmax=100
+2025-10-06 11:37:05,741 - INFO - ℹ️ No SRA data found for GSM8840148
+2025-10-06 11:37:05,743 - INFO - ℹ️ No SRA data found for GSM8840146
+2025-10-06 11:37:05,744 - ERROR - ❌ Download failed: GSM8840144
+2025-10-06 11:37:05,744 - INFO - 📥 Starting download: GSM8840152
+2025-10-06 11:37:05,744 - ERROR - ❌ Task failed
+2025-10-06 11:37:05,753 - ERROR - ❌ Download failed: GSM8840142
+2025-10-06 11:37:05,754 - INFO - 📥 Starting download: GSM8840153
+2025-10-06 11:37:05,755 - ERROR - ❌ Task failed
+2025-10-06 11:37:05,765 - ERROR - ❌ Download failed: GSM8840148
+2025-10-06 11:37:05,766 - INFO - 📥 Starting download: GSM8840154
+2025-10-06 11:37:05,767 - ERROR - ❌ Task failed
+2025-10-06 11:37:05,767 - ERROR - ❌ SRA download failed: 14440556 - 2025-10-06T09:37:05 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440556' - Cannot resolve accession ( 404 ); ncbi_phid='1D343AA9469B6575000063587B540409.1.m_2'
+
+2025-10-06 11:37:05,769 - ERROR - ❌ Download failed: GSM8840146
+2025-10-06 11:37:05,779 - INFO - 📥 Starting download: GSM8840155
+2025-10-06 11:37:05,780 - ERROR - ❌ Task failed
+2025-10-06 11:37:05,821 - ERROR - ❌ SRA download failed: 14440558 - 2025-10-06T09:37:05 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440558' - Cannot resolve accession ( 404 ); ncbi_phid='1D343AA9469B6575000034587B647541.1.m_2'
+
+2025-10-06 11:37:05,832 - WARNING - Failed to search SRA data for GSM8840150: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840150&retmode=json&retmax=100
+2025-10-06 11:37:05,833 - INFO - ℹ️ No SRA data found for GSM8840150
+2025-10-06 11:37:05,833 - ERROR - ❌ SRA download failed: 14440559 - 2025-10-06T09:37:05 prefetch.3.2.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '14440559' - Cannot resolve accession ( 404 ); ncbi_phid='1D325CA120A2A8550000394BA16CCB23.1.m_2'
+
+2025-10-06 11:37:05,837 - WARNING - Failed to search SRA data for GSM8840145: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840145&retmode=json&retmax=100
+2025-10-06 11:37:05,837 - ERROR - ❌ Download failed: GSM8840150
+2025-10-06 11:37:05,838 - INFO - ℹ️ No SRA data found for GSM8840145
+2025-10-06 11:37:05,838 - INFO - 📥 Starting download: GSM8840156
+2025-10-06 11:37:05,838 - ERROR - ❌ Task failed
+2025-10-06 11:37:05,848 - ERROR - ❌ Download failed: GSM8840145
+2025-10-06 11:37:05,849 - INFO - 📥 Starting download: GSM8840157
+2025-10-06 11:37:05,849 - ERROR - ❌ Task failed
+2025-10-06 11:37:05,859 - WARNING - Failed to search SRA data for GSM8840147: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840147&retmode=json&retmax=100
+2025-10-06 11:37:05,861 - INFO - ℹ️ No SRA data found for GSM8840147
+2025-10-06 11:37:05,864 - ERROR - ❌ Download failed: GSM8840147
+2025-10-06 11:37:05,864 - INFO - 📥 Starting download: GSM8840158
+2025-10-06 11:37:05,864 - ERROR - ❌ Task failed
+2025-10-06 11:37:05,897 - WARNING - Failed to search SRA data for GSM8840149: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840149&retmode=json&retmax=100
+2025-10-06 11:37:05,899 - INFO - ℹ️ No SRA data found for GSM8840149
+2025-10-06 11:37:05,901 - ERROR - ❌ Download failed: GSM8840149
+2025-10-06 11:37:05,902 - INFO - 📥 Starting download: GSM8840159
+2025-10-06 11:37:05,902 - ERROR - ❌ Task failed
+2025-10-06 11:37:06,078 - WARNING - Failed to get run info for 14440556: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440556&retmode=xml
+2025-10-06 11:37:06,079 - WARNING - ⚠️ All download methods failed for 14440556
+2025-10-06 11:37:06,079 - ERROR - ❌ Failed to download any SRA data for GSM5292202
+2025-10-06 11:37:06,082 - ERROR - ❌ Download failed: GSM5292202
+2025-10-06 11:37:06,082 - INFO - 📥 Starting download: GSM8840160
+2025-10-06 11:37:06,082 - ERROR - ❌ Task failed
+2025-10-06 11:37:06,119 - WARNING - Failed to get run info for 14440558: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440558&retmode=xml
+2025-10-06 11:37:06,120 - WARNING - ⚠️ All download methods failed for 14440558
+2025-10-06 11:37:06,120 - ERROR - ❌ Failed to download any SRA data for GSM5292204
+2025-10-06 11:37:06,123 - ERROR - ❌ Download failed: GSM5292204
+2025-10-06 11:37:06,123 - INFO - 📥 Starting download: GSM8840161
+2025-10-06 11:37:06,123 - ERROR - ❌ Task failed
+2025-10-06 11:37:06,153 - WARNING - Failed to get run info for 14440559: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=14440559&retmode=xml
+2025-10-06 11:37:06,154 - WARNING - ⚠️ All download methods failed for 14440559
+2025-10-06 11:37:06,154 - ERROR - ❌ Failed to download any SRA data for GSM5292205
+2025-10-06 11:37:06,157 - ERROR - ❌ Download failed: GSM5292205
+2025-10-06 11:37:06,157 - INFO - 📥 Starting download: GSM8840162
+2025-10-06 11:37:06,157 - ERROR - ❌ Task failed
+2025-10-06 11:37:06,486 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:06,486 - INFO - 🔍 Searching for SRA data: GSM8840151
+2025-10-06 11:37:06,567 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:06,567 - INFO - 🔍 Searching for SRA data: GSM8840153
+2025-10-06 11:37:06,633 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:06,633 - INFO - 🔍 Searching for SRA data: GSM8840154
+2025-10-06 11:37:06,687 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:06,687 - INFO - 🔍 Searching for SRA data: GSM8840158
+2025-10-06 11:37:06,763 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:06,763 - INFO - 🔍 Searching for SRA data: GSM8840157
+2025-10-06 11:37:06,814 - INFO - Found 0 SRA runs for GSM8840151
+2025-10-06 11:37:06,815 - INFO - ℹ️ No SRA data found for GSM8840151
+2025-10-06 11:37:06,818 - ERROR - ❌ Download failed: GSM8840151
+2025-10-06 11:37:06,818 - INFO - 📥 Starting download: GSM8840163
+2025-10-06 11:37:06,818 - ERROR - ❌ Task failed
+2025-10-06 11:37:06,837 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:06,838 - INFO - 🔍 Searching for SRA data: GSM8840155
+2025-10-06 11:37:06,873 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:06,873 - INFO - 🔍 Searching for SRA data: GSM8840152
+2025-10-06 11:37:06,877 - INFO - Found 0 SRA runs for GSM8840153
+2025-10-06 11:37:06,878 - INFO - ℹ️ No SRA data found for GSM8840153
+2025-10-06 11:37:06,880 - ERROR - ❌ Download failed: GSM8840153
+2025-10-06 11:37:06,880 - INFO - 📥 Starting download: GSM8840164
+2025-10-06 11:37:06,881 - ERROR - ❌ Task failed
+2025-10-06 11:37:06,943 - INFO - Found 0 SRA runs for GSM8840154
+2025-10-06 11:37:06,944 - INFO - ℹ️ No SRA data found for GSM8840154
+2025-10-06 11:37:06,947 - ERROR - ❌ Download failed: GSM8840154
+2025-10-06 11:37:06,947 - INFO - 📥 Starting download: GSM8840165
+2025-10-06 11:37:06,947 - ERROR - ❌ Task failed
+2025-10-06 11:37:07,001 - WARNING - Failed to search SRA data for GSM8840158: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840158&retmode=json&retmax=100
+2025-10-06 11:37:07,003 - INFO - ℹ️ No SRA data found for GSM8840158
+2025-10-06 11:37:07,013 - ERROR - ❌ Download failed: GSM8840158
+2025-10-06 11:37:07,014 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:07,014 - INFO - 📥 Starting download: GSM8840166
+2025-10-06 11:37:07,014 - ERROR - ❌ Task failed
+2025-10-06 11:37:07,015 - INFO - 🔍 Searching for SRA data: GSM8840160
+2025-10-06 11:37:07,049 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:07,049 - INFO - 🔍 Searching for SRA data: GSM8840156
+2025-10-06 11:37:07,086 - WARNING - Failed to search SRA data for GSM8840157: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840157&retmode=json&retmax=100
+2025-10-06 11:37:07,087 - INFO - ℹ️ No SRA data found for GSM8840157
+2025-10-06 11:37:07,089 - ERROR - ❌ Download failed: GSM8840157
+2025-10-06 11:37:07,090 - INFO - 📥 Starting download: GSM8840167
+2025-10-06 11:37:07,090 - ERROR - ❌ Task failed
+2025-10-06 11:37:07,102 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:07,102 - INFO - 🔍 Searching for SRA data: GSM8840159
+2025-10-06 11:37:07,173 - WARNING - Failed to search SRA data for GSM8840152: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840152&retmode=json&retmax=100
+2025-10-06 11:37:07,174 - INFO - ℹ️ No SRA data found for GSM8840152
+2025-10-06 11:37:07,177 - ERROR - ❌ Download failed: GSM8840152
+2025-10-06 11:37:07,177 - INFO - 📥 Starting download: GSM8840168
+2025-10-06 11:37:07,177 - ERROR - ❌ Task failed
+2025-10-06 11:37:07,187 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:07,188 - INFO - 🔍 Searching for SRA data: GSM8840162
+2025-10-06 11:37:07,252 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:07,252 - INFO - 🔍 Searching for SRA data: GSM8840161
+2025-10-06 11:37:07,330 - WARNING - Failed to search SRA data for GSM8840160: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840160&retmode=json&retmax=100
+2025-10-06 11:37:07,331 - INFO - ℹ️ No SRA data found for GSM8840160
+2025-10-06 11:37:07,334 - ERROR - ❌ Download failed: GSM8840160
+2025-10-06 11:37:07,334 - INFO - 📥 Starting download: GSM8840169
+2025-10-06 11:37:07,334 - ERROR - ❌ Task failed
+2025-10-06 11:37:07,361 - WARNING - Failed to search SRA data for GSM8840156: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840156&retmode=json&retmax=100
+2025-10-06 11:37:07,362 - INFO - ℹ️ No SRA data found for GSM8840156
+2025-10-06 11:37:07,365 - ERROR - ❌ Download failed: GSM8840156
+2025-10-06 11:37:07,366 - INFO - 📥 Starting download: GSM8840170
+2025-10-06 11:37:07,366 - ERROR - ❌ Task failed
+2025-10-06 11:37:07,398 - WARNING - Failed to search SRA data for GSM8840159: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840159&retmode=json&retmax=100
+2025-10-06 11:37:07,399 - INFO - ℹ️ No SRA data found for GSM8840159
+2025-10-06 11:37:07,402 - ERROR - ❌ Download failed: GSM8840159
+2025-10-06 11:37:07,402 - INFO - 📥 Starting download: GSM8840171
+2025-10-06 11:37:07,402 - ERROR - ❌ Task failed
+2025-10-06 11:37:07,489 - WARNING - Failed to search SRA data for GSM8840162: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840162&retmode=json&retmax=100
+2025-10-06 11:37:07,491 - INFO - ℹ️ No SRA data found for GSM8840162
+2025-10-06 11:37:07,494 - ERROR - ❌ Download failed: GSM8840162
+2025-10-06 11:37:07,494 - INFO - 📥 Starting download: GSM8840172
+2025-10-06 11:37:07,494 - ERROR - ❌ Task failed
+2025-10-06 11:37:07,565 - WARNING - Failed to search SRA data for GSM8840161: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840161&retmode=json&retmax=100
+2025-10-06 11:37:07,566 - INFO - ℹ️ No SRA data found for GSM8840161
+2025-10-06 11:37:07,569 - ERROR - ❌ Download failed: GSM8840161
+2025-10-06 11:37:07,569 - INFO - 📥 Starting download: GSM8840173
+2025-10-06 11:37:07,569 - ERROR - ❌ Task failed
+2025-10-06 11:37:07,645 - WARNING - Failed to search SRA data for GSM8840155: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840155&retmode=json&retmax=100
+2025-10-06 11:37:07,646 - INFO - ℹ️ No SRA data found for GSM8840155
+2025-10-06 11:37:07,649 - ERROR - ❌ Download failed: GSM8840155
+2025-10-06 11:37:07,650 - INFO - 📥 Starting download: GSM8840174
+2025-10-06 11:37:07,650 - ERROR - ❌ Task failed
+2025-10-06 11:37:07,820 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:07,821 - INFO - 🔍 Searching for SRA data: GSM8840163
+2025-10-06 11:37:07,935 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:07,935 - INFO - 🔍 Searching for SRA data: GSM8840165
+2025-10-06 11:37:07,961 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:07,962 - INFO - 🔍 Searching for SRA data: GSM8840166
+2025-10-06 11:37:07,969 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:07,969 - INFO - 🔍 Searching for SRA data: GSM8840164
+2025-10-06 11:37:07,984 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:07,984 - INFO - 🔍 Searching for SRA data: GSM8840168
+2025-10-06 11:37:08,106 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:08,112 - INFO - 🔍 Searching for SRA data: GSM8840167
+2025-10-06 11:37:08,151 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:08,151 - INFO - 🔍 Searching for SRA data: GSM8840169
+2025-10-06 11:37:08,154 - INFO - Found 0 SRA runs for GSM8840163
+2025-10-06 11:37:08,155 - INFO - ℹ️ No SRA data found for GSM8840163
+2025-10-06 11:37:08,158 - ERROR - ❌ Download failed: GSM8840163
+2025-10-06 11:37:08,159 - INFO - 📥 Starting download: GSM8840175
+2025-10-06 11:37:08,159 - ERROR - ❌ Task failed
+2025-10-06 11:37:08,180 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:08,180 - INFO - 🔍 Searching for SRA data: GSM8840170
+2025-10-06 11:37:08,257 - INFO - Found 0 SRA runs for GSM8840165
+2025-10-06 11:37:08,258 - INFO - ℹ️ No SRA data found for GSM8840165
+2025-10-06 11:37:08,261 - ERROR - ❌ Download failed: GSM8840165
+2025-10-06 11:37:08,261 - INFO - 📥 Starting download: GSM8840176
+2025-10-06 11:37:08,261 - ERROR - ❌ Task failed
+2025-10-06 11:37:08,273 - WARNING - Failed to search SRA data for GSM8840164: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840164&retmode=json&retmax=100
+2025-10-06 11:37:08,273 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:08,274 - INFO - ℹ️ No SRA data found for GSM8840164
+2025-10-06 11:37:08,275 - INFO - 🔍 Searching for SRA data: GSM8840171
+2025-10-06 11:37:08,275 - INFO - Found 0 SRA runs for GSM8840166
+2025-10-06 11:37:08,278 - INFO - ℹ️ No SRA data found for GSM8840166
+2025-10-06 11:37:08,280 - ERROR - ❌ Download failed: GSM8840164
+2025-10-06 11:37:08,281 - WARNING - Failed to search SRA data for GSM8840168: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840168&retmode=json&retmax=100
+2025-10-06 11:37:08,281 - INFO - 📥 Starting download: GSM8840177
+2025-10-06 11:37:08,281 - ERROR - ❌ Task failed
+2025-10-06 11:37:08,283 - INFO - ℹ️ No SRA data found for GSM8840168
+2025-10-06 11:37:08,283 - ERROR - ❌ Download failed: GSM8840166
+2025-10-06 11:37:08,284 - INFO - 📥 Starting download: GSM8840178
+2025-10-06 11:37:08,292 - ERROR - ❌ Task failed
+2025-10-06 11:37:08,295 - ERROR - ❌ Download failed: GSM8840168
+2025-10-06 11:37:08,296 - INFO - 📥 Starting download: GSM8840179
+2025-10-06 11:37:08,296 - ERROR - ❌ Task failed
+2025-10-06 11:37:08,430 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:08,431 - INFO - 🔍 Searching for SRA data: GSM8840173
+2025-10-06 11:37:08,434 - WARNING - Failed to search SRA data for GSM8840167: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840167&retmode=json&retmax=100
+2025-10-06 11:37:08,435 - INFO - ℹ️ No SRA data found for GSM8840167
+2025-10-06 11:37:08,439 - ERROR - ❌ Download failed: GSM8840167
+2025-10-06 11:37:08,439 - INFO - 📥 Starting download: GSM8840180
+2025-10-06 11:37:08,439 - ERROR - ❌ Task failed
+2025-10-06 11:37:08,466 - WARNING - Failed to search SRA data for GSM8840169: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840169&retmode=json&retmax=100
+2025-10-06 11:37:08,467 - INFO - ℹ️ No SRA data found for GSM8840169
+2025-10-06 11:37:08,468 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:08,476 - INFO - 🔍 Searching for SRA data: GSM8840172
+2025-10-06 11:37:08,476 - ERROR - ❌ Download failed: GSM8840169
+2025-10-06 11:37:08,478 - INFO - 📥 Starting download: GSM8840181
+2025-10-06 11:37:08,478 - ERROR - ❌ Task failed
+2025-10-06 11:37:08,508 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:08,508 - INFO - 🔍 Searching for SRA data: GSM8840174
+2025-10-06 11:37:08,512 - WARNING - Failed to search SRA data for GSM8840170: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840170&retmode=json&retmax=100
+2025-10-06 11:37:08,513 - INFO - ℹ️ No SRA data found for GSM8840170
+2025-10-06 11:37:08,516 - ERROR - ❌ Download failed: GSM8840170
+2025-10-06 11:37:08,516 - INFO - 📥 Starting download: GSM8840182
+2025-10-06 11:37:08,516 - ERROR - ❌ Task failed
+2025-10-06 11:37:08,598 - WARNING - Failed to search SRA data for GSM8840171: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840171&retmode=json&retmax=100
+2025-10-06 11:37:08,599 - INFO - ℹ️ No SRA data found for GSM8840171
+2025-10-06 11:37:08,602 - ERROR - ❌ Download failed: GSM8840171
+2025-10-06 11:37:08,602 - INFO - 📥 Starting download: GSM8840183
+2025-10-06 11:37:08,603 - ERROR - ❌ Task failed
+2025-10-06 11:37:08,745 - WARNING - Failed to search SRA data for GSM8840173: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840173&retmode=json&retmax=100
+2025-10-06 11:37:08,746 - INFO - ℹ️ No SRA data found for GSM8840173
+2025-10-06 11:37:08,749 - ERROR - ❌ Download failed: GSM8840173
+2025-10-06 11:37:08,749 - INFO - 📥 Starting download: GSM8840184
+2025-10-06 11:37:08,749 - ERROR - ❌ Task failed
+2025-10-06 11:37:08,796 - WARNING - Failed to search SRA data for GSM8840172: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840172&retmode=json&retmax=100
+2025-10-06 11:37:08,797 - INFO - ℹ️ No SRA data found for GSM8840172
+2025-10-06 11:37:08,800 - ERROR - ❌ Download failed: GSM8840172
+2025-10-06 11:37:08,800 - INFO - 📥 Starting download: GSM8840185
+2025-10-06 11:37:08,800 - ERROR - ❌ Task failed
+2025-10-06 11:37:08,821 - WARNING - Failed to search SRA data for GSM8840174: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840174&retmode=json&retmax=100
+2025-10-06 11:37:08,822 - INFO - ℹ️ No SRA data found for GSM8840174
+2025-10-06 11:37:08,825 - ERROR - ❌ Download failed: GSM8840174
+2025-10-06 11:37:08,826 - INFO - 📥 Starting download: GSM8840186
+2025-10-06 11:37:08,826 - ERROR - ❌ Task failed
+2025-10-06 11:37:09,067 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:09,067 - INFO - 🔍 Searching for SRA data: GSM8840175
+2025-10-06 11:37:09,126 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:09,127 - INFO - 🔍 Searching for SRA data: GSM8840176
+2025-10-06 11:37:09,131 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:09,131 - INFO - 🔍 Searching for SRA data: GSM8840179
+2025-10-06 11:37:09,217 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:09,218 - INFO - 🔍 Searching for SRA data: GSM8840178
+2025-10-06 11:37:09,246 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:09,246 - INFO - 🔍 Searching for SRA data: GSM8840180
+2025-10-06 11:37:09,332 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:09,333 - INFO - 🔍 Searching for SRA data: GSM8840181
+2025-10-06 11:37:09,370 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:09,370 - INFO - 🔍 Searching for SRA data: GSM8840177
+2025-10-06 11:37:09,383 - INFO - Found 0 SRA runs for GSM8840175
+2025-10-06 11:37:09,384 - INFO - ℹ️ No SRA data found for GSM8840175
+2025-10-06 11:37:09,387 - ERROR - ❌ Download failed: GSM8840175
+2025-10-06 11:37:09,387 - INFO - 📥 Starting download: GSM8840187
+2025-10-06 11:37:09,387 - ERROR - ❌ Task failed
+2025-10-06 11:37:09,440 - INFO - Found 0 SRA runs for GSM8840179
+2025-10-06 11:37:09,441 - INFO - ℹ️ No SRA data found for GSM8840179
+2025-10-06 11:37:09,441 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:09,441 - INFO - 🔍 Searching for SRA data: GSM8840183
+2025-10-06 11:37:09,444 - ERROR - ❌ Download failed: GSM8840179
+2025-10-06 11:37:09,444 - INFO - 📥 Starting download: GSM8840188
+2025-10-06 11:37:09,444 - ERROR - ❌ Task failed
+2025-10-06 11:37:09,456 - INFO - Found 0 SRA runs for GSM8840176
+2025-10-06 11:37:09,456 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:09,457 - INFO - ℹ️ No SRA data found for GSM8840176
+2025-10-06 11:37:09,458 - INFO - 🔍 Searching for SRA data: GSM8840182
+2025-10-06 11:37:09,461 - ERROR - ❌ Download failed: GSM8840176
+2025-10-06 11:37:09,461 - INFO - 📥 Starting download: GSM8840189
+2025-10-06 11:37:09,461 - ERROR - ❌ Task failed
+2025-10-06 11:37:09,513 - WARNING - Failed to search SRA data for GSM8840178: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840178&retmode=json&retmax=100
+2025-10-06 11:37:09,514 - INFO - ℹ️ No SRA data found for GSM8840178
+2025-10-06 11:37:09,516 - ERROR - ❌ Download failed: GSM8840178
+2025-10-06 11:37:09,517 - INFO - 📥 Starting download: GSM8840190
+2025-10-06 11:37:09,517 - ERROR - ❌ Task failed
+2025-10-06 11:37:09,559 - WARNING - Failed to search SRA data for GSM8840180: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840180&retmode=json&retmax=100
+2025-10-06 11:37:09,560 - INFO - ℹ️ No SRA data found for GSM8840180
+2025-10-06 11:37:09,563 - ERROR - ❌ Download failed: GSM8840180
+2025-10-06 11:37:09,563 - INFO - 📥 Starting download: GSM8840191
+2025-10-06 11:37:09,563 - ERROR - ❌ Task failed
+2025-10-06 11:37:09,618 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:09,618 - INFO - 🔍 Searching for SRA data: GSM8840184
+2025-10-06 11:37:09,647 - WARNING - Failed to search SRA data for GSM8840181: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840181&retmode=json&retmax=100
+2025-10-06 11:37:09,648 - INFO - ℹ️ No SRA data found for GSM8840181
+2025-10-06 11:37:09,651 - ERROR - ❌ Download failed: GSM8840181
+2025-10-06 11:37:09,651 - INFO - 📥 Starting download: GSM8840192
+2025-10-06 11:37:09,651 - ERROR - ❌ Task failed
+2025-10-06 11:37:09,661 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:09,663 - INFO - 🔍 Searching for SRA data: GSM8840185
+2025-10-06 11:37:09,682 - WARNING - Failed to search SRA data for GSM8840177: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840177&retmode=json&retmax=100
+2025-10-06 11:37:09,683 - INFO - ℹ️ No SRA data found for GSM8840177
+2025-10-06 11:37:09,686 - ERROR - ❌ Download failed: GSM8840177
+2025-10-06 11:37:09,686 - INFO - 📥 Starting download: GSM8840193
+2025-10-06 11:37:09,686 - ERROR - ❌ Task failed
+2025-10-06 11:37:09,733 - WARNING - Failed to search SRA data for GSM8840183: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840183&retmode=json&retmax=100
+2025-10-06 11:37:09,734 - INFO - ℹ️ No SRA data found for GSM8840183
+2025-10-06 11:37:09,737 - ERROR - ❌ Download failed: GSM8840183
+2025-10-06 11:37:09,737 - INFO - 📥 Starting download: GSM8840194
+2025-10-06 11:37:09,737 - ERROR - ❌ Task failed
+2025-10-06 11:37:09,770 - WARNING - Failed to search SRA data for GSM8840182: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840182&retmode=json&retmax=100
+2025-10-06 11:37:09,772 - INFO - ℹ️ No SRA data found for GSM8840182
+2025-10-06 11:37:09,774 - ERROR - ❌ Download failed: GSM8840182
+2025-10-06 11:37:09,774 - INFO - 📥 Starting download: GSM8840195
+2025-10-06 11:37:09,774 - ERROR - ❌ Task failed
+2025-10-06 11:37:09,837 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:09,838 - INFO - 🔍 Searching for SRA data: GSM8840186
+2025-10-06 11:37:09,913 - WARNING - Failed to search SRA data for GSM8840184: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840184&retmode=json&retmax=100
+2025-10-06 11:37:09,914 - INFO - ℹ️ No SRA data found for GSM8840184
+2025-10-06 11:37:09,917 - ERROR - ❌ Download failed: GSM8840184
+2025-10-06 11:37:09,918 - INFO - 📥 Starting download: GSM8840196
+2025-10-06 11:37:09,918 - ERROR - ❌ Task failed
+2025-10-06 11:37:09,974 - WARNING - Failed to search SRA data for GSM8840185: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840185&retmode=json&retmax=100
+2025-10-06 11:37:09,975 - INFO - ℹ️ No SRA data found for GSM8840185
+2025-10-06 11:37:09,978 - ERROR - ❌ Download failed: GSM8840185
+2025-10-06 11:37:09,978 - INFO - 📥 Starting download: E-MTAB-14891
+2025-10-06 11:37:09,979 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,127 - WARNING - Failed to search SRA data for GSM8840186: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840186&retmode=json&retmax=100
+2025-10-06 11:37:10,128 - INFO - ℹ️ No SRA data found for GSM8840186
+2025-10-06 11:37:10,131 - ERROR - ❌ Download failed: GSM8840186
+2025-10-06 11:37:10,132 - INFO - 📥 Starting download: E-MTAB-7353
+2025-10-06 11:37:10,132 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,315 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:10,316 - INFO - 🔍 Searching for SRA data: GSM8840188
+2025-10-06 11:37:10,352 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:10,353 - INFO - 🔍 Searching for SRA data: GSM8840187
+2025-10-06 11:37:10,427 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:10,428 - INFO - 🔍 Searching for SRA data: GSM8840189
+2025-10-06 11:37:10,477 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:10,478 - INFO - 🔍 Searching for SRA data: GSM8840192
+2025-10-06 11:37:10,509 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:10,518 - INFO - 🔍 Searching for SRA data: GSM8840190
+2025-10-06 11:37:10,545 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:10,545 - INFO - 🔍 Searching for SRA data: GSM8840194
+2025-10-06 11:37:10,554 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:10,554 - INFO - 🔍 Searching for SRA data: GSM8840191
+2025-10-06 11:37:10,632 - INFO - Found 0 SRA runs for GSM8840188
+2025-10-06 11:37:10,633 - INFO - ℹ️ No SRA data found for GSM8840188
+2025-10-06 11:37:10,633 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:10,633 - INFO - 🔍 Searching for SRA data: GSM8840195
+2025-10-06 11:37:10,636 - ERROR - ❌ Download failed: GSM8840188
+2025-10-06 11:37:10,636 - INFO - 🔄 Starting processing: GSE275999
+2025-10-06 11:37:10,636 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,637 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE275999
+2025-10-06 11:37:10,648 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:10,649 - INFO - 🔍 Searching for SRA data: GSM8840193
+2025-10-06 11:37:10,652 - INFO - Found 0 SRA runs for GSM8840187
+2025-10-06 11:37:10,653 - INFO - ℹ️ No SRA data found for GSM8840187
+2025-10-06 11:37:10,654 - INFO - 📦 Extracting nested archive: GSM8489215_WT-2.tar.gz
+2025-10-06 11:37:10,656 - ERROR - ❌ Download failed: GSM8840187
+2025-10-06 11:37:10,656 - INFO - 🔄 Starting processing: GSE182098
+2025-10-06 11:37:10,656 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,656 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE182098
+2025-10-06 11:37:10,661 - WARNING - No data files found for GSE182098
+2025-10-06 11:37:10,661 - ERROR - ❌ Processing failed: GSE182098
+2025-10-06 11:37:10,661 - INFO - 🔄 Starting processing: GSE226482
+2025-10-06 11:37:10,661 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,662 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE226482
+2025-10-06 11:37:10,668 - WARNING - No data files found for GSE226482
+2025-10-06 11:37:10,669 - ERROR - ❌ Processing failed: GSE226482
+2025-10-06 11:37:10,669 - INFO - 🔄 Starting processing: GSE290359
+2025-10-06 11:37:10,669 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,669 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE290359
+2025-10-06 11:37:10,681 - ERROR - Failed to process GSE290359: 'PosixPath' object has no attribute 'lower'
+2025-10-06 11:37:10,681 - ERROR - ❌ Processing failed: GSE290359
+2025-10-06 11:37:10,681 - INFO - 🔄 Starting processing: GSE244263
+2025-10-06 11:37:10,681 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,682 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE244263
+2025-10-06 11:37:10,685 - WARNING - No data files found for GSE244263
+2025-10-06 11:37:10,685 - ERROR - ❌ Processing failed: GSE244263
+2025-10-06 11:37:10,685 - INFO - 🔄 Starting processing: GSE224582
+2025-10-06 11:37:10,685 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,686 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE224582
+2025-10-06 11:37:10,690 - WARNING - No data files found for GSE224582
+2025-10-06 11:37:10,690 - ERROR - ❌ Processing failed: GSE224582
+2025-10-06 11:37:10,690 - INFO - 🔄 Starting processing: GSE252050
+2025-10-06 11:37:10,690 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,691 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE252050
+2025-10-06 11:37:10,697 - WARNING - No data files found for GSE252050
+2025-10-06 11:37:10,697 - ERROR - ❌ Processing failed: GSE252050
+2025-10-06 11:37:10,697 - INFO - 🔄 Starting processing: GSE230647
+2025-10-06 11:37:10,697 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,698 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE230647
+2025-10-06 11:37:10,703 - INFO - 📦 Extracting nested archive: GSE230647_single_cell_count_table_maturation.tar.gz
+2025-10-06 11:37:10,729 - INFO - Found 0 SRA runs for GSM8840189
+2025-10-06 11:37:10,730 - INFO - ℹ️ No SRA data found for GSM8840189
+2025-10-06 11:37:10,732 - ERROR - ❌ Download failed: GSM8840189
+2025-10-06 11:37:10,733 - INFO - 🔄 Starting processing: GSE138120
+2025-10-06 11:37:10,733 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,733 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE138120
+2025-10-06 11:37:10,738 - ERROR - Failed to process GSE138120: 'PosixPath' object has no attribute 'lower'
+2025-10-06 11:37:10,738 - ERROR - ❌ Processing failed: GSE138120
+2025-10-06 11:37:10,738 - INFO - 🔄 Starting processing: GSE240528
+2025-10-06 11:37:10,738 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,738 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE240528
+2025-10-06 11:37:10,743 - WARNING - No data files found for GSE240528
+2025-10-06 11:37:10,743 - ERROR - ❌ Processing failed: GSE240528
+2025-10-06 11:37:10,744 - INFO - 🔄 Starting processing: GSE206330
+2025-10-06 11:37:10,744 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,744 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE206330
+2025-10-06 11:37:10,748 - ERROR - Failed to process GSE206330: 'PosixPath' object has no attribute 'lower'
+2025-10-06 11:37:10,749 - ERROR - ❌ Processing failed: GSE206330
+2025-10-06 11:37:10,749 - INFO - 🔄 Starting processing: GSE182098
+2025-10-06 11:37:10,749 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,749 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE182098
+2025-10-06 11:37:10,752 - WARNING - No data files found for GSE182098
+2025-10-06 11:37:10,753 - ERROR - ❌ Processing failed: GSE182098
+2025-10-06 11:37:10,753 - INFO - 🔄 Starting processing: GSE180122
+2025-10-06 11:37:10,753 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,753 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE180122
+2025-10-06 11:37:10,766 - ERROR - Failed to process GSE180122: 'PosixPath' object has no attribute 'lower'
+2025-10-06 11:37:10,766 - ERROR - ❌ Processing failed: GSE180122
+2025-10-06 11:37:10,767 - INFO - 🔄 Starting processing: GSE178693
+2025-10-06 11:37:10,767 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,767 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE178693
+2025-10-06 11:37:10,784 - WARNING - Failed to search SRA data for GSM8840192: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840192&retmode=json&retmax=100
+2025-10-06 11:37:10,785 - INFO - ℹ️ No SRA data found for GSM8840192
+2025-10-06 11:37:10,788 - ERROR - ❌ Download failed: GSM8840192
+2025-10-06 11:37:10,789 - INFO - 🔄 Starting processing: GSE138121
+2025-10-06 11:37:10,789 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,789 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE138121
+2025-10-06 11:37:10,791 - INFO - 📦 Extracting nested archive: GSM5396155_WT1.tar.gz
+2025-10-06 11:37:10,795 - ERROR - Failed to process GSE138121: 'PosixPath' object has no attribute 'lower'
+2025-10-06 11:37:10,795 - ERROR - ❌ Processing failed: GSE138121
+2025-10-06 11:37:10,795 - INFO - 🔄 Starting processing: GSE130938
+2025-10-06 11:37:10,795 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,795 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE130938
+2025-10-06 11:37:10,800 - ERROR - Failed to process GSE130938: 'PosixPath' object has no attribute 'lower'
+2025-10-06 11:37:10,800 - ERROR - ❌ Processing failed: GSE130938
+2025-10-06 11:37:10,800 - INFO - 🔄 Starting processing: GSE255605
+2025-10-06 11:37:10,800 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,801 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE255605
+2025-10-06 11:37:10,802 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:10,803 - INFO - 🔍 Searching for SRA data: E-MTAB-14891
+2025-10-06 11:37:10,805 - ERROR - Failed to process GSE255605: 'PosixPath' object has no attribute 'lower'
+2025-10-06 11:37:10,805 - ERROR - ❌ Processing failed: GSE255605
+2025-10-06 11:37:10,805 - INFO - 🔄 Starting processing: GSE226753
+2025-10-06 11:37:10,805 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,805 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE226753
+2025-10-06 11:37:10,808 - WARNING - Failed to search SRA data for GSM8840190: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840190&retmode=json&retmax=100
+2025-10-06 11:37:10,809 - INFO - ℹ️ No SRA data found for GSM8840190
+2025-10-06 11:37:10,811 - ERROR - ❌ Download failed: GSM8840190
+2025-10-06 11:37:10,812 - INFO - 🔄 Starting processing: GSE214210
+2025-10-06 11:37:10,812 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,812 - WARNING - No data files found for GSE226753
+2025-10-06 11:37:10,812 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE214210
+2025-10-06 11:37:10,812 - ERROR - ❌ Processing failed: GSE226753
+2025-10-06 11:37:10,812 - INFO - 🔄 Starting processing: GSE289729
+2025-10-06 11:37:10,813 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,813 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE289729
+2025-10-06 11:37:10,815 - ERROR - Failed to process GSE214210: 'PosixPath' object has no attribute 'lower'
+2025-10-06 11:37:10,815 - ERROR - ❌ Processing failed: GSE214210
+2025-10-06 11:37:10,815 - INFO - 🔄 Starting processing: GSE173524
+2025-10-06 11:37:10,815 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,815 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE173524
+2025-10-06 11:37:10,818 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:10,819 - ERROR - Failed to process GSE289729: 'PosixPath' object has no attribute 'lower'
+2025-10-06 11:37:10,819 - INFO - 🔍 Searching for SRA data: GSM8840196
+2025-10-06 11:37:10,819 - ERROR - ❌ Processing failed: GSE289729
+2025-10-06 11:37:10,819 - INFO - 🔄 Starting processing: GSM6781880
+2025-10-06 11:37:10,820 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,821 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6781880
+2025-10-06 11:37:10,826 - INFO - 📦 Extracting nested archive: GSM5269264_filtered_feature_bc_matrix.b.tar.gz
+2025-10-06 11:37:10,827 - ERROR - Failed to process GSM6781880: 'PosixPath' object has no attribute 'lower'
+2025-10-06 11:37:10,827 - ERROR - ❌ Processing failed: GSM6781880
+2025-10-06 11:37:10,827 - INFO - 🔄 Starting processing: GSM6781881
+2025-10-06 11:37:10,827 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,827 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6781881
+2025-10-06 11:37:10,834 - ERROR - Failed to process GSM6781881: 'PosixPath' object has no attribute 'lower'
+2025-10-06 11:37:10,834 - ERROR - ❌ Processing failed: GSM6781881
+2025-10-06 11:37:10,834 - INFO - 🔄 Starting processing: GSM6781882
+2025-10-06 11:37:10,834 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,834 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6781882
+2025-10-06 11:37:10,840 - ERROR - Failed to process GSM6781882: 'PosixPath' object has no attribute 'lower'
+2025-10-06 11:37:10,840 - ERROR - ❌ Processing failed: GSM6781882
+2025-10-06 11:37:10,840 - INFO - 🔄 Starting processing: GSM6781883
+2025-10-06 11:37:10,840 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,841 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6781883
+2025-10-06 11:37:10,846 - ERROR - Failed to process GSM6781883: 'PosixPath' object has no attribute 'lower'
+2025-10-06 11:37:10,847 - ERROR - ❌ Processing failed: GSM6781883
+2025-10-06 11:37:10,847 - INFO - 🔄 Starting processing: GSM7474612
+2025-10-06 11:37:10,847 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,847 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7474612
+2025-10-06 11:37:10,850 - WARNING - Failed to search SRA data for GSM8840191: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840191&retmode=json&retmax=100
+2025-10-06 11:37:10,851 - INFO - ℹ️ No SRA data found for GSM8840191
+2025-10-06 11:37:10,854 - ERROR - ❌ Download failed: GSM8840191
+2025-10-06 11:37:10,854 - INFO - 🔄 Starting processing: GSM7474613
+2025-10-06 11:37:10,855 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,855 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7474613
+2025-10-06 11:37:10,855 - INFO - 📦 Extracting nested archive: GSM7474612_snRNA-seq_of_Mut.tar.gz
+2025-10-06 11:37:10,858 - WARNING - Failed to search SRA data for GSM8840194: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840194&retmode=json&retmax=100
+2025-10-06 11:37:10,859 - INFO - ℹ️ No SRA data found for GSM8840194
+2025-10-06 11:37:10,861 - INFO - 📦 Extracting nested archive: GSM7474613_snRNA-seq_of_WT.tar.gz
+2025-10-06 11:37:10,861 - ERROR - ❌ Download failed: GSM8840194
+2025-10-06 11:37:10,862 - INFO - 🔄 Starting processing: GSM6260246
+2025-10-06 11:37:10,862 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,863 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260246
+2025-10-06 11:37:10,869 - INFO - 📦 Extracting nested archive: GSM6260246_bac_ana.tar.gz
+2025-10-06 11:37:10,944 - WARNING - Failed to search SRA data for GSM8840193: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840193&retmode=json&retmax=100
+2025-10-06 11:37:10,946 - INFO - ℹ️ No SRA data found for GSM8840193
+2025-10-06 11:37:10,950 - WARNING - Failed to search SRA data for GSM8840195: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840195&retmode=json&retmax=100
+2025-10-06 11:37:10,950 - ERROR - ❌ Download failed: GSM8840193
+2025-10-06 11:37:10,951 - INFO - ℹ️ No SRA data found for GSM8840195
+2025-10-06 11:37:10,952 - INFO - 🔄 Starting processing: GSM6260247
+2025-10-06 11:37:10,952 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,953 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260247
+2025-10-06 11:37:10,955 - ERROR - ❌ Download failed: GSM8840195
+2025-10-06 11:37:10,955 - INFO - 🔄 Starting processing: GSM6260248
+2025-10-06 11:37:10,955 - ERROR - ❌ Task failed
+2025-10-06 11:37:10,956 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260248
+2025-10-06 11:37:10,957 - INFO - ✅ SRA Toolkit is available
+2025-10-06 11:37:10,958 - INFO - 🔍 Searching for SRA data: E-MTAB-7353
+2025-10-06 11:37:10,963 - INFO - 📦 Extracting nested archive: GSM6260247_het_ana.tar.gz
+2025-10-06 11:37:10,966 - INFO - 📦 Extracting nested archive: GSM6260248_hom_ana.tar.gz
+2025-10-06 11:37:11,116 - WARNING - Failed to search SRA data for E-MTAB-14891: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=E-MTAB-14891&retmode=json&retmax=100
+2025-10-06 11:37:11,118 - INFO - ℹ️ No SRA data found for E-MTAB-14891
+2025-10-06 11:37:11,121 - ERROR - ❌ Download failed: E-MTAB-14891
+2025-10-06 11:37:11,122 - INFO - 🔄 Starting processing: GSM6260249
+2025-10-06 11:37:11,122 - ERROR - ❌ Task failed
+2025-10-06 11:37:11,123 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260249
+2025-10-06 11:37:11,131 - WARNING - Failed to search SRA data for GSM8840196: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=GSM8840196&retmode=json&retmax=100
+2025-10-06 11:37:11,132 - INFO - ℹ️ No SRA data found for GSM8840196
+2025-10-06 11:37:11,136 - ERROR - ❌ Download failed: GSM8840196
+2025-10-06 11:37:11,136 - INFO - 📦 Extracting nested archive: GSM6260249_wt_ana.tar.gz
+2025-10-06 11:37:11,136 - INFO - 🔄 Starting processing: GSM6260250
+2025-10-06 11:37:11,137 - ERROR - ❌ Task failed
+2025-10-06 11:37:11,138 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260250
+2025-10-06 11:37:11,148 - WARNING - No data files found for GSM6260250
+2025-10-06 11:37:11,149 - ERROR - ❌ Processing failed: GSM6260250
+2025-10-06 11:37:11,149 - INFO - 🔄 Starting processing: GSM6260251
+2025-10-06 11:37:11,149 - ERROR - ❌ Task failed
+2025-10-06 11:37:11,150 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260251
+2025-10-06 11:37:11,161 - WARNING - No data files found for GSM6260251
+2025-10-06 11:37:11,161 - ERROR - ❌ Processing failed: GSM6260251
+2025-10-06 11:37:11,162 - INFO - 🔄 Starting processing: GSM6260252
+2025-10-06 11:37:11,162 - ERROR - ❌ Task failed
+2025-10-06 11:37:11,162 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260252
+2025-10-06 11:37:11,174 - WARNING - No data files found for GSM6260252
+2025-10-06 11:37:11,174 - ERROR - ❌ Processing failed: GSM6260252
+2025-10-06 11:37:11,175 - INFO - 🔄 Starting processing: GSM6260253
+2025-10-06 11:37:11,175 - ERROR - ❌ Task failed
+2025-10-06 11:37:11,176 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260253
+2025-10-06 11:37:11,186 - WARNING - No data files found for GSM6260253
+2025-10-06 11:37:11,186 - ERROR - ❌ Processing failed: GSM6260253
+2025-10-06 11:37:11,186 - INFO - 🔄 Starting processing: GSM6260254
+2025-10-06 11:37:11,187 - ERROR - ❌ Task failed
+2025-10-06 11:37:11,187 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260254
+2025-10-06 11:37:11,198 - WARNING - No data files found for GSM6260254
+2025-10-06 11:37:11,199 - ERROR - ❌ Processing failed: GSM6260254
+2025-10-06 11:37:11,199 - INFO - 🔄 Starting processing: GSM6260255
+2025-10-06 11:37:11,199 - ERROR - ❌ Task failed
+2025-10-06 11:37:11,200 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260255
+2025-10-06 11:37:11,213 - WARNING - No data files found for GSM6260255
+2025-10-06 11:37:11,213 - ERROR - ❌ Processing failed: GSM6260255
+2025-10-06 11:37:11,214 - INFO - 🔄 Starting processing: GSM6260256
+2025-10-06 11:37:11,214 - ERROR - ❌ Task failed
+2025-10-06 11:37:11,214 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260256
+2025-10-06 11:37:11,225 - WARNING - No data files found for GSM6260256
+2025-10-06 11:37:11,225 - ERROR - ❌ Processing failed: GSM6260256
+2025-10-06 11:37:11,226 - INFO - 🔄 Starting processing: GSM6260257
+2025-10-06 11:37:11,226 - ERROR - ❌ Task failed
+2025-10-06 11:37:11,226 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260257
+2025-10-06 11:37:11,237 - WARNING - No data files found for GSM6260257
+2025-10-06 11:37:11,237 - ERROR - ❌ Processing failed: GSM6260257
+2025-10-06 11:37:11,237 - INFO - 🔄 Starting processing: GSM6262626
+2025-10-06 11:37:11,238 - ERROR - ❌ Task failed
+2025-10-06 11:37:11,238 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6262626
+2025-10-06 11:37:11,250 - WARNING - No data files found for GSM6262626
+2025-10-06 11:37:11,251 - ERROR - ❌ Processing failed: GSM6262626
+2025-10-06 11:37:11,251 - ERROR - ❌ Task failed
+2025-10-06 11:37:11,270 - WARNING - Failed to search SRA data for E-MTAB-7353: 429 Client Error: Too Many Requests for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=E-MTAB-7353&retmode=json&retmax=100
+2025-10-06 11:37:11,271 - INFO - ℹ️ No SRA data found for E-MTAB-7353
+2025-10-06 11:37:11,275 - ERROR - ❌ Download failed: E-MTAB-7353
+2025-10-06 11:37:11,275 - ERROR - ❌ Task failed
+2025-10-06 11:37:11,397 - INFO - ✅ Successfully extracted GSM5396155_WT1.tar.gz
+2025-10-06 11:37:11,398 - INFO - 📦 Extracting nested archive: GSM5396157_Mutant1.tar.gz
+2025-10-06 11:37:11,882 - INFO - ✅ Successfully extracted GSM5396157_Mutant1.tar.gz
+2025-10-06 11:37:11,883 - INFO - 📦 Extracting nested archive: GSM5396158_Mutant2.tar.gz
+2025-10-06 11:37:12,028 - INFO - ✅ Successfully extracted GSM6260248_hom_ana.tar.gz
+2025-10-06 11:37:12,062 - INFO - ✅ Successfully extracted GSM6260246_bac_ana.tar.gz
+2025-10-06 11:37:12,121 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260248/GSM6260248_hom_ana.tar_extracted/hom_ana/filtered_feature_bc_matrix
+2025-10-06 11:37:12,122 - ERROR - Failed to process GSM6260248: 'PosixPath' object has no attribute 'lower'
+2025-10-06 11:37:12,122 - ERROR - ❌ Processing failed: GSM6260248
+2025-10-06 11:37:12,123 - ERROR - ❌ Task failed
+2025-10-06 11:37:12,136 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260246/GSM6260246_bac_ana.tar_extracted/bac_ana/filtered_feature_bc_matrix
+2025-10-06 11:37:12,137 - ERROR - Failed to process GSM6260246: 'PosixPath' object has no attribute 'lower'
+2025-10-06 11:37:12,137 - ERROR - ❌ Processing failed: GSM6260246
+2025-10-06 11:37:12,138 - ERROR - ❌ Task failed
+2025-10-06 11:37:12,181 - INFO - ✅ Successfully extracted GSM6260247_het_ana.tar.gz
+2025-10-06 11:37:12,236 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260247/GSM6260247_het_ana.tar_extracted/het_ana/filtered_feature_bc_matrix
+2025-10-06 11:37:12,237 - ERROR - Failed to process GSM6260247: 'PosixPath' object has no attribute 'lower'
+2025-10-06 11:37:12,237 - ERROR - ❌ Processing failed: GSM6260247
+2025-10-06 11:37:12,237 - ERROR - ❌ Task failed
+2025-10-06 11:37:12,390 - INFO - ✅ Successfully extracted GSM6260249_wt_ana.tar.gz
+2025-10-06 11:37:12,441 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260249/GSM6260249_wt_ana.tar_extracted/wt_ana/filtered_feature_bc_matrix
+2025-10-06 11:37:12,441 - ERROR - Failed to process GSM6260249: 'PosixPath' object has no attribute 'lower'
+2025-10-06 11:37:12,442 - ERROR - ❌ Processing failed: GSM6260249
+2025-10-06 11:37:12,442 - ERROR - ❌ Task failed
+2025-10-06 11:37:12,595 - INFO - ✅ Successfully extracted GSM7474613_snRNA-seq_of_WT.tar.gz
+2025-10-06 11:37:12,608 - INFO - ✅ Successfully extracted GSM5396158_Mutant2.tar.gz
+2025-10-06 11:37:12,608 - INFO - 📦 Extracting nested archive: GSM5396156_WT2.tar.gz
+2025-10-06 11:37:12,615 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7474613/GSM7474613_snRNA-seq_of_WT.tar_extracted
+2025-10-06 11:37:12,615 - ERROR - Failed to process GSM7474613: 'PosixPath' object has no attribute 'lower'
+2025-10-06 11:37:12,615 - ERROR - ❌ Processing failed: GSM7474613
+2025-10-06 11:37:12,616 - ERROR - ❌ Task failed
+2025-10-06 11:37:12,627 - INFO - ✅ Successfully extracted GSM8489215_WT-2.tar.gz
+2025-10-06 11:37:12,627 - INFO - 📦 Extracting nested archive: GSM8489218_MUT-2.tar.gz
+2025-10-06 11:37:12,777 - INFO - ✅ Successfully extracted GSM5396156_WT2.tar.gz
+2025-10-06 11:37:12,821 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE178693/GSM5396158_Mutant2.tar_extracted/Mutant2
+2025-10-06 11:37:12,822 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE178693/GSM5396157_Mutant1.tar_extracted/Mutant1
+2025-10-06 11:37:12,823 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE178693/GSM5396156_WT2.tar_extracted/WT2
+2025-10-06 11:37:12,825 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE178693/GSM5396155_WT1.tar_extracted/WT1
+2025-10-06 11:37:12,825 - ERROR - Failed to process GSE178693: 'PosixPath' object has no attribute 'lower'
+2025-10-06 11:37:12,825 - ERROR - ❌ Processing failed: GSE178693
+2025-10-06 11:37:12,825 - ERROR - ❌ Task failed
+2025-10-06 11:37:12,844 - INFO - ✅ Successfully extracted GSM7474612_snRNA-seq_of_Mut.tar.gz
+2025-10-06 11:37:12,860 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7474612/GSM7474612_snRNA-seq_of_Mut.tar_extracted/filtered_feature_bc_matrix
+2025-10-06 11:37:12,860 - ERROR - Failed to process GSM7474612: 'PosixPath' object has no attribute 'lower'
+2025-10-06 11:37:12,860 - ERROR - ❌ Processing failed: GSM7474612
+2025-10-06 11:37:12,860 - ERROR - ❌ Task failed
+2025-10-06 11:37:12,869 - INFO - ✅ Successfully extracted GSM5269264_filtered_feature_bc_matrix.b.tar.gz
+2025-10-06 11:37:12,870 - INFO - 📦 Extracting nested archive: GSM5269263_filtered_feature_bc_matrix.a.tar.gz
+2025-10-06 11:37:13,265 - INFO - ✅ Successfully extracted GSM5269263_filtered_feature_bc_matrix.a.tar.gz
+2025-10-06 11:37:13,265 - INFO - 📦 Extracting nested archive: GSM5269265_filtered_feature_bc_matrix.c.tar.gz
+2025-10-06 11:37:13,379 - INFO - ✅ Successfully extracted GSM8489218_MUT-2.tar.gz
+2025-10-06 11:37:13,379 - INFO - 📦 Extracting nested archive: GSM8489217_MUT-1.tar.gz
+2025-10-06 11:37:13,644 - INFO - ✅ Successfully extracted GSM5269265_filtered_feature_bc_matrix.c.tar.gz
+2025-10-06 11:37:13,662 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE173524/GSM5269265_filtered_feature_bc_matrix.c.tar_extracted/filtered_feature_bc_matrix.c
+2025-10-06 11:37:13,663 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE173524/GSM5269263_filtered_feature_bc_matrix.a.tar_extracted/filtered_feature_bc_matrix.a
+2025-10-06 11:37:13,664 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE173524/GSM5269264_filtered_feature_bc_matrix.b.tar_extracted/filtered_feature_bc_matrix.b
+2025-10-06 11:37:13,664 - ERROR - Failed to process GSE173524: 'PosixPath' object has no attribute 'lower'
+2025-10-06 11:37:13,664 - ERROR - ❌ Processing failed: GSE173524
+2025-10-06 11:37:13,664 - ERROR - ❌ Task failed
+2025-10-06 11:37:13,780 - INFO - ✅ Successfully extracted GSM8489217_MUT-1.tar.gz
+2025-10-06 11:37:13,780 - INFO - 📦 Extracting nested archive: GSM8489219_MUT-3.tar.gz
+2025-10-06 11:37:14,233 - INFO - ✅ Successfully extracted GSM8489219_MUT-3.tar.gz
+2025-10-06 11:37:14,233 - INFO - 📦 Extracting nested archive: GSM8489216_WT-3.tar.gz
+2025-10-06 11:37:14,250 - INFO - ✅ Successfully extracted GSE230647_single_cell_count_table_maturation.tar.gz
+2025-10-06 11:37:14,251 - INFO - 📦 Extracting nested archive: GSE230647_single_cell_count_table_tdp43ha.tar.gz
+2025-10-06 11:37:14,652 - INFO - ✅ Successfully extracted GSM8489216_WT-3.tar.gz
+2025-10-06 11:37:14,652 - INFO - 📦 Extracting nested archive: GSM8489214_WT-1.tar.gz
+2025-10-06 11:37:15,071 - INFO - ✅ Successfully extracted GSM8489214_WT-1.tar.gz
+2025-10-06 11:37:15,125 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE275999/GSM8489215_WT-2.tar_extracted/WT-2
+2025-10-06 11:37:15,126 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE275999/GSM8489214_WT-1.tar_extracted/WT-1
+2025-10-06 11:37:15,127 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE275999/GSM8489216_WT-3.tar_extracted/WT-3
+2025-10-06 11:37:15,128 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE275999/GSM8489219_MUT-3.tar_extracted/MUT-3
+2025-10-06 11:37:15,128 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE275999/GSM8489218_MUT-2.tar_extracted/MUT-2
+2025-10-06 11:37:15,129 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE275999/GSM8489217_MUT-1.tar_extracted/MUT-1
+2025-10-06 11:37:15,129 - ERROR - Failed to process GSE275999: 'PosixPath' object has no attribute 'lower'
+2025-10-06 11:37:15,129 - ERROR - ❌ Processing failed: GSE275999
+2025-10-06 11:37:15,130 - ERROR - ❌ Task failed
+2025-10-06 11:37:15,519 - INFO - ✅ Successfully extracted GSE230647_single_cell_count_table_tdp43ha.tar.gz
+2025-10-06 11:37:15,531 - WARNING - No data files found for GSE230647
+2025-10-06 11:37:15,531 - ERROR - ❌ Processing failed: GSE230647
+2025-10-06 11:37:15,532 - ERROR - ❌ Task failed
+2025-10-06 11:37:15,535 - INFO - 🎉 Pipeline completed!

@@ -1,0 +1,47 @@
+#!/bin/bash
+# Transfer parallel optimized pipeline
+
+echo "Transferring parallel optimized pipeline to cluster..."
+echo "🚀 NEW FEATURES:"
+echo "1. ✅ Parallel download and processing (4 download + 8 processing threads)"
+echo "2. ✅ Optimized memory usage (512GB instead of 256GB)"
+echo "3. ✅ Enhanced nested archive support (GSE275999 style)"
+echo "4. ✅ FTP downloads for faster speed"
+echo "5. ✅ No email addresses (cluster-safe)"
+echo "6. ✅ 64 CPU cores for maximum performance"
+echo "7. ✅ Smart dataset categorization (skip completed, process downloaded-only)"
+echo "8. ✅ Real-time status display with threading"
+echo "9. ✅ Enhanced error handling and logging"
+echo "10. ✅ Thread-safe download tracker"
+echo ""
+
+echo "Transferring files..."
+scp src/parallel_optimized_pipeline.py ul_oqn09@uc3.scc.kit.edu:~/als_foundation_model/src/
+scp scripts/run_parallel_optimized_pipeline.slurm ul_oqn09@uc3.scc.kit.edu:~/als_foundation_model/scripts/
+scp configs/streaming_config.json ul_oqn09@uc3.scc.kit.edu:~/als_foundation_model/configs/
+
+echo "Transfer complete!"
+echo ""
+echo "🚀 READY TO RUN PARALLEL OPTIMIZED PIPELINE!"
+echo ""
+echo "On the cluster, run:"
+echo "  cd ~/als_foundation_model"
+echo "  sbatch scripts/run_parallel_optimized_pipeline.slurm"
+echo ""
+echo "Expected improvements:"
+echo "- ⚡ 3-4x faster execution (parallel processing)"
+echo "- 💾 Better memory utilization (512GB vs 256GB)"
+echo "- 📥 Faster downloads (FTP protocol)"
+echo "- 🔄 Parallel download + processing"
+echo "- 🎯 Smart resumption (skip completed, process downloaded-only)"
+echo "- 📊 Real-time status updates"
+echo "- 🛡️ Cluster-safe (no email addresses)"
+echo ""
+echo "The pipeline will:"
+echo "1. 📊 Read download_tracker.json"
+echo "2. 🚀 Skip already processed datasets"
+echo "3. 📥 Download remaining datasets in parallel (4 threads)"
+echo "4. 🔄 Process downloaded-but-unprocessed datasets in parallel (8 threads)"
+echo "5. 📦 Handle nested archives like GSE275999"
+echo "6. 💾 Use 512GB memory efficiently"
+echo "7. ⚡ Run much faster than before!"

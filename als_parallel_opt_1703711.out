@@ -1,0 +1,87 @@
+==========================================
+ALS Foundation Model - Parallel Optimized Pipeline
+==========================================
+Job ID: 1703711
+Node: uc3n061
+CPUs: 64
+Memory: 262144 MB (512GB)
+Start time: Mon Oct  6 01:14:13 PM CEST 2025
+Features:
+  - Parallel download and processing
+  - Enhanced nested archive support
+  - Optimized memory usage (512GB)
+  - 64 CPU cores
+  - FTP downloads for speed
+  - No email addresses
+==========================================
+Found existing download tracker - will resume from previous run
+Processed datasets will be skipped automatically
+Downloaded but unprocessed datasets will be processed
+╭────────────────────────────── Pipeline Status ───────────────────────────────╮
+│                                                                              │
+│ 🚀 PARALLEL OPTIMIZED PIPELINE STATUS                                        │
+│ =====================================                                        │
+│ ⏱️  Runtime: 0.0h                                                             │
+│ 📊 Processed: 0 datasets                                                     │
+│ ⚡ Rate: 0.00 datasets/hour                                                  │
+│                                                                              │
+│ 📥 DOWNLOADING: 0                                                            │
+│    Current: None                                                             │
+│                                                                              │
+│ 🔄 PROCESSING: 0                                                             │
+│    Current: None                                                             │
+│                                                                              │
+│ ✅ COMPLETED: 0                                                              │
+│ ❌ FAILED: 0                                                                 │
+│                                                                              │
+│ 💾 Memory Usage: 4.8%                                                        │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭────────────────────────────── Pipeline Status ───────────────────────────────╮
+│                                                                              │
+│ 🚀 PARALLEL OPTIMIZED PIPELINE STATUS                                        │
+│ =====================================                                        │
+│ ⏱️  Runtime: 0.0h                                                             │
+│ 📊 Processed: 0 datasets                                                     │
+│ ⚡ Rate: 0.00 datasets/hour                                                  │
+│                                                                              │
+│ 📥 DOWNLOADING: 0                                                            │
+│    Current: None                                                             │
+│                                                                              │
+│ 🔄 PROCESSING: 0                                                             │
+│    Current: None                                                             │
+│                                                                              │
+│ ✅ COMPLETED: 0                                                              │
+│ ❌ FAILED: 0                                                                 │
+│                                                                              │
+│ 💾 Memory Usage: 5.2%                                                        │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+==========================================
+Job completed at: Mon Oct  6 01:14:49 PM CEST 2025
+Exit code: 0
+==========================================
+
+Download Tracker Summary:
+=========================
+Total datasets: 230
+Downloaded: 109
+Processed: 70
+Failed: 171
+Download success rate: 47.4%
+Processing success rate: 30.4%
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc3n061
+Job ID: 1703711
+Cluster: uc3
+User/Group: ul_oqn09/ul_neurorku
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 64
+CPU Utilized: 00:00:39
+CPU Efficiency: 1.09% of 00:59:44 core-walltime
+Job Wall-clock time: 00:00:56
+Memory Utilized: 567.41 MB
+Memory Efficiency: 0.22% of 256.00 GB (256.00 GB/node)

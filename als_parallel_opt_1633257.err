@@ -1,0 +1,945 @@
+2025-10-02 18:35:55,290 - INFO - 🚀 Parallel Optimized Pipeline initialized
+2025-10-02 18:35:55,291 - INFO - 🚀 Starting Parallel Optimized Pipeline
+2025-10-02 18:35:55,313 - INFO - 📊 Dataset categorization:
+2025-10-02 18:35:55,313 - INFO -   - To download: 130
+2025-10-02 18:35:55,313 - INFO -   - To process: 44
+2025-10-02 18:35:55,313 - INFO -   - Already completed: 88
+2025-10-02 18:35:55,315 - INFO - 📥 Starting download: GSE226482
+2025-10-02 18:35:55,315 - INFO - 📥 Starting download: GSE252050
+2025-10-02 18:35:55,315 - INFO - 📥 Starting download: GSE230647
+2025-10-02 18:35:55,316 - INFO - 📥 Starting download: GSE138120
+2025-10-02 18:35:55,316 - INFO - 📥 Starting download: GSE206330
+2025-10-02 18:35:55,316 - INFO - 📥 Starting download: GSE180122
+2025-10-02 18:35:55,316 - INFO - 📥 Starting download: GSE138121
+2025-10-02 18:35:55,317 - INFO - 📥 Starting download: GSE130938
+2025-10-02 18:35:55,317 - INFO - 📥 Starting download: GSE289729
+2025-10-02 18:35:55,330 - INFO - 📥 Starting download: GSM5292143
+2025-10-02 18:35:55,331 - INFO - 📥 Starting download: GSM5292144
+2025-10-02 18:35:55,346 - INFO - 📥 Starting download: GSM5292145
+2025-10-02 18:36:01,294 - INFO - ✅ GEO download successful: GSE226482
+2025-10-02 18:36:01,297 - INFO - ✅ Download completed: GSE226482
+2025-10-02 18:36:01,297 - INFO - 📥 Starting download: GSM5292146
+2025-10-02 18:36:01,298 - INFO - ✅ Task completed successfully
+2025-10-02 18:36:01,496 - WARNING - SRA download failed for GSM5292143: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:01,499 - ERROR - ❌ Download failed: GSM5292143
+2025-10-02 18:36:01,500 - INFO - 📥 Starting download: GSM5292147
+2025-10-02 18:36:01,500 - ERROR - ❌ Task failed
+2025-10-02 18:36:01,767 - WARNING - SRA download failed for GSM5292144: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:01,769 - ERROR - ❌ Download failed: GSM5292144
+2025-10-02 18:36:01,770 - INFO - 📥 Starting download: GSM5292148
+2025-10-02 18:36:01,770 - ERROR - ❌ Task failed
+2025-10-02 18:36:01,983 - WARNING - SRA download failed for GSM5292145: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:01,986 - ERROR - ❌ Download failed: GSM5292145
+2025-10-02 18:36:01,986 - INFO - 📥 Starting download: GSM5292149
+2025-10-02 18:36:01,986 - ERROR - ❌ Task failed
+2025-10-02 18:36:02,103 - WARNING - SRA download failed for GSM5292146: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:02,106 - ERROR - ❌ Download failed: GSM5292146
+2025-10-02 18:36:02,106 - INFO - 📥 Starting download: GSM5292150
+2025-10-02 18:36:02,106 - ERROR - ❌ Task failed
+2025-10-02 18:36:02,320 - WARNING - SRA download failed for GSM5292147: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:02,323 - ERROR - ❌ Download failed: GSM5292147
+2025-10-02 18:36:02,323 - INFO - 📥 Starting download: GSM5292151
+2025-10-02 18:36:02,323 - ERROR - ❌ Task failed
+2025-10-02 18:36:02,565 - WARNING - SRA download failed for GSM5292148: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:02,568 - ERROR - ❌ Download failed: GSM5292148
+2025-10-02 18:36:02,568 - INFO - 📥 Starting download: GSM5292152
+2025-10-02 18:36:02,568 - ERROR - ❌ Task failed
+2025-10-02 18:36:02,760 - INFO - ✅ GEO download successful: GSE289729
+2025-10-02 18:36:02,763 - INFO - ✅ Download completed: GSE289729
+2025-10-02 18:36:02,763 - INFO - 📥 Starting download: GSM5292153
+2025-10-02 18:36:02,763 - INFO - ✅ Task completed successfully
+2025-10-02 18:36:02,772 - WARNING - SRA download failed for GSM5292149: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:02,775 - ERROR - ❌ Download failed: GSM5292149
+2025-10-02 18:36:02,775 - INFO - 📥 Starting download: GSM5292154
+2025-10-02 18:36:02,775 - ERROR - ❌ Task failed
+2025-10-02 18:36:02,909 - WARNING - SRA download failed for GSM5292150: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:02,912 - ERROR - ❌ Download failed: GSM5292150
+2025-10-02 18:36:02,912 - INFO - 📥 Starting download: GSM5292155
+2025-10-02 18:36:02,913 - ERROR - ❌ Task failed
+2025-10-02 18:36:03,187 - WARNING - SRA download failed for GSM5292151: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:03,190 - ERROR - ❌ Download failed: GSM5292151
+2025-10-02 18:36:03,190 - INFO - 📥 Starting download: GSM5292156
+2025-10-02 18:36:03,190 - ERROR - ❌ Task failed
+2025-10-02 18:36:03,493 - WARNING - SRA download failed for GSM5292152: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:03,497 - ERROR - ❌ Download failed: GSM5292152
+2025-10-02 18:36:03,497 - INFO - 📥 Starting download: GSM5292157
+2025-10-02 18:36:03,497 - ERROR - ❌ Task failed
+2025-10-02 18:36:03,870 - WARNING - SRA download failed for GSM5292153: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:03,873 - ERROR - ❌ Download failed: GSM5292153
+2025-10-02 18:36:03,873 - INFO - 📥 Starting download: GSM5292158
+2025-10-02 18:36:03,873 - ERROR - ❌ Task failed
+2025-10-02 18:36:03,932 - WARNING - SRA download failed for GSM5292155: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:03,935 - ERROR - ❌ Download failed: GSM5292155
+2025-10-02 18:36:03,935 - INFO - 📥 Starting download: GSM5292159
+2025-10-02 18:36:03,935 - ERROR - ❌ Task failed
+2025-10-02 18:36:04,064 - WARNING - SRA download failed for GSM5292154: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:04,084 - ERROR - ❌ Download failed: GSM5292154
+2025-10-02 18:36:04,085 - INFO - 📥 Starting download: GSM5292160
+2025-10-02 18:36:04,085 - ERROR - ❌ Task failed
+2025-10-02 18:36:04,204 - WARNING - SRA download failed for GSM5292156: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:04,209 - ERROR - ❌ Download failed: GSM5292156
+2025-10-02 18:36:04,209 - INFO - 📥 Starting download: GSM5292161
+2025-10-02 18:36:04,209 - ERROR - ❌ Task failed
+2025-10-02 18:36:04,532 - WARNING - SRA download failed for GSM5292157: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:04,535 - ERROR - ❌ Download failed: GSM5292157
+2025-10-02 18:36:04,535 - INFO - 📥 Starting download: GSM5292162
+2025-10-02 18:36:04,536 - ERROR - ❌ Task failed
+2025-10-02 18:36:04,983 - INFO - ✅ GEO download successful: GSE252050
+2025-10-02 18:36:04,987 - INFO - ✅ Download completed: GSE252050
+2025-10-02 18:36:04,987 - INFO - 📥 Starting download: GSM5292163
+2025-10-02 18:36:04,987 - INFO - ✅ Task completed successfully
+2025-10-02 18:36:04,996 - WARNING - SRA download failed for GSM5292158: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:04,999 - ERROR - ❌ Download failed: GSM5292158
+2025-10-02 18:36:04,999 - INFO - 📥 Starting download: GSM5292164
+2025-10-02 18:36:05,000 - ERROR - ❌ Task failed
+2025-10-02 18:36:05,047 - WARNING - SRA download failed for GSM5292159: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:05,050 - ERROR - ❌ Download failed: GSM5292159
+2025-10-02 18:36:05,050 - INFO - 📥 Starting download: GSM5292165
+2025-10-02 18:36:05,051 - ERROR - ❌ Task failed
+2025-10-02 18:36:05,249 - WARNING - SRA download failed for GSM5292160: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:05,252 - ERROR - ❌ Download failed: GSM5292160
+2025-10-02 18:36:05,252 - INFO - 📥 Starting download: GSM5292166
+2025-10-02 18:36:05,253 - ERROR - ❌ Task failed
+2025-10-02 18:36:05,423 - WARNING - SRA download failed for GSM5292161: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:05,426 - ERROR - ❌ Download failed: GSM5292161
+2025-10-02 18:36:05,426 - INFO - 📥 Starting download: GSM5292167
+2025-10-02 18:36:05,427 - ERROR - ❌ Task failed
+2025-10-02 18:36:05,625 - INFO - ✅ GEO download successful: GSE130938
+2025-10-02 18:36:05,629 - INFO - ✅ Download completed: GSE130938
+2025-10-02 18:36:05,629 - INFO - 📥 Starting download: GSM5292168
+2025-10-02 18:36:05,629 - INFO - ✅ Task completed successfully
+2025-10-02 18:36:05,713 - WARNING - SRA download failed for GSM5292162: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:05,716 - ERROR - ❌ Download failed: GSM5292162
+2025-10-02 18:36:05,717 - INFO - 📥 Starting download: GSM5292170
+2025-10-02 18:36:05,717 - ERROR - ❌ Task failed
+2025-10-02 18:36:05,975 - WARNING - SRA download failed for GSM5292163: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:05,978 - ERROR - ❌ Download failed: GSM5292163
+2025-10-02 18:36:05,978 - INFO - 📥 Starting download: GSM5292171
+2025-10-02 18:36:05,978 - ERROR - ❌ Task failed
+2025-10-02 18:36:06,028 - WARNING - SRA download failed for GSM5292164: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:06,031 - ERROR - ❌ Download failed: GSM5292164
+2025-10-02 18:36:06,032 - INFO - 📥 Starting download: GSM5292172
+2025-10-02 18:36:06,032 - ERROR - ❌ Task failed
+2025-10-02 18:36:06,041 - WARNING - SRA download failed for GSM5292165: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:06,044 - ERROR - ❌ Download failed: GSM5292165
+2025-10-02 18:36:06,044 - INFO - 📥 Starting download: GSM5292174
+2025-10-02 18:36:06,044 - ERROR - ❌ Task failed
+2025-10-02 18:36:06,271 - WARNING - SRA download failed for GSM5292166: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:06,274 - ERROR - ❌ Download failed: GSM5292166
+2025-10-02 18:36:06,274 - INFO - 📥 Starting download: GSM5292175
+2025-10-02 18:36:06,274 - ERROR - ❌ Task failed
+2025-10-02 18:36:06,407 - WARNING - SRA download failed for GSM5292167: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:06,410 - ERROR - ❌ Download failed: GSM5292167
+2025-10-02 18:36:06,410 - INFO - 📥 Starting download: GSM5292176
+2025-10-02 18:36:06,410 - ERROR - ❌ Task failed
+2025-10-02 18:36:06,544 - WARNING - SRA download failed for GSM5292168: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:06,547 - ERROR - ❌ Download failed: GSM5292168
+2025-10-02 18:36:06,547 - INFO - 📥 Starting download: GSM5292177
+2025-10-02 18:36:06,547 - ERROR - ❌ Task failed
+2025-10-02 18:36:06,722 - WARNING - SRA download failed for GSM5292170: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:06,725 - ERROR - ❌ Download failed: GSM5292170
+2025-10-02 18:36:06,725 - INFO - 📥 Starting download: GSM5292178
+2025-10-02 18:36:06,725 - ERROR - ❌ Task failed
+2025-10-02 18:36:06,936 - WARNING - SRA download failed for GSM5292174: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:06,939 - ERROR - ❌ Download failed: GSM5292174
+2025-10-02 18:36:06,940 - INFO - 📥 Starting download: GSM5292180
+2025-10-02 18:36:06,940 - ERROR - ❌ Task failed
+2025-10-02 18:36:06,949 - WARNING - SRA download failed for GSM5292172: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:06,952 - ERROR - ❌ Download failed: GSM5292172
+2025-10-02 18:36:06,952 - INFO - 📥 Starting download: GSM5292181
+2025-10-02 18:36:06,953 - ERROR - ❌ Task failed
+2025-10-02 18:36:07,070 - WARNING - SRA download failed for GSM5292171: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:07,073 - ERROR - ❌ Download failed: GSM5292171
+2025-10-02 18:36:07,073 - INFO - 📥 Starting download: GSM5292182
+2025-10-02 18:36:07,073 - ERROR - ❌ Task failed
+2025-10-02 18:36:07,104 - WARNING - SRA download failed for GSM5292175: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:07,107 - ERROR - ❌ Download failed: GSM5292175
+2025-10-02 18:36:07,108 - INFO - 📥 Starting download: GSM5292183
+2025-10-02 18:36:07,108 - ERROR - ❌ Task failed
+2025-10-02 18:36:07,318 - WARNING - SRA download failed for GSM5292176: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:07,321 - ERROR - ❌ Download failed: GSM5292176
+2025-10-02 18:36:07,321 - INFO - 📥 Starting download: GSM5292184
+2025-10-02 18:36:07,321 - ERROR - ❌ Task failed
+2025-10-02 18:36:07,345 - WARNING - SRA download failed for GSM5292177: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:07,347 - ERROR - ❌ Download failed: GSM5292177
+2025-10-02 18:36:07,348 - INFO - 📥 Starting download: GSM5292185
+2025-10-02 18:36:07,348 - ERROR - ❌ Task failed
+2025-10-02 18:36:07,507 - WARNING - SRA download failed for GSM5292178: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:07,511 - ERROR - ❌ Download failed: GSM5292178
+2025-10-02 18:36:07,511 - INFO - 📥 Starting download: GSM5292186
+2025-10-02 18:36:07,511 - ERROR - ❌ Task failed
+2025-10-02 18:36:07,945 - WARNING - SRA download failed for GSM5292181: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:07,948 - ERROR - ❌ Download failed: GSM5292181
+2025-10-02 18:36:07,948 - INFO - 📥 Starting download: GSM5292187
+2025-10-02 18:36:07,948 - ERROR - ❌ Task failed
+2025-10-02 18:36:07,958 - WARNING - SRA download failed for GSM5292182: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:07,961 - ERROR - ❌ Download failed: GSM5292182
+2025-10-02 18:36:07,961 - INFO - 📥 Starting download: GSM5292188
+2025-10-02 18:36:07,961 - ERROR - ❌ Task failed
+2025-10-02 18:36:07,998 - WARNING - SRA download failed for GSM5292180: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:08,002 - ERROR - ❌ Download failed: GSM5292180
+2025-10-02 18:36:08,002 - INFO - 📥 Starting download: GSM5292189
+2025-10-02 18:36:08,002 - ERROR - ❌ Task failed
+2025-10-02 18:36:08,011 - WARNING - SRA download failed for GSM5292183: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:08,014 - ERROR - ❌ Download failed: GSM5292183
+2025-10-02 18:36:08,014 - INFO - 📥 Starting download: GSM5292190
+2025-10-02 18:36:08,014 - ERROR - ❌ Task failed
+2025-10-02 18:36:08,301 - WARNING - SRA download failed for GSM5292184: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:08,304 - ERROR - ❌ Download failed: GSM5292184
+2025-10-02 18:36:08,304 - INFO - 📥 Starting download: GSM5292191
+2025-10-02 18:36:08,304 - ERROR - ❌ Task failed
+2025-10-02 18:36:08,334 - WARNING - SRA download failed for GSM5292185: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:08,337 - ERROR - ❌ Download failed: GSM5292185
+2025-10-02 18:36:08,337 - INFO - 📥 Starting download: GSM5292193
+2025-10-02 18:36:08,338 - ERROR - ❌ Task failed
+2025-10-02 18:36:08,377 - WARNING - SRA download failed for GSM5292186: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:08,380 - ERROR - ❌ Download failed: GSM5292186
+2025-10-02 18:36:08,380 - INFO - 📥 Starting download: GSM5292194
+2025-10-02 18:36:08,380 - ERROR - ❌ Task failed
+2025-10-02 18:36:08,826 - WARNING - SRA download failed for GSM5292187: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:08,826 - WARNING - SRA download failed for GSM5292188: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:08,829 - WARNING - SRA download failed for GSM5292190: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:08,829 - ERROR - ❌ Download failed: GSM5292187
+2025-10-02 18:36:08,830 - INFO - 📥 Starting download: GSM5292195
+2025-10-02 18:36:08,830 - ERROR - ❌ Task failed
+2025-10-02 18:36:08,832 - ERROR - ❌ Download failed: GSM5292188
+2025-10-02 18:36:08,832 - INFO - 📥 Starting download: GSM5292196
+2025-10-02 18:36:08,832 - ERROR - ❌ Task failed
+2025-10-02 18:36:08,843 - WARNING - SRA download failed for GSM5292189: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:08,843 - ERROR - ❌ Download failed: GSM5292190
+2025-10-02 18:36:08,852 - INFO - 📥 Starting download: GSM5292197
+2025-10-02 18:36:08,852 - ERROR - ❌ Task failed
+2025-10-02 18:36:08,854 - ERROR - ❌ Download failed: GSM5292189
+2025-10-02 18:36:08,854 - INFO - 📥 Starting download: GSM5292198
+2025-10-02 18:36:08,854 - ERROR - ❌ Task failed
+2025-10-02 18:36:09,316 - WARNING - SRA download failed for GSM5292193: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:09,319 - ERROR - ❌ Download failed: GSM5292193
+2025-10-02 18:36:09,320 - INFO - 📥 Starting download: GSM5292199
+2025-10-02 18:36:09,320 - ERROR - ❌ Task failed
+2025-10-02 18:36:09,366 - WARNING - SRA download failed for GSM5292191: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:09,369 - ERROR - ❌ Download failed: GSM5292191
+2025-10-02 18:36:09,369 - INFO - 📥 Starting download: GSM5292200
+2025-10-02 18:36:09,369 - ERROR - ❌ Task failed
+2025-10-02 18:36:09,664 - WARNING - SRA download failed for GSM5292194: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:09,667 - ERROR - ❌ Download failed: GSM5292194
+2025-10-02 18:36:09,667 - INFO - 📥 Starting download: GSM5292201
+2025-10-02 18:36:09,667 - ERROR - ❌ Task failed
+2025-10-02 18:36:09,830 - WARNING - SRA download failed for GSM5292196: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:09,833 - ERROR - ❌ Download failed: GSM5292196
+2025-10-02 18:36:09,833 - INFO - 📥 Starting download: GSM5292202
+2025-10-02 18:36:09,834 - ERROR - ❌ Task failed
+2025-10-02 18:36:09,843 - WARNING - SRA download failed for GSM5292195: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:09,853 - ERROR - ❌ Download failed: GSM5292195
+2025-10-02 18:36:09,854 - INFO - 📥 Starting download: GSM5292203
+2025-10-02 18:36:09,854 - ERROR - ❌ Task failed
+2025-10-02 18:36:09,863 - WARNING - SRA download failed for GSM5292198: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:09,867 - ERROR - ❌ Download failed: GSM5292198
+2025-10-02 18:36:09,867 - INFO - 📥 Starting download: GSM5292204
+2025-10-02 18:36:09,867 - ERROR - ❌ Task failed
+2025-10-02 18:36:10,158 - WARNING - SRA download failed for GSM5292197: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:10,161 - ERROR - ❌ Download failed: GSM5292197
+2025-10-02 18:36:10,161 - INFO - 📥 Starting download: GSM5292205
+2025-10-02 18:36:10,162 - ERROR - ❌ Task failed
+2025-10-02 18:36:10,384 - WARNING - SRA download failed for GSM5292200: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:10,387 - ERROR - ❌ Download failed: GSM5292200
+2025-10-02 18:36:10,388 - INFO - 📥 Starting download: GSM5292206
+2025-10-02 18:36:10,388 - ERROR - ❌ Task failed
+2025-10-02 18:36:10,394 - WARNING - SRA download failed for GSM5292199: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:10,397 - ERROR - ❌ Download failed: GSM5292199
+2025-10-02 18:36:10,398 - INFO - 📥 Starting download: GSM5292207
+2025-10-02 18:36:10,398 - ERROR - ❌ Task failed
+2025-10-02 18:36:10,525 - INFO - ✅ GEO download successful: GSE138120
+2025-10-02 18:36:10,527 - INFO - ✅ Download completed: GSE138120
+2025-10-02 18:36:10,528 - INFO - 📥 Starting download: GSM5292208
+2025-10-02 18:36:10,528 - INFO - ✅ Task completed successfully
+2025-10-02 18:36:10,819 - WARNING - SRA download failed for GSM5292202: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:10,822 - ERROR - ❌ Download failed: GSM5292202
+2025-10-02 18:36:10,822 - INFO - 📥 Starting download: GSM8840140
+2025-10-02 18:36:10,822 - ERROR - ❌ Task failed
+2025-10-02 18:36:10,866 - WARNING - SRA download failed for GSM5292201: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:10,869 - ERROR - ❌ Download failed: GSM5292201
+2025-10-02 18:36:10,869 - INFO - 📥 Starting download: GSM8840141
+2025-10-02 18:36:10,869 - ERROR - ❌ Task failed
+2025-10-02 18:36:10,957 - WARNING - SRA download failed for GSM5292203: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:10,960 - ERROR - ❌ Download failed: GSM5292203
+2025-10-02 18:36:10,961 - INFO - 📥 Starting download: GSM8840142
+2025-10-02 18:36:10,961 - ERROR - ❌ Task failed
+2025-10-02 18:36:11,042 - WARNING - SRA download failed for GSM5292204: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:11,045 - ERROR - ❌ Download failed: GSM5292204
+2025-10-02 18:36:11,045 - INFO - 📥 Starting download: GSM8840143
+2025-10-02 18:36:11,046 - ERROR - ❌ Task failed
+2025-10-02 18:36:11,226 - WARNING - SRA download failed for GSM5292205: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:11,278 - ERROR - ❌ Download failed: GSM5292205
+2025-10-02 18:36:11,279 - INFO - 📥 Starting download: GSM8840144
+2025-10-02 18:36:11,279 - ERROR - ❌ Task failed
+2025-10-02 18:36:11,491 - WARNING - SRA download failed for GSM5292207: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:11,498 - ERROR - ❌ Download failed: GSM5292207
+2025-10-02 18:36:11,498 - INFO - 📥 Starting download: GSM8840145
+2025-10-02 18:36:11,498 - ERROR - ❌ Task failed
+2025-10-02 18:36:11,530 - WARNING - SRA download failed for GSM5292206: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:11,533 - ERROR - ❌ Download failed: GSM5292206
+2025-10-02 18:36:11,534 - INFO - 📥 Starting download: GSM8840146
+2025-10-02 18:36:11,534 - ERROR - ❌ Task failed
+2025-10-02 18:36:11,719 - WARNING - SRA download failed for GSM5292208: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:11,722 - ERROR - ❌ Download failed: GSM5292208
+2025-10-02 18:36:11,722 - INFO - 📥 Starting download: GSM8840147
+2025-10-02 18:36:11,723 - ERROR - ❌ Task failed
+2025-10-02 18:36:12,057 - WARNING - SRA download failed for GSM8840140: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:12,060 - ERROR - ❌ Download failed: GSM8840140
+2025-10-02 18:36:12,061 - INFO - 📥 Starting download: GSM8840148
+2025-10-02 18:36:12,061 - ERROR - ❌ Task failed
+2025-10-02 18:36:12,096 - WARNING - SRA download failed for GSM8840141: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:12,099 - ERROR - ❌ Download failed: GSM8840141
+2025-10-02 18:36:12,099 - INFO - 📥 Starting download: GSM8840149
+2025-10-02 18:36:12,099 - ERROR - ❌ Task failed
+2025-10-02 18:36:12,158 - WARNING - SRA download failed for GSM8840142: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:12,161 - ERROR - ❌ Download failed: GSM8840142
+2025-10-02 18:36:12,161 - INFO - 📥 Starting download: GSM8840150
+2025-10-02 18:36:12,161 - ERROR - ❌ Task failed
+2025-10-02 18:36:12,304 - WARNING - SRA download failed for GSM8840143: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:12,307 - ERROR - ❌ Download failed: GSM8840143
+2025-10-02 18:36:12,307 - INFO - 📥 Starting download: GSM8840151
+2025-10-02 18:36:12,307 - ERROR - ❌ Task failed
+2025-10-02 18:36:12,795 - WARNING - SRA download failed for GSM8840144: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:12,798 - ERROR - ❌ Download failed: GSM8840144
+2025-10-02 18:36:12,798 - INFO - 📥 Starting download: GSM8840152
+2025-10-02 18:36:12,798 - ERROR - ❌ Task failed
+2025-10-02 18:36:12,843 - WARNING - SRA download failed for GSM8840146: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:12,846 - ERROR - ❌ Download failed: GSM8840146
+2025-10-02 18:36:12,846 - INFO - 📥 Starting download: GSM8840153
+2025-10-02 18:36:12,846 - ERROR - ❌ Task failed
+2025-10-02 18:36:12,899 - WARNING - SRA download failed for GSM8840145: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:12,902 - ERROR - ❌ Download failed: GSM8840145
+2025-10-02 18:36:12,902 - INFO - 📥 Starting download: GSM8840154
+2025-10-02 18:36:12,903 - ERROR - ❌ Task failed
+2025-10-02 18:36:12,998 - WARNING - SRA download failed for GSM8840147: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:13,001 - ERROR - ❌ Download failed: GSM8840147
+2025-10-02 18:36:13,001 - INFO - 📥 Starting download: GSM8840155
+2025-10-02 18:36:13,001 - ERROR - ❌ Task failed
+2025-10-02 18:36:13,223 - WARNING - SRA download failed for GSM8840148: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:13,227 - ERROR - ❌ Download failed: GSM8840148
+2025-10-02 18:36:13,227 - INFO - 📥 Starting download: GSM8840156
+2025-10-02 18:36:13,227 - ERROR - ❌ Task failed
+2025-10-02 18:36:13,269 - WARNING - SRA download failed for GSM8840150: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:13,272 - ERROR - ❌ Download failed: GSM8840150
+2025-10-02 18:36:13,272 - INFO - 📥 Starting download: GSM8840157
+2025-10-02 18:36:13,272 - ERROR - ❌ Task failed
+2025-10-02 18:36:13,392 - WARNING - SRA download failed for GSM8840151: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:13,395 - ERROR - ❌ Download failed: GSM8840151
+2025-10-02 18:36:13,395 - INFO - 📥 Starting download: GSM8840158
+2025-10-02 18:36:13,395 - ERROR - ❌ Task failed
+2025-10-02 18:36:13,740 - WARNING - SRA download failed for GSM8840153: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:13,743 - ERROR - ❌ Download failed: GSM8840153
+2025-10-02 18:36:13,743 - INFO - 📥 Starting download: GSM8840159
+2025-10-02 18:36:13,743 - ERROR - ❌ Task failed
+2025-10-02 18:36:13,767 - WARNING - SRA download failed for GSM8840152: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:13,770 - ERROR - ❌ Download failed: GSM8840152
+2025-10-02 18:36:13,770 - INFO - 📥 Starting download: GSM8840160
+2025-10-02 18:36:13,770 - ERROR - ❌ Task failed
+2025-10-02 18:36:13,861 - WARNING - SRA download failed for GSM8840155: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:13,864 - ERROR - ❌ Download failed: GSM8840155
+2025-10-02 18:36:13,864 - INFO - 📥 Starting download: GSM8840161
+2025-10-02 18:36:13,864 - ERROR - ❌ Task failed
+2025-10-02 18:36:13,891 - WARNING - SRA download failed for GSM8840154: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:13,894 - ERROR - ❌ Download failed: GSM8840154
+2025-10-02 18:36:13,894 - INFO - 📥 Starting download: GSM8840162
+2025-10-02 18:36:13,895 - ERROR - ❌ Task failed
+2025-10-02 18:36:13,918 - WARNING - SRA download failed for GSM8840149: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:13,921 - ERROR - ❌ Download failed: GSM8840149
+2025-10-02 18:36:13,921 - INFO - 📥 Starting download: GSM8840163
+2025-10-02 18:36:13,921 - ERROR - ❌ Task failed
+2025-10-02 18:36:14,191 - WARNING - SRA download failed for GSM8840158: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:14,194 - ERROR - ❌ Download failed: GSM8840158
+2025-10-02 18:36:14,194 - INFO - 📥 Starting download: GSM8840164
+2025-10-02 18:36:14,195 - ERROR - ❌ Task failed
+2025-10-02 18:36:14,224 - WARNING - SRA download failed for GSM8840157: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:14,227 - ERROR - ❌ Download failed: GSM8840157
+2025-10-02 18:36:14,227 - INFO - 📥 Starting download: GSM8840165
+2025-10-02 18:36:14,227 - ERROR - ❌ Task failed
+2025-10-02 18:36:14,305 - WARNING - SRA download failed for GSM8840156: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:14,309 - ERROR - ❌ Download failed: GSM8840156
+2025-10-02 18:36:14,309 - INFO - 📥 Starting download: GSM8840166
+2025-10-02 18:36:14,309 - ERROR - ❌ Task failed
+2025-10-02 18:36:14,664 - WARNING - SRA download failed for GSM8840159: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:14,667 - ERROR - ❌ Download failed: GSM8840159
+2025-10-02 18:36:14,668 - INFO - 📥 Starting download: GSM8840167
+2025-10-02 18:36:14,668 - ERROR - ❌ Task failed
+2025-10-02 18:36:14,677 - WARNING - SRA download failed for GSM8840161: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:14,680 - ERROR - ❌ Download failed: GSM8840161
+2025-10-02 18:36:14,680 - INFO - 📥 Starting download: GSM8840168
+2025-10-02 18:36:14,681 - ERROR - ❌ Task failed
+2025-10-02 18:36:14,831 - WARNING - SRA download failed for GSM8840160: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:14,834 - ERROR - ❌ Download failed: GSM8840160
+2025-10-02 18:36:14,834 - INFO - 📥 Starting download: GSM8840169
+2025-10-02 18:36:14,834 - ERROR - ❌ Task failed
+2025-10-02 18:36:14,878 - WARNING - SRA download failed for GSM8840163: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:14,881 - ERROR - ❌ Download failed: GSM8840163
+2025-10-02 18:36:14,881 - INFO - 📥 Starting download: GSM8840170
+2025-10-02 18:36:14,881 - ERROR - ❌ Task failed
+2025-10-02 18:36:14,981 - WARNING - SRA download failed for GSM8840162: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:14,990 - WARNING - SRA download failed for GSM8840164: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:14,991 - ERROR - ❌ Download failed: GSM8840162
+2025-10-02 18:36:14,992 - INFO - 📥 Starting download: GSM8840171
+2025-10-02 18:36:14,992 - ERROR - ❌ Task failed
+2025-10-02 18:36:15,001 - ERROR - ❌ Download failed: GSM8840164
+2025-10-02 18:36:15,002 - INFO - 📥 Starting download: GSM8840172
+2025-10-02 18:36:15,002 - ERROR - ❌ Task failed
+2025-10-02 18:36:15,030 - WARNING - SRA download failed for GSM8840165: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:15,033 - ERROR - ❌ Download failed: GSM8840165
+2025-10-02 18:36:15,033 - INFO - 📥 Starting download: GSM8840173
+2025-10-02 18:36:15,033 - ERROR - ❌ Task failed
+2025-10-02 18:36:15,151 - WARNING - SRA download failed for GSM8840166: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:15,154 - ERROR - ❌ Download failed: GSM8840166
+2025-10-02 18:36:15,154 - INFO - 📥 Starting download: GSM8840174
+2025-10-02 18:36:15,154 - ERROR - ❌ Task failed
+2025-10-02 18:36:15,251 - INFO - ✅ GEO download successful: GSE230647
+2025-10-02 18:36:15,254 - INFO - ✅ Download completed: GSE230647
+2025-10-02 18:36:15,254 - INFO - 📥 Starting download: GSM8840175
+2025-10-02 18:36:15,255 - INFO - ✅ Task completed successfully
+2025-10-02 18:36:15,487 - WARNING - SRA download failed for GSM8840168: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:15,490 - ERROR - ❌ Download failed: GSM8840168
+2025-10-02 18:36:15,491 - INFO - 📥 Starting download: GSM8840176
+2025-10-02 18:36:15,491 - ERROR - ❌ Task failed
+2025-10-02 18:36:15,554 - WARNING - SRA download failed for GSM8840167: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:15,557 - ERROR - ❌ Download failed: GSM8840167
+2025-10-02 18:36:15,558 - INFO - 📥 Starting download: GSM8840177
+2025-10-02 18:36:15,558 - ERROR - ❌ Task failed
+2025-10-02 18:36:15,705 - WARNING - SRA download failed for GSM8840170: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:15,708 - ERROR - ❌ Download failed: GSM8840170
+2025-10-02 18:36:15,708 - INFO - 📥 Starting download: GSM8840178
+2025-10-02 18:36:15,708 - ERROR - ❌ Task failed
+2025-10-02 18:36:15,777 - WARNING - SRA download failed for GSM8840169: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:15,781 - ERROR - ❌ Download failed: GSM8840169
+2025-10-02 18:36:15,781 - INFO - 📥 Starting download: GSM8840179
+2025-10-02 18:36:15,781 - ERROR - ❌ Task failed
+2025-10-02 18:36:15,790 - WARNING - SRA download failed for GSM8840171: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:15,794 - ERROR - ❌ Download failed: GSM8840171
+2025-10-02 18:36:15,794 - INFO - 📥 Starting download: GSM8840180
+2025-10-02 18:36:15,794 - ERROR - ❌ Task failed
+2025-10-02 18:36:15,877 - WARNING - SRA download failed for GSM8840172: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:15,880 - ERROR - ❌ Download failed: GSM8840172
+2025-10-02 18:36:15,880 - INFO - 📥 Starting download: GSM8840181
+2025-10-02 18:36:15,881 - ERROR - ❌ Task failed
+2025-10-02 18:36:16,001 - WARNING - SRA download failed for GSM8840174: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:16,005 - ERROR - ❌ Download failed: GSM8840174
+2025-10-02 18:36:16,005 - INFO - 📥 Starting download: GSM8840182
+2025-10-02 18:36:16,005 - ERROR - ❌ Task failed
+2025-10-02 18:36:16,045 - WARNING - SRA download failed for GSM8840173: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:16,049 - ERROR - ❌ Download failed: GSM8840173
+2025-10-02 18:36:16,049 - INFO - 📥 Starting download: GSM8840183
+2025-10-02 18:36:16,049 - ERROR - ❌ Task failed
+2025-10-02 18:36:16,056 - WARNING - SRA download failed for GSM8840175: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:16,060 - ERROR - ❌ Download failed: GSM8840175
+2025-10-02 18:36:16,060 - INFO - 📥 Starting download: GSM8840184
+2025-10-02 18:36:16,061 - ERROR - ❌ Task failed
+2025-10-02 18:36:16,330 - WARNING - SRA download failed for GSM8840176: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:16,334 - ERROR - ❌ Download failed: GSM8840176
+2025-10-02 18:36:16,334 - INFO - 📥 Starting download: GSM8840185
+2025-10-02 18:36:16,334 - ERROR - ❌ Task failed
+2025-10-02 18:36:16,411 - WARNING - SRA download failed for GSM8840177: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:16,414 - ERROR - ❌ Download failed: GSM8840177
+2025-10-02 18:36:16,414 - INFO - 📥 Starting download: GSM8840186
+2025-10-02 18:36:16,415 - ERROR - ❌ Task failed
+2025-10-02 18:36:16,549 - WARNING - SRA download failed for GSM8840178: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:16,552 - ERROR - ❌ Download failed: GSM8840178
+2025-10-02 18:36:16,552 - INFO - 📥 Starting download: GSM8840187
+2025-10-02 18:36:16,552 - ERROR - ❌ Task failed
+2025-10-02 18:36:16,630 - WARNING - SRA download failed for GSM8840179: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:16,633 - ERROR - ❌ Download failed: GSM8840179
+2025-10-02 18:36:16,633 - INFO - 📥 Starting download: GSM8840188
+2025-10-02 18:36:16,633 - ERROR - ❌ Task failed
+2025-10-02 18:36:16,676 - WARNING - SRA download failed for GSM8840180: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:16,679 - ERROR - ❌ Download failed: GSM8840180
+2025-10-02 18:36:16,679 - INFO - 📥 Starting download: GSM8840189
+2025-10-02 18:36:16,680 - ERROR - ❌ Task failed
+2025-10-02 18:36:16,869 - WARNING - SRA download failed for GSM8840182: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:16,869 - WARNING - SRA download failed for GSM8840181: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:16,881 - WARNING - SRA download failed for GSM8840183: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:16,881 - ERROR - ❌ Download failed: GSM8840182
+2025-10-02 18:36:16,882 - INFO - 📥 Starting download: GSM8840190
+2025-10-02 18:36:16,882 - ERROR - ❌ Task failed
+2025-10-02 18:36:16,892 - ERROR - ❌ Download failed: GSM8840181
+2025-10-02 18:36:16,893 - INFO - 📥 Starting download: GSM8840191
+2025-10-02 18:36:16,893 - ERROR - ❌ Task failed
+2025-10-02 18:36:16,893 - WARNING - SRA download failed for GSM8840184: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:16,903 - ERROR - ❌ Download failed: GSM8840183
+2025-10-02 18:36:16,904 - INFO - 📥 Starting download: GSM8840192
+2025-10-02 18:36:16,904 - ERROR - ❌ Task failed
+2025-10-02 18:36:16,914 - ERROR - ❌ Download failed: GSM8840184
+2025-10-02 18:36:16,915 - INFO - 📥 Starting download: GSM8840193
+2025-10-02 18:36:16,915 - ERROR - ❌ Task failed
+2025-10-02 18:36:17,297 - WARNING - SRA download failed for GSM8840186: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:17,301 - ERROR - ❌ Download failed: GSM8840186
+2025-10-02 18:36:17,301 - INFO - 📥 Starting download: GSM8840194
+2025-10-02 18:36:17,301 - ERROR - ❌ Task failed
+2025-10-02 18:36:17,302 - WARNING - SRA download failed for GSM8840185: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:17,312 - ERROR - ❌ Download failed: GSM8840185
+2025-10-02 18:36:17,312 - INFO - 📥 Starting download: GSM8840195
+2025-10-02 18:36:17,312 - ERROR - ❌ Task failed
+2025-10-02 18:36:17,383 - WARNING - SRA download failed for GSM8840187: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:17,386 - ERROR - ❌ Download failed: GSM8840187
+2025-10-02 18:36:17,386 - INFO - 📥 Starting download: GSM8840196
+2025-10-02 18:36:17,386 - ERROR - ❌ Task failed
+2025-10-02 18:36:17,668 - WARNING - SRA download failed for GSM8840190: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:17,671 - ERROR - ❌ Download failed: GSM8840190
+2025-10-02 18:36:17,672 - INFO - 📥 Starting download: E-MTAB-14891
+2025-10-02 18:36:17,672 - ERROR - ❌ Task failed
+2025-10-02 18:36:17,720 - WARNING - SRA download failed for GSM8840191: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:17,731 - ERROR - ❌ Download failed: GSM8840191
+2025-10-02 18:36:17,731 - INFO - 📥 Starting download: E-MTAB-7353
+2025-10-02 18:36:17,732 - ERROR - ❌ Task failed
+2025-10-02 18:36:17,741 - WARNING - SRA download failed for GSM8840193: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:17,745 - ERROR - ❌ Download failed: GSM8840193
+2025-10-02 18:36:17,745 - INFO - 🔄 Starting processing: GSE275999
+2025-10-02 18:36:17,745 - ERROR - ❌ Task failed
+2025-10-02 18:36:17,746 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE275999
+2025-10-02 18:36:17,748 - INFO - 📦 Extracting nested archive: GSM8489215_WT-2.tar.gz
+2025-10-02 18:36:17,775 - WARNING - SRA download failed for GSM8840189: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:17,778 - ERROR - ❌ Download failed: GSM8840189
+2025-10-02 18:36:17,778 - INFO - 🔄 Starting processing: GSE271156
+2025-10-02 18:36:17,778 - ERROR - ❌ Task failed
+2025-10-02 18:36:17,779 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE271156
+2025-10-02 18:36:17,781 - INFO - 📦 Extracting nested archive: GSM8370901_JR47_count_matrix.tar.gz
+2025-10-02 18:36:17,824 - WARNING - SRA download failed for GSM8840188: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:17,833 - ERROR - ❌ Download failed: GSM8840188
+2025-10-02 18:36:17,834 - INFO - 🔄 Starting processing: GSE182098
+2025-10-02 18:36:17,834 - ERROR - ❌ Task failed
+2025-10-02 18:36:17,834 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE182098
+2025-10-02 18:36:17,843 - WARNING - No data files found for GSE182098
+2025-10-02 18:36:17,843 - ERROR - ❌ Processing failed: GSE182098
+2025-10-02 18:36:17,843 - INFO - 🔄 Starting processing: GSE290359
+2025-10-02 18:36:17,843 - ERROR - ❌ Task failed
+2025-10-02 18:36:17,843 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE290359
+2025-10-02 18:36:17,845 - WARNING - SRA download failed for GSM8840192: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:17,848 - ERROR - ❌ Download failed: GSM8840192
+2025-10-02 18:36:17,848 - INFO - 🔄 Starting processing: GSE287769
+2025-10-02 18:36:17,848 - ERROR - ❌ Task failed
+2025-10-02 18:36:17,848 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE287769
+2025-10-02 18:36:17,851 - INFO - 📦 Extracting nested archive: GSM8751066_SAM24406676.tar.gz
+2025-10-02 18:36:17,891 - ERROR - Failed to process GSE290359: 'PosixPath' object has no attribute 'lower'
+2025-10-02 18:36:17,892 - ERROR - ❌ Processing failed: GSE290359
+2025-10-02 18:36:17,892 - INFO - 🔄 Starting processing: GSE244263
+2025-10-02 18:36:17,892 - ERROR - ❌ Task failed
+2025-10-02 18:36:17,893 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE244263
+2025-10-02 18:36:17,903 - WARNING - No data files found for GSE244263
+2025-10-02 18:36:17,903 - ERROR - ❌ Processing failed: GSE244263
+2025-10-02 18:36:17,903 - INFO - 🔄 Starting processing: GSE271156
+2025-10-02 18:36:17,903 - ERROR - ❌ Task failed
+2025-10-02 18:36:17,903 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE271156
+2025-10-02 18:36:17,907 - INFO - 📦 Extracting nested archive: GSM8370901_JR47_count_matrix.tar.gz
+2025-10-02 18:36:18,035 - INFO - ✅ Successfully extracted GSM8370901_JR47_count_matrix.tar.gz
+2025-10-02 18:36:18,036 - INFO - 📦 Extracting nested archive: GSM8370903_JR67_count_matrix.tar.gz
+2025-10-02 18:36:18,075 - INFO - ✅ Successfully extracted GSM8370901_JR47_count_matrix.tar.gz
+2025-10-02 18:36:18,075 - INFO - 📦 Extracting nested archive: GSM8370903_JR67_count_matrix.tar.gz
+2025-10-02 18:36:18,194 - WARNING - SRA download failed for GSM8840194: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:18,198 - ERROR - ❌ Download failed: GSM8840194
+2025-10-02 18:36:18,198 - INFO - 🔄 Starting processing: GSE224582
+2025-10-02 18:36:18,198 - ERROR - ❌ Task failed
+2025-10-02 18:36:18,199 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE224582
+2025-10-02 18:36:18,203 - WARNING - SRA download failed for GSM8840196: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:18,206 - ERROR - ❌ Download failed: GSM8840196
+2025-10-02 18:36:18,206 - INFO - 🔄 Starting processing: GSE240528
+2025-10-02 18:36:18,207 - ERROR - ❌ Task failed
+2025-10-02 18:36:18,208 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE240528
+2025-10-02 18:36:18,213 - WARNING - No data files found for GSE224582
+2025-10-02 18:36:18,214 - ERROR - ❌ Processing failed: GSE224582
+2025-10-02 18:36:18,214 - INFO - 🔄 Starting processing: GSE182098
+2025-10-02 18:36:18,214 - ERROR - ❌ Task failed
+2025-10-02 18:36:18,215 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE182098
+2025-10-02 18:36:18,225 - WARNING - No data files found for GSE182098
+2025-10-02 18:36:18,225 - ERROR - ❌ Processing failed: GSE182098
+2025-10-02 18:36:18,225 - INFO - 🔄 Starting processing: GSE178693
+2025-10-02 18:36:18,225 - WARNING - No data files found for GSE240528
+2025-10-02 18:36:18,225 - ERROR - ❌ Task failed
+2025-10-02 18:36:18,226 - ERROR - ❌ Processing failed: GSE240528
+2025-10-02 18:36:18,226 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE178693
+2025-10-02 18:36:18,226 - INFO - 🔄 Starting processing: GSE255605
+2025-10-02 18:36:18,226 - ERROR - ❌ Task failed
+2025-10-02 18:36:18,228 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE255605
+2025-10-02 18:36:18,230 - INFO - 📦 Extracting nested archive: GSM5396155_WT1.tar.gz
+2025-10-02 18:36:18,236 - ERROR - Failed to process GSE255605: 'PosixPath' object has no attribute 'lower'
+2025-10-02 18:36:18,237 - ERROR - ❌ Processing failed: GSE255605
+2025-10-02 18:36:18,237 - INFO - 🔄 Starting processing: GSE226753
+2025-10-02 18:36:18,237 - ERROR - ❌ Task failed
+2025-10-02 18:36:18,238 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE226753
+2025-10-02 18:36:18,247 - WARNING - No data files found for GSE226753
+2025-10-02 18:36:18,247 - ERROR - ❌ Processing failed: GSE226753
+2025-10-02 18:36:18,248 - INFO - 🔄 Starting processing: GSE214210
+2025-10-02 18:36:18,248 - ERROR - ❌ Task failed
+2025-10-02 18:36:18,248 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE214210
+2025-10-02 18:36:18,255 - ERROR - Failed to process GSE214210: 'PosixPath' object has no attribute 'lower'
+2025-10-02 18:36:18,255 - ERROR - ❌ Processing failed: GSE214210
+2025-10-02 18:36:18,255 - INFO - 🔄 Starting processing: GSE206664
+2025-10-02 18:36:18,255 - ERROR - ❌ Task failed
+2025-10-02 18:36:18,256 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE206664
+2025-10-02 18:36:18,260 - INFO - 📦 Extracting nested archive: GSM6260249_wt_ana.tar.gz
+2025-10-02 18:36:18,293 - INFO - ✅ Successfully extracted GSM8751066_SAM24406676.tar.gz
+2025-10-02 18:36:18,294 - INFO - 📦 Extracting nested archive: GSM8751063_SAM24406673.tar.gz
+2025-10-02 18:36:18,393 - WARNING - SRA download failed for GSM8840195: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:18,397 - ERROR - ❌ Download failed: GSM8840195
+2025-10-02 18:36:18,398 - INFO - 🔄 Starting processing: GSE173524
+2025-10-02 18:36:18,399 - ERROR - ❌ Task failed
+2025-10-02 18:36:18,399 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE173524
+2025-10-02 18:36:18,403 - INFO - 📦 Extracting nested archive: GSM5269264_filtered_feature_bc_matrix.b.tar.gz
+2025-10-02 18:36:18,733 - WARNING - SRA download failed for E-MTAB-14891: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:18,747 - ERROR - ❌ Download failed: E-MTAB-14891
+2025-10-02 18:36:18,747 - INFO - 🔄 Starting processing: GSM6781880
+2025-10-02 18:36:18,747 - ERROR - ❌ Task failed
+2025-10-02 18:36:18,748 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6781880
+2025-10-02 18:36:18,768 - ERROR - Failed to process GSM6781880: 'PosixPath' object has no attribute 'lower'
+2025-10-02 18:36:18,768 - ERROR - ❌ Processing failed: GSM6781880
+2025-10-02 18:36:18,769 - INFO - 🔄 Starting processing: GSM6781881
+2025-10-02 18:36:18,769 - ERROR - ❌ Task failed
+2025-10-02 18:36:18,770 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6781881
+2025-10-02 18:36:18,789 - INFO - ✅ Successfully extracted GSM8370903_JR67_count_matrix.tar.gz
+2025-10-02 18:36:18,790 - INFO - 📦 Extracting nested archive: GSM8370898_JR9_count_matrix.tar.gz
+2025-10-02 18:36:18,790 - ERROR - Failed to process GSM6781881: 'PosixPath' object has no attribute 'lower'
+2025-10-02 18:36:18,790 - ERROR - ❌ Processing failed: GSM6781881
+2025-10-02 18:36:18,790 - INFO - 🔄 Starting processing: GSM6781882
+2025-10-02 18:36:18,791 - ERROR - ❌ Task failed
+2025-10-02 18:36:18,791 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6781882
+2025-10-02 18:36:18,807 - ERROR - Failed to process GSM6781882: 'PosixPath' object has no attribute 'lower'
+2025-10-02 18:36:18,807 - ERROR - ❌ Processing failed: GSM6781882
+2025-10-02 18:36:18,807 - INFO - 🔄 Starting processing: GSM6781883
+2025-10-02 18:36:18,808 - ERROR - ❌ Task failed
+2025-10-02 18:36:18,808 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6781883
+2025-10-02 18:36:18,821 - ERROR - Failed to process GSM6781883: 'PosixPath' object has no attribute 'lower'
+2025-10-02 18:36:18,821 - ERROR - ❌ Processing failed: GSM6781883
+2025-10-02 18:36:18,822 - INFO - 🔄 Starting processing: GSM7474612
+2025-10-02 18:36:18,822 - ERROR - ❌ Task failed
+2025-10-02 18:36:18,824 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7474612
+2025-10-02 18:36:18,825 - INFO - ✅ Successfully extracted GSM5396155_WT1.tar.gz
+2025-10-02 18:36:18,826 - INFO - 📦 Extracting nested archive: GSM5396157_Mutant1.tar.gz
+2025-10-02 18:36:18,827 - INFO - 📦 Extracting nested archive: GSM7474612_snRNA-seq_of_Mut.tar.gz
+2025-10-02 18:36:18,851 - WARNING - SRA download failed for E-MTAB-7353: [Errno 2] No such file or directory: 'esearch'
+2025-10-02 18:36:18,854 - ERROR - ❌ Download failed: E-MTAB-7353
+2025-10-02 18:36:18,855 - INFO - 🔄 Starting processing: GSM7474613
+2025-10-02 18:36:18,855 - ERROR - ❌ Task failed
+2025-10-02 18:36:18,856 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7474613
+2025-10-02 18:36:18,859 - INFO - 📦 Extracting nested archive: GSM7474613_snRNA-seq_of_WT.tar.gz
+2025-10-02 18:36:18,951 - INFO - ✅ Successfully extracted GSM8370903_JR67_count_matrix.tar.gz
+2025-10-02 18:36:18,951 - INFO - 📦 Extracting nested archive: GSM8370898_JR9_count_matrix.tar.gz
+2025-10-02 18:36:19,151 - INFO - ✅ Successfully extracted GSM8751063_SAM24406673.tar.gz
+2025-10-02 18:36:19,152 - INFO - 📦 Extracting nested archive: GSM8751068_SAM24406679.tar.gz
+2025-10-02 18:36:19,238 - INFO - ✅ Successfully extracted GSM5396157_Mutant1.tar.gz
+2025-10-02 18:36:19,239 - INFO - 📦 Extracting nested archive: GSM5396158_Mutant2.tar.gz
+2025-10-02 18:36:19,322 - INFO - ✅ Successfully extracted GSM6260249_wt_ana.tar.gz
+2025-10-02 18:36:19,323 - INFO - 📦 Extracting nested archive: GSM6260248_hom_ana.tar.gz
+2025-10-02 18:36:19,571 - INFO - ✅ Successfully extracted GSM8489215_WT-2.tar.gz
+2025-10-02 18:36:19,572 - INFO - 📦 Extracting nested archive: GSM8489218_MUT-2.tar.gz
+2025-10-02 18:36:19,880 - INFO - ✅ Successfully extracted GSM8751068_SAM24406679.tar.gz
+2025-10-02 18:36:19,882 - INFO - 📦 Extracting nested archive: GSM8751067_SAM24406677.tar.gz
+2025-10-02 18:36:19,884 - INFO - ✅ Successfully extracted GSM8370898_JR9_count_matrix.tar.gz
+2025-10-02 18:36:19,886 - INFO - 📦 Extracting nested archive: GSM8370900_JR34_count_matrix.tar.gz
+2025-10-02 18:36:19,940 - INFO - ✅ Successfully extracted GSM5396158_Mutant2.tar.gz
+2025-10-02 18:36:19,941 - INFO - 📦 Extracting nested archive: GSM5396156_WT2.tar.gz
+2025-10-02 18:36:19,953 - INFO - ✅ Successfully extracted GSM8370898_JR9_count_matrix.tar.gz
+2025-10-02 18:36:19,954 - INFO - 📦 Extracting nested archive: GSM8370900_JR34_count_matrix.tar.gz
+2025-10-02 18:36:20,244 - INFO - ✅ Successfully extracted GSM5396156_WT2.tar.gz
+2025-10-02 18:36:20,259 - INFO - ✅ Successfully extracted GSM6260248_hom_ana.tar.gz
+2025-10-02 18:36:20,259 - INFO - 📦 Extracting nested archive: GSM6260246_bac_ana.tar.gz
+2025-10-02 18:36:20,331 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE178693/GSM5396158_Mutant2.tar_extracted/Mutant2
+2025-10-02 18:36:20,333 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE178693/GSM5396157_Mutant1.tar_extracted/Mutant1
+2025-10-02 18:36:20,335 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE178693/GSM5396156_WT2.tar_extracted/WT2
+2025-10-02 18:36:20,337 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE178693/GSM5396155_WT1.tar_extracted/WT1
+2025-10-02 18:36:20,337 - ERROR - Failed to process GSE178693: 'PosixPath' object has no attribute 'lower'
+2025-10-02 18:36:20,338 - ERROR - ❌ Processing failed: GSE178693
+2025-10-02 18:36:20,338 - INFO - 🔄 Starting processing: GSM6260246
+2025-10-02 18:36:20,338 - ERROR - ❌ Task failed
+2025-10-02 18:36:20,339 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260246
+2025-10-02 18:36:20,342 - INFO - 📦 Extracting nested archive: GSM6260246_bac_ana.tar.gz
+2025-10-02 18:36:20,516 - INFO - ✅ Successfully extracted GSM7474613_snRNA-seq_of_WT.tar.gz
+2025-10-02 18:36:20,539 - INFO - ✅ Successfully extracted GSM8751067_SAM24406677.tar.gz
+2025-10-02 18:36:20,540 - INFO - 📦 Extracting nested archive: GSM8751061_SAM24406671.tar.gz
+2025-10-02 18:36:20,548 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7474613/GSM7474613_snRNA-seq_of_WT.tar_extracted
+2025-10-02 18:36:20,548 - ERROR - Failed to process GSM7474613: 'PosixPath' object has no attribute 'lower'
+2025-10-02 18:36:20,549 - ERROR - ❌ Processing failed: GSM7474613
+2025-10-02 18:36:20,549 - INFO - 🔄 Starting processing: GSM6260247
+2025-10-02 18:36:20,549 - ERROR - ❌ Task failed
+2025-10-02 18:36:20,550 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260247
+2025-10-02 18:36:20,553 - INFO - 📦 Extracting nested archive: GSM6260247_het_ana.tar.gz
+2025-10-02 18:36:20,626 - INFO - ✅ Successfully extracted GSM8370900_JR34_count_matrix.tar.gz
+2025-10-02 18:36:20,627 - INFO - 📦 Extracting nested archive: GSM8370899_JR27_count_matrix.tar.gz
+2025-10-02 18:36:20,632 - INFO - ✅ Successfully extracted GSM8370900_JR34_count_matrix.tar.gz
+2025-10-02 18:36:20,633 - INFO - 📦 Extracting nested archive: GSM8370899_JR27_count_matrix.tar.gz
+2025-10-02 18:36:20,968 - INFO - ✅ Successfully extracted GSM5269264_filtered_feature_bc_matrix.b.tar.gz
+2025-10-02 18:36:20,969 - INFO - 📦 Extracting nested archive: GSM5269263_filtered_feature_bc_matrix.a.tar.gz
+2025-10-02 18:36:20,984 - INFO - ✅ Successfully extracted GSM7474612_snRNA-seq_of_Mut.tar.gz
+2025-10-02 18:36:21,030 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7474612/GSM7474612_snRNA-seq_of_Mut.tar_extracted/filtered_feature_bc_matrix
+2025-10-02 18:36:21,030 - ERROR - Failed to process GSM7474612: 'PosixPath' object has no attribute 'lower'
+2025-10-02 18:36:21,030 - ERROR - ❌ Processing failed: GSM7474612
+2025-10-02 18:36:21,030 - INFO - 🔄 Starting processing: GSM6260248
+2025-10-02 18:36:21,031 - ERROR - ❌ Task failed
+2025-10-02 18:36:21,031 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260248
+2025-10-02 18:36:21,034 - INFO - 📦 Extracting nested archive: GSM6260248_hom_ana.tar.gz
+2025-10-02 18:36:21,282 - INFO - ✅ Successfully extracted GSM6260246_bac_ana.tar.gz
+2025-10-02 18:36:21,284 - INFO - 📦 Extracting nested archive: GSM6260247_het_ana.tar.gz
+2025-10-02 18:36:21,313 - INFO - ✅ Successfully extracted GSM8751061_SAM24406671.tar.gz
+2025-10-02 18:36:21,314 - INFO - 📦 Extracting nested archive: GSM8751060_SAM24406670.tar.gz
+2025-10-02 18:36:21,338 - INFO - ✅ Successfully extracted GSM8370899_JR27_count_matrix.tar.gz
+2025-10-02 18:36:21,340 - INFO - 📦 Extracting nested archive: GSM8370902_JR65_count_matrix.tar.gz
+2025-10-02 18:36:21,369 - INFO - ✅ Successfully extracted GSM8370899_JR27_count_matrix.tar.gz
+2025-10-02 18:36:21,370 - INFO - 📦 Extracting nested archive: GSM8370902_JR65_count_matrix.tar.gz
+2025-10-02 18:36:21,380 - INFO - ✅ Successfully extracted GSM6260246_bac_ana.tar.gz
+2025-10-02 18:36:21,443 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260246/GSM6260246_bac_ana.tar_extracted/bac_ana/filtered_feature_bc_matrix
+2025-10-02 18:36:21,443 - ERROR - Failed to process GSM6260246: 'PosixPath' object has no attribute 'lower'
+2025-10-02 18:36:21,443 - ERROR - ❌ Processing failed: GSM6260246
+2025-10-02 18:36:21,444 - INFO - 🔄 Starting processing: GSM6260249
+2025-10-02 18:36:21,444 - ERROR - ❌ Task failed
+2025-10-02 18:36:21,445 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260249
+2025-10-02 18:36:21,448 - INFO - 📦 Extracting nested archive: GSM6260249_wt_ana.tar.gz
+2025-10-02 18:36:21,662 - INFO - ✅ Successfully extracted GSM6260247_het_ana.tar.gz
+2025-10-02 18:36:21,724 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260247/GSM6260247_het_ana.tar_extracted/het_ana/filtered_feature_bc_matrix
+2025-10-02 18:36:21,724 - ERROR - Failed to process GSM6260247: 'PosixPath' object has no attribute 'lower'
+2025-10-02 18:36:21,724 - ERROR - ❌ Processing failed: GSM6260247
+2025-10-02 18:36:21,725 - INFO - 🔄 Starting processing: GSM6260250
+2025-10-02 18:36:21,725 - ERROR - ❌ Task failed
+2025-10-02 18:36:21,726 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260250
+2025-10-02 18:36:21,737 - WARNING - No data files found for GSM6260250
+2025-10-02 18:36:21,737 - ERROR - ❌ Processing failed: GSM6260250
+2025-10-02 18:36:21,737 - INFO - 🔄 Starting processing: GSM6260251
+2025-10-02 18:36:21,738 - ERROR - ❌ Task failed
+2025-10-02 18:36:21,738 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260251
+2025-10-02 18:36:21,751 - WARNING - No data files found for GSM6260251
+2025-10-02 18:36:21,752 - ERROR - ❌ Processing failed: GSM6260251
+2025-10-02 18:36:21,752 - INFO - 🔄 Starting processing: GSM6260252
+2025-10-02 18:36:21,752 - ERROR - ❌ Task failed
+2025-10-02 18:36:21,753 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260252
+2025-10-02 18:36:21,761 - WARNING - No data files found for GSM6260252
+2025-10-02 18:36:21,761 - ERROR - ❌ Processing failed: GSM6260252
+2025-10-02 18:36:21,761 - INFO - 🔄 Starting processing: GSM6260253
+2025-10-02 18:36:21,762 - ERROR - ❌ Task failed
+2025-10-02 18:36:21,762 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260253
+2025-10-02 18:36:21,772 - WARNING - No data files found for GSM6260253
+2025-10-02 18:36:21,772 - ERROR - ❌ Processing failed: GSM6260253
+2025-10-02 18:36:21,773 - INFO - 🔄 Starting processing: GSM6260254
+2025-10-02 18:36:21,773 - ERROR - ❌ Task failed
+2025-10-02 18:36:21,774 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260254
+2025-10-02 18:36:21,787 - WARNING - No data files found for GSM6260254
+2025-10-02 18:36:21,787 - ERROR - ❌ Processing failed: GSM6260254
+2025-10-02 18:36:21,787 - INFO - 🔄 Starting processing: GSM6260255
+2025-10-02 18:36:21,788 - ERROR - ❌ Task failed
+2025-10-02 18:36:21,788 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260255
+2025-10-02 18:36:21,799 - WARNING - No data files found for GSM6260255
+2025-10-02 18:36:21,800 - ERROR - ❌ Processing failed: GSM6260255
+2025-10-02 18:36:21,800 - INFO - 🔄 Starting processing: GSM6260256
+2025-10-02 18:36:21,800 - ERROR - ❌ Task failed
+2025-10-02 18:36:21,801 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260256
+2025-10-02 18:36:21,811 - WARNING - No data files found for GSM6260256
+2025-10-02 18:36:21,812 - ERROR - ❌ Processing failed: GSM6260256
+2025-10-02 18:36:21,812 - INFO - 🔄 Starting processing: GSM6260257
+2025-10-02 18:36:21,812 - ERROR - ❌ Task failed
+2025-10-02 18:36:21,813 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260257
+2025-10-02 18:36:21,822 - WARNING - No data files found for GSM6260257
+2025-10-02 18:36:21,822 - ERROR - ❌ Processing failed: GSM6260257
+2025-10-02 18:36:21,822 - INFO - 🔄 Starting processing: GSM6262626
+2025-10-02 18:36:21,822 - ERROR - ❌ Task failed
+2025-10-02 18:36:21,823 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6262626
+2025-10-02 18:36:21,831 - WARNING - No data files found for GSM6262626
+2025-10-02 18:36:21,832 - ERROR - ❌ Processing failed: GSM6262626
+2025-10-02 18:36:21,832 - INFO - 🔄 Starting processing: GSM7779044
+2025-10-02 18:36:21,832 - ERROR - ❌ Task failed
+2025-10-02 18:36:21,833 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7779044
+2025-10-02 18:36:21,836 - INFO - 📦 Extracting nested archive: GSM7779044_Spinal_2_filtered_feature_bc_matrix.tar.gz
+2025-10-02 18:36:21,917 - INFO - ✅ Successfully extracted GSM8489218_MUT-2.tar.gz
+2025-10-02 18:36:21,919 - INFO - 📦 Extracting nested archive: GSM8489217_MUT-1.tar.gz
+2025-10-02 18:36:22,013 - INFO - ✅ Successfully extracted GSM6260248_hom_ana.tar.gz
+2025-10-02 18:36:22,073 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260248/GSM6260248_hom_ana.tar_extracted/hom_ana/filtered_feature_bc_matrix
+2025-10-02 18:36:22,073 - ERROR - Failed to process GSM6260248: 'PosixPath' object has no attribute 'lower'
+2025-10-02 18:36:22,073 - ERROR - ❌ Processing failed: GSM6260248
+2025-10-02 18:36:22,074 - INFO - 🔄 Starting processing: GSM7779045
+2025-10-02 18:36:22,074 - ERROR - ❌ Task failed
+2025-10-02 18:36:22,074 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7779045
+2025-10-02 18:36:22,077 - INFO - 📦 Extracting nested archive: GSM7779045_Spinal_3_filtered_feature_bc_matrix.tar.gz
+2025-10-02 18:36:22,238 - INFO - ✅ Successfully extracted GSM8751060_SAM24406670.tar.gz
+2025-10-02 18:36:22,239 - INFO - 📦 Extracting nested archive: GSM8751069_SAM24406681.tar.gz
+2025-10-02 18:36:22,320 - INFO - ✅ Successfully extracted GSM8370902_JR65_count_matrix.tar.gz
+2025-10-02 18:36:22,321 - INFO - ✅ Successfully extracted GSM6260247_het_ana.tar.gz
+2025-10-02 18:36:22,333 - INFO - ✅ Successfully extracted GSM8370902_JR65_count_matrix.tar.gz
+2025-10-02 18:36:22,422 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE271156/GSM8370903_JR67_count_matrix.tar_extracted/JR67_count_matrix
+2025-10-02 18:36:22,424 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE206664/GSM6260246_bac_ana.tar_extracted/bac_ana/filtered_feature_bc_matrix
+2025-10-02 18:36:22,425 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE271156/GSM8370901_JR47_count_matrix.tar_extracted/JR47_count_matrix
+2025-10-02 18:36:22,427 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE271156/GSM8370900_JR34_count_matrix.tar_extracted/JR34_count_matrix
+2025-10-02 18:36:22,428 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE206664/GSM6260249_wt_ana.tar_extracted/wt_ana/filtered_feature_bc_matrix
+2025-10-02 18:36:22,430 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE271156/GSM8370899_JR27_count_matrix.tar_extracted/JR27_count_matrix
+2025-10-02 18:36:22,431 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE206664/GSM6260247_het_ana.tar_extracted/het_ana/filtered_feature_bc_matrix
+2025-10-02 18:36:22,432 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE271156/GSM8370898_JR9_count_matrix.tar_extracted/JR9_count_matrix
+2025-10-02 18:36:22,434 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE271156/GSM8370902_JR65_count_matrix.tar_extracted/JR65_count_matrix
+2025-10-02 18:36:22,434 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE206664/GSM6260248_hom_ana.tar_extracted/hom_ana/filtered_feature_bc_matrix
+2025-10-02 18:36:22,503 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE271156/GSM8370903_JR67_count_matrix.tar_extracted/JR67_count_matrix
+2025-10-02 18:36:22,506 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE271156/GSM8370901_JR47_count_matrix.tar_extracted/JR47_count_matrix
+2025-10-02 18:36:22,508 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE271156/GSM8370900_JR34_count_matrix.tar_extracted/JR34_count_matrix
+2025-10-02 18:36:22,510 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE271156/GSM8370899_JR27_count_matrix.tar_extracted/JR27_count_matrix
+2025-10-02 18:36:22,511 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE271156/GSM8370898_JR9_count_matrix.tar_extracted/JR9_count_matrix
+2025-10-02 18:36:22,512 - INFO - ✅ Successfully extracted GSM5269263_filtered_feature_bc_matrix.a.tar.gz
+2025-10-02 18:36:22,513 - INFO - 📦 Extracting nested archive: GSM5269265_filtered_feature_bc_matrix.c.tar.gz
+2025-10-02 18:36:22,514 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE271156/GSM8370902_JR65_count_matrix.tar_extracted/JR65_count_matrix
+2025-10-02 18:36:22,514 - ERROR - Failed to process GSE271156: 'PosixPath' object has no attribute 'lower'
+2025-10-02 18:36:22,514 - ERROR - ❌ Processing failed: GSE271156
+2025-10-02 18:36:22,515 - INFO - 🔄 Starting processing: GSM7779046
+2025-10-02 18:36:22,515 - ERROR - ❌ Task failed
+2025-10-02 18:36:22,515 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7779046
+2025-10-02 18:36:22,519 - INFO - 📦 Extracting nested archive: GSM7779046_Spinal_4_filtered_feature_bc_matrix.tar.gz
+2025-10-02 18:36:22,658 - INFO - ✅ GEO download successful: GSE138121
+2025-10-02 18:36:22,662 - INFO - ✅ Download completed: GSE138121
+2025-10-02 18:36:22,662 - INFO - 🔄 Starting processing: GSM7779047
+2025-10-02 18:36:22,662 - INFO - ✅ Task completed successfully
+2025-10-02 18:36:22,663 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7779047
+2025-10-02 18:36:22,665 - INFO - 📦 Extracting nested archive: GSM7779047_Spinal_5_filtered_feature_bc_matrix.tar.gz
+2025-10-02 18:36:22,669 - INFO - ✅ Successfully extracted GSM6260249_wt_ana.tar.gz
+2025-10-02 18:36:22,723 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM6260249/GSM6260249_wt_ana.tar_extracted/wt_ana/filtered_feature_bc_matrix
+2025-10-02 18:36:22,723 - ERROR - Failed to process GSM6260249: 'PosixPath' object has no attribute 'lower'
+2025-10-02 18:36:22,724 - ERROR - ❌ Processing failed: GSM6260249
+2025-10-02 18:36:22,724 - INFO - 🔄 Starting processing: GSM7779048
+2025-10-02 18:36:22,725 - ERROR - ❌ Task failed
+2025-10-02 18:36:22,725 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7779048
+2025-10-02 18:36:22,729 - INFO - 📦 Extracting nested archive: GSM7779048_Spinal_6_filtered_feature_bc_matrix.tar.gz
+2025-10-02 18:36:22,817 - INFO - ✅ GEO download successful: GSE206330
+2025-10-02 18:36:22,820 - INFO - ✅ Download completed: GSE206330
+2025-10-02 18:36:22,820 - INFO - 🔄 Starting processing: GSM7779049
+2025-10-02 18:36:22,820 - INFO - ✅ Task completed successfully
+2025-10-02 18:36:22,821 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7779049
+2025-10-02 18:36:22,824 - INFO - 📦 Extracting nested archive: GSM7779049_Spinal_7_filtered_feature_bc_matrix.tar.gz
+2025-10-02 18:36:23,386 - INFO - ✅ Successfully extracted GSM7779044_Spinal_2_filtered_feature_bc_matrix.tar.gz
+2025-10-02 18:36:23,415 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7779044/GSM7779044_Spinal_2_filtered_feature_bc_matrix.tar_extracted/filtered_feature_bc_matrix
+2025-10-02 18:36:23,471 - INFO - ✅ Successfully extracted GSM8751069_SAM24406681.tar.gz
+2025-10-02 18:36:23,472 - INFO - 📦 Extracting nested archive: GSM8751062_SAM24406672.tar.gz
+2025-10-02 18:36:23,784 - INFO - ✅ Successfully extracted GSM7779047_Spinal_5_filtered_feature_bc_matrix.tar.gz
+2025-10-02 18:36:23,814 - INFO - ✅ Successfully extracted GSM7779045_Spinal_3_filtered_feature_bc_matrix.tar.gz
+2025-10-02 18:36:23,818 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7779047/GSM7779047_Spinal_5_filtered_feature_bc_matrix.tar_extracted/filtered_feature_bc_matrix
+2025-10-02 18:36:23,851 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7779045/GSM7779045_Spinal_3_filtered_feature_bc_matrix.tar_extracted/filtered_feature_bc_matrix
+2025-10-02 18:36:23,956 - INFO - ✅ Successfully extracted GSM8489217_MUT-1.tar.gz
+2025-10-02 18:36:23,957 - INFO - 📦 Extracting nested archive: GSM8489219_MUT-3.tar.gz
+2025-10-02 18:36:24,133 - INFO - ✅ Successfully extracted GSM5269265_filtered_feature_bc_matrix.c.tar.gz
+2025-10-02 18:36:24,195 - INFO - ✅ Successfully extracted GSM7779046_Spinal_4_filtered_feature_bc_matrix.tar.gz
+2025-10-02 18:36:24,199 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE173524/GSM5269265_filtered_feature_bc_matrix.c.tar_extracted/filtered_feature_bc_matrix.c
+2025-10-02 18:36:24,202 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE173524/GSM5269263_filtered_feature_bc_matrix.a.tar_extracted/filtered_feature_bc_matrix.a
+2025-10-02 18:36:24,205 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE173524/GSM5269264_filtered_feature_bc_matrix.b.tar_extracted/filtered_feature_bc_matrix.b
+2025-10-02 18:36:24,205 - ERROR - Failed to process GSE173524: 'PosixPath' object has no attribute 'lower'
+2025-10-02 18:36:24,206 - ERROR - ❌ Processing failed: GSE173524
+2025-10-02 18:36:24,206 - INFO - 🔄 Starting processing: GSM7779050
+2025-10-02 18:36:24,206 - ERROR - ❌ Task failed
+2025-10-02 18:36:24,207 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7779050
+2025-10-02 18:36:24,212 - INFO - 📦 Extracting nested archive: GSM7779050_Spinal_8_filtered_feature_bc_matrix.tar.gz
+2025-10-02 18:36:24,228 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7779046/GSM7779046_Spinal_4_filtered_feature_bc_matrix.tar_extracted/filtered_feature_bc_matrix
+2025-10-02 18:36:24,628 - INFO - ✅ Successfully extracted GSM8751062_SAM24406672.tar.gz
+2025-10-02 18:36:24,629 - INFO - 📦 Extracting nested archive: GSM8751065_SAM24406675.tar.gz
+2025-10-02 18:36:24,964 - INFO - ✅ Successfully extracted GSM7779048_Spinal_6_filtered_feature_bc_matrix.tar.gz
+2025-10-02 18:36:25,004 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7779048/GSM7779048_Spinal_6_filtered_feature_bc_matrix.tar_extracted/filtered_feature_bc_matrix
+2025-10-02 18:36:25,096 - INFO - ✅ Successfully extracted GSM7779049_Spinal_7_filtered_feature_bc_matrix.tar.gz
+2025-10-02 18:36:25,128 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7779049/GSM7779049_Spinal_7_filtered_feature_bc_matrix.tar_extracted/filtered_feature_bc_matrix
+2025-10-02 18:36:26,027 - INFO - QC applied: 3017 cells, 22857 genes
+/home/ul/ul_neurorku/ul_oqn09/.conda/envs/als_foundation/lib/python3.9/site-packages/scanpy/preprocessing/_normalization.py:207: UserWarning: Received a view of an AnnData. Making a copy.
+  view_to_actual(adata)
+2025-10-02 18:36:26,175 - INFO - ✅ Successfully extracted GSM8751065_SAM24406675.tar.gz
+2025-10-02 18:36:26,176 - INFO - 📦 Extracting nested archive: GSM8751064_SAM24406674.tar.gz
+2025-10-02 18:36:27,372 - INFO - ✅ Successfully extracted GSM7779050_Spinal_8_filtered_feature_bc_matrix.tar.gz
+2025-10-02 18:36:27,404 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7779050/GSM7779050_Spinal_8_filtered_feature_bc_matrix.tar_extracted/filtered_feature_bc_matrix
+2025-10-02 18:36:27,421 - INFO - ✅ Successfully extracted GSM8751064_SAM24406674.tar.gz
+2025-10-02 18:36:27,434 - INFO - ✅ Successfully extracted GSM8489219_MUT-3.tar.gz
+2025-10-02 18:36:27,435 - INFO - 📦 Extracting nested archive: GSM8489216_WT-3.tar.gz
+2025-10-02 18:36:27,849 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE287769/GSM8751068_SAM24406679.tar_extracted/SAM24406679
+2025-10-02 18:36:27,853 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE287769/GSM8751067_SAM24406677.tar_extracted/SAM24406677
+2025-10-02 18:36:27,854 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE287769/GSM8751061_SAM24406671.tar_extracted/SAM24406671
+2025-10-02 18:36:27,856 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE287769/GSM8751066_SAM24406676.tar_extracted/SAM24406676
+2025-10-02 18:36:27,858 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE287769/GSM8751063_SAM24406673.tar_extracted/SAM24406673
+2025-10-02 18:36:27,861 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE287769/GSM8751069_SAM24406681.tar_extracted/SAM24406681
+2025-10-02 18:36:27,874 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE287769/GSM8751065_SAM24406675.tar_extracted/SAM24406675
+2025-10-02 18:36:27,877 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE287769/GSM8751064_SAM24406674.tar_extracted/SAM24406674
+2025-10-02 18:36:27,879 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE287769/GSM8751062_SAM24406672.tar_extracted/SAM24406672
+2025-10-02 18:36:27,883 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE287769/GSM8751060_SAM24406670.tar_extracted/SAM24406670
+... storing 'feature_types' as categorical
+2025-10-02 18:36:28,883 - INFO - ✅ Processing completed: GSE271156 (3017 cells, 22857 genes)
+2025-10-02 18:36:28,900 - INFO - 🔄 Starting processing: GSM7779051
+2025-10-02 18:36:28,900 - INFO - ✅ Task completed successfully
+2025-10-02 18:36:28,901 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7779051
+2025-10-02 18:36:28,905 - INFO - 📦 Extracting nested archive: GSM7779051_Spinal_9_filtered_feature_bc_matrix.tar.gz
+2025-10-02 18:36:30,083 - INFO - QC applied: 8998 cells, 18750 genes
+/home/ul/ul_neurorku/ul_oqn09/.conda/envs/als_foundation/lib/python3.9/site-packages/scanpy/preprocessing/_normalization.py:207: UserWarning: Received a view of an AnnData. Making a copy.
+  view_to_actual(adata)
+2025-10-02 18:36:30,725 - INFO - ✅ Successfully extracted GSM7779051_Spinal_9_filtered_feature_bc_matrix.tar.gz
+2025-10-02 18:36:30,759 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7779051/GSM7779051_Spinal_9_filtered_feature_bc_matrix.tar_extracted/filtered_feature_bc_matrix
+... storing 'feature_types' as categorical
+2025-10-02 18:36:31,472 - INFO - ✅ Successfully extracted GSM8489216_WT-3.tar.gz
+2025-10-02 18:36:31,474 - INFO - 📦 Extracting nested archive: GSM8489214_WT-1.tar.gz
+2025-10-02 18:36:31,965 - INFO - QC applied: 4605 cells, 28453 genes
+/home/ul/ul_neurorku/ul_oqn09/.conda/envs/als_foundation/lib/python3.9/site-packages/scanpy/preprocessing/_normalization.py:207: UserWarning: Received a view of an AnnData. Making a copy.
+  view_to_actual(adata)
+2025-10-02 18:36:32,769 - INFO - ✅ Processing completed: GSE206664 (8998 cells, 18750 genes)
+2025-10-02 18:36:32,814 - INFO - 🔄 Starting processing: GSM7779052
+2025-10-02 18:36:32,815 - INFO - ✅ Task completed successfully
+2025-10-02 18:36:32,816 - INFO - 🔍 Checking for nested archives in /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7779052
+2025-10-02 18:36:32,820 - INFO - 📦 Extracting nested archive: GSM7779052_Spinal_10_filtered_feature_bc_matrix.tar.gz
+... storing 'feature_types' as categorical
+2025-10-02 18:36:34,058 - INFO - ✅ Processing completed: GSM7779047 (4605 cells, 28453 genes)
+2025-10-02 18:36:34,091 - INFO - ✅ Task completed successfully
+2025-10-02 18:36:34,192 - INFO - ✅ Successfully extracted GSM8489214_WT-1.tar.gz
+2025-10-02 18:36:34,317 - INFO - QC applied: 0 cells, 0 genes
+/home/ul/ul_neurorku/ul_oqn09/.conda/envs/als_foundation/lib/python3.9/site-packages/scanpy/preprocessing/_normalization.py:207: UserWarning: Received a view of an AnnData. Making a copy.
+  view_to_actual(adata)
+2025-10-02 18:36:34,319 - ERROR - Normalization failed: Found array with 0 sample(s) (shape=(0, 0)) while a minimum of 1 is required.
+2025-10-02 18:36:34,367 - INFO - ✅ Processing completed: GSE287769 (0 cells, 0 genes)
+2025-10-02 18:36:34,367 - INFO - ✅ Task completed successfully
+2025-10-02 18:36:34,442 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE275999/GSM8489215_WT-2.tar_extracted/WT-2
+2025-10-02 18:36:34,444 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE275999/GSM8489214_WT-1.tar_extracted/WT-1
+2025-10-02 18:36:34,446 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE275999/GSM8489216_WT-3.tar_extracted/WT-3
+2025-10-02 18:36:34,448 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE275999/GSM8489219_MUT-3.tar_extracted/MUT-3
+2025-10-02 18:36:34,449 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE275999/GSM8489218_MUT-2.tar_extracted/MUT-2
+2025-10-02 18:36:34,451 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSE275999/GSM8489217_MUT-1.tar_extracted/MUT-1
+2025-10-02 18:36:34,452 - ERROR - Failed to process GSE275999: 'PosixPath' object has no attribute 'lower'
+2025-10-02 18:36:34,452 - ERROR - ❌ Processing failed: GSE275999
+2025-10-02 18:36:34,453 - ERROR - ❌ Task failed
+2025-10-02 18:36:35,091 - INFO - ✅ Successfully extracted GSM7779052_Spinal_10_filtered_feature_bc_matrix.tar.gz
+2025-10-02 18:36:35,110 - INFO - 🔍 Found 10X directory: /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/data/raw/GSM7779052/GSM7779052_Spinal_10_filtered_feature_bc_matrix.tar_extracted/filtered_feature_bc_matrix
+2025-10-02 18:36:35,183 - INFO - QC applied: 6752 cells, 30181 genes
+/home/ul/ul_neurorku/ul_oqn09/.conda/envs/als_foundation/lib/python3.9/site-packages/scanpy/preprocessing/_normalization.py:207: UserWarning: Received a view of an AnnData. Making a copy.
+  view_to_actual(adata)
+2025-10-02 18:36:36,458 - INFO - QC applied: 5713 cells, 29555 genes
+/home/ul/ul_neurorku/ul_oqn09/.conda/envs/als_foundation/lib/python3.9/site-packages/scanpy/preprocessing/_normalization.py:207: UserWarning: Received a view of an AnnData. Making a copy.
+  view_to_actual(adata)
+2025-10-02 18:36:36,702 - INFO - QC applied: 6758 cells, 30708 genes
+/home/ul/ul_neurorku/ul_oqn09/.conda/envs/als_foundation/lib/python3.9/site-packages/scanpy/preprocessing/_normalization.py:207: UserWarning: Received a view of an AnnData. Making a copy.
+  view_to_actual(adata)
+... storing 'feature_types' as categorical
+... storing 'feature_types' as categorical
+... storing 'feature_types' as categorical
+2025-10-02 18:36:39,309 - INFO - QC applied: 7222 cells, 30037 genes
+/home/ul/ul_neurorku/ul_oqn09/.conda/envs/als_foundation/lib/python3.9/site-packages/scanpy/preprocessing/_normalization.py:207: UserWarning: Received a view of an AnnData. Making a copy.
+  view_to_actual(adata)
+2025-10-02 18:36:40,331 - INFO - QC applied: 7165 cells, 29304 genes
+/home/ul/ul_neurorku/ul_oqn09/.conda/envs/als_foundation/lib/python3.9/site-packages/scanpy/preprocessing/_normalization.py:207: UserWarning: Received a view of an AnnData. Making a copy.
+  view_to_actual(adata)
+2025-10-02 18:36:41,159 - INFO - QC applied: 9588 cells, 32264 genes
+/home/ul/ul_neurorku/ul_oqn09/.conda/envs/als_foundation/lib/python3.9/site-packages/scanpy/preprocessing/_normalization.py:207: UserWarning: Received a view of an AnnData. Making a copy.
+  view_to_actual(adata)
+... storing 'feature_types' as categorical
+... storing 'feature_types' as categorical
+2025-10-02 18:36:43,129 - INFO - QC applied: 8810 cells, 30612 genes
+/home/ul/ul_neurorku/ul_oqn09/.conda/envs/als_foundation/lib/python3.9/site-packages/scanpy/preprocessing/_normalization.py:207: UserWarning: Received a view of an AnnData. Making a copy.
+  view_to_actual(adata)
+2025-10-02 18:36:43,558 - INFO - QC applied: 9147 cells, 29782 genes
+/home/ul/ul_neurorku/ul_oqn09/.conda/envs/als_foundation/lib/python3.9/site-packages/scanpy/preprocessing/_normalization.py:207: UserWarning: Received a view of an AnnData. Making a copy.
+  view_to_actual(adata)
+... storing 'feature_types' as categorical
+... storing 'feature_types' as categorical
+... storing 'feature_types' as categorical
+2025-10-02 18:36:53,349 - INFO - ✅ Processing completed: GSM7779045 (6758 cells, 30708 genes)
+2025-10-02 18:36:53,403 - INFO - ✅ Task completed successfully
+2025-10-02 18:36:53,417 - INFO - ✅ Processing completed: GSM7779044 (6752 cells, 30181 genes)
+2025-10-02 18:36:53,467 - INFO - ✅ Task completed successfully
+2025-10-02 18:36:53,478 - INFO - ✅ Processing completed: GSM7779046 (5713 cells, 29555 genes)
+2025-10-02 18:36:53,518 - INFO - ✅ Task completed successfully
+2025-10-02 18:36:53,521 - INFO - ✅ Processing completed: GSM7779050 (8810 cells, 30612 genes)
+2025-10-02 18:36:53,587 - INFO - ✅ Task completed successfully
+2025-10-02 18:36:53,590 - INFO - ✅ Processing completed: GSM7779049 (9588 cells, 32264 genes)
+2025-10-02 18:36:53,663 - INFO - ✅ Task completed successfully
+2025-10-02 18:36:53,667 - INFO - ✅ Processing completed: GSM7779051 (7165 cells, 29304 genes)
+2025-10-02 18:36:53,731 - INFO - ✅ Task completed successfully
+2025-10-02 18:36:53,734 - INFO - ✅ Processing completed: GSM7779052 (9147 cells, 29782 genes)
+2025-10-02 18:36:53,802 - INFO - ✅ Task completed successfully
+2025-10-02 18:36:53,805 - INFO - ✅ Processing completed: GSM7779048 (7222 cells, 30037 genes)
+2025-10-02 18:36:53,867 - INFO - ✅ Task completed successfully
+2025-10-02 18:37:44,497 - INFO - ✅ GEO download successful: GSE180122
+2025-10-02 18:37:44,500 - INFO - ✅ Download completed: GSE180122
+2025-10-02 18:37:44,500 - INFO - ✅ Task completed successfully
+2025-10-02 18:37:44,504 - INFO - 🎉 Pipeline completed!

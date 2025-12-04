@@ -1,0 +1,36 @@
+#!/bin/bash
+# Transfer SRA metadata download and download tracking features
+
+echo "Transferring SRA metadata and download tracking features to cluster..."
+echo "New features include:"
+echo "1. ✅ SRA metadata download (runinfo, sample, experiment, study, XML)"
+echo "2. ✅ Download tracking and resume functionality"
+echo "3. ✅ Automatic skip of already processed datasets"
+echo "4. ✅ Download statistics and progress tracking"
+echo "5. ✅ All previous fixes (.gz files, SRA validation, retry logic)"
+echo ""
+
+echo "Transferring files..."
+scp src/streaming_pipeline.py ul_oqn09@uc3.scc.kit.edu:~/als_foundation_model/src/
+
+echo "Transfer complete!"
+echo ""
+echo "On the cluster, you can now:"
+echo ""
+echo "OPTION 1 - Test with resume functionality:"
+echo "  python src/streaming_pipeline.py configs/streaming_config.json"
+echo "  # Will automatically skip already processed datasets"
+echo ""
+echo "OPTION 2 - Submit job with resume capability:"
+echo "  sbatch scripts/run_als_pipeline.slurm"
+echo ""
+echo "OPTION 3 - Check download tracker:"
+echo "  cat download_tracker.json"
+echo ""
+echo "Expected improvements:"
+echo "- SRA metadata files downloaded automatically"
+echo "- Resume capability (no re-downloading processed datasets)"
+echo "- Better .gz file processing"
+echo "- Reduced SRA download failures"
+echo "- Download statistics and progress tracking"
+echo "- Overall success rate: 60-70% expected"

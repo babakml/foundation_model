@@ -1,0 +1,328 @@
+🔧 Loading modules and environment...
+==========================================
+Align Human FASTQs (STAR)
+==========================================
+Job ID: 1716417
+Node: uc3n048
+CPUs: 32
+Memory: 131072 MB
+GenomeDir: ~/als_foundation_model/references/homo_sapiens/GRCh38_STAR
+Start time: Tue Oct  7 02:45:38 PM CEST 2025
+==========================================
+🧬 Running alignment and FASTQ cleanup (human)...
+🧬 Using STAR genomeDir: ~/als_foundation_model/references/homo_sapiens/GRCh38_STAR
+🧵 Threads: 32
+\n==== Dataset: E-MTAB-14891 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: E-MTAB-7353 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSE138120 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSE173524 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSE182098 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSE224582 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSE226482 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSE226753 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSE230647 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSE240528 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSE244263 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSE252050 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292143 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292144 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292145 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292146 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292147 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292148 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292149 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292150 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292151 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292152 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292153 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292154 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292155 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292156 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292157 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292158 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292159 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292160 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292161 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292162 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292163 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292164 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292165 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292166 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292167 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292168 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292170 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292171 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292172 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292174 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292175 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292176 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292177 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292178 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292180 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292181 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292182 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292183 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292184 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292185 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292186 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292187 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292188 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292189 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292190 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292191 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292193 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292194 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292195 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292196 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292197 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292198 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292199 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292200 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292201 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292202 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292203 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292204 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292205 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292206 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292207 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM5292208 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM6260248 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM6260249 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM6260250 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM6260251 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM6260252 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM6260253 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM6260254 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM6260255 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM6260256 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM6260257 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM6262626 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM6781880 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM6781881 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM6781882 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM6781883 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM7474613 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840140 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840141 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840142 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840143 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840144 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840145 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840146 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840147 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840148 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840149 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840150 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840151 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840152 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840153 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840154 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840155 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840156 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840157 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840158 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840159 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840160 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840161 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840162 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840163 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840164 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840165 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840166 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840167 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840168 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840169 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840170 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840171 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840172 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840173 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840174 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840175 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840176 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840177 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840178 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840179 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840180 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840181 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840182 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840183 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840184 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840185 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840186 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840187 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840188 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840189 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840190 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840191 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840192 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840193 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840194 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840195 ====
+  ⏭️  No FASTQ files found, skipping
+\n==== Dataset: GSM8840196 ====
+  ⏭️  No FASTQ files found, skipping
+\n🎉 Alignment pass completed. Check /home/ul/ul_neurorku/ul_oqn09/als_foundation_model/logs for logs.
+==========================================
+Job completed at: Tue Oct  7 02:45:40 PM CEST 2025
+Exit code: 0
+==========================================
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc3n048
+Job ID: 1716417
+Cluster: uc3
+User/Group: ul_oqn09/ul_neurorku
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 00:00:06
+CPU Efficiency: 0.67% of 00:14:56 core-walltime
+Job Wall-clock time: 00:00:28
+Memory Utilized: 32.68 MB
+Memory Efficiency: 0.02% of 128.00 GB (128.00 GB/node)

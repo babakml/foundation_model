@@ -1,0 +1,44 @@
+==========================================
+ALS Foundation Model Pipeline Job (Memory Optimized)
+==========================================
+Job ID: 1624943
+Node: uc3n003
+CPUs: 32
+Memory: 262144 MB (256GB)
+Start time: Thu Oct  2 09:14:35 AM CEST 2025
+Features: Memory optimized, streaming processing, 256GB RAM
+==========================================
+Found existing download tracker - will resume from previous run
+Processed datasets will be skipped automatically
+╭─────────────────────── ALS Foundation Model Pipeline ────────────────────────╮
+│ Starting pipeline                                                            │
+│ Initializing MEMORY-OPTIMIZED streaming processing                           │
+│ Elapsed: 0:00:00 | Storage: 0.0GB used, 0.0GB free                           │
+╰──────────────────────────────────────────────────────────────────────────────╯
+==========================================
+Job completed at: Thu Oct  2 09:14:52 AM CEST 2025
+Exit code: 0
+==========================================
+
+Download Tracker Summary:
+=========================
+Total datasets: 137
+Downloaded: 66
+Processed: 48
+Failed: 88
+Success rate: 35.0%
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc3n003
+Job ID: 1624943
+Cluster: uc3
+User/Group: ul_oqn09/ul_neurorku
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 00:00:10
+CPU Efficiency: 0.84% of 00:19:44 core-walltime
+Job Wall-clock time: 00:00:37
+Memory Utilized: 487.45 MB
+Memory Efficiency: 0.19% of 256.00 GB (256.00 GB/node)

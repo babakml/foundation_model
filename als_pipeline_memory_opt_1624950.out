@@ -1,0 +1,49 @@
+==========================================
+ALS Foundation Model Pipeline Job (Memory Optimized)
+==========================================
+Job ID: 1624950
+Node: uc3n003
+CPUs: 32
+Memory: 262144 MB (256GB)
+Start time: Thu Oct  2 09:23:05 AM CEST 2025
+Features: Memory optimized, streaming processing, 256GB RAM
+==========================================
+Found existing download tracker - will resume from previous run
+Processed datasets will be skipped automatically
+╭─────────────────────── ALS Foundation Model Pipeline ────────────────────────╮
+│ Starting pipeline                                                            │
+│ Initializing MEMORY-OPTIMIZED streaming processing                           │
+│ Elapsed: 0:00:00 | Storage: 0.0GB used, 0.0GB free                           │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭─────────────────────── ALS Foundation Model Pipeline ────────────────────────╮
+│ Pipeline initialized                                                         │
+│ Total: 262 datasets (STREAMING MODE - No Batching)                           │
+│ Elapsed: 0:00:00 | Storage: 0.0GB used, 0.0GB free                           │
+╰──────────────────────────────────────────────────────────────────────────────╯
+==========================================
+Job completed at: Thu Oct  2 09:23:09 AM CEST 2025
+Exit code: 0
+==========================================
+
+Download Tracker Summary:
+=========================
+Total datasets: 137
+Downloaded: 66
+Processed: 48
+Failed: 88
+Success rate: 35.0%
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc3n003
+Job ID: 1624950
+Cluster: uc3
+User/Group: ul_oqn09/ul_neurorku
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 00:00:11
+CPU Efficiency: 1.64% of 00:11:12 core-walltime
+Job Wall-clock time: 00:00:21
+Memory Utilized: 10.15 MB
+Memory Efficiency: 0.00% of 256.00 GB (256.00 GB/node)

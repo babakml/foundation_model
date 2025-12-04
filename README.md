@@ -1,65 +1,85 @@
 # Foundation Model
 
-A repository for developing and training foundation models for various machine learning tasks.
+Single-cell RNA-seq data processing pipeline for biomedical research.
 
 ## Overview
 
-This repository contains the codebase for building, training, and evaluating foundation models. Foundation models are large-scale machine learning models that can be adapted to a wide range of downstream tasks through fine-tuning or few-shot learning.
+This project provides a comprehensive pipeline for downloading, processing, and analyzing single-cell RNA-seq datasets. It includes:
+
+- Automated dataset download from GEO and SRA
+- Data processing and quality control
+- Integration of multiple datasets
+- Synapse repository integration for processed 10x Genomics data
 
 ## Features
 
-- Model architecture implementations
-- Training pipelines
-- Evaluation frameworks
-- Data preprocessing utilities
-- Model serving capabilities
+- **Streaming Data Processing**: Memory-efficient processing of large datasets
+- **Parallel Processing**: Concurrent download and processing for faster execution
+- **SRA Integration**: Automated download and conversion of SRA data to FASTQ
+- **Synapse Integration**: Download processed 10x Genomics data from Synapse
+- **Reference Genome Alignment**: STAR alignment for FASTQ files
+- **Download Tracking**: Resume functionality for interrupted runs
 
-## Getting Started
+## Requirements
 
-### Prerequisites
+- Python 3.9+
+- Conda environment (see `requirements.txt`)
+- SLURM (for cluster execution)
+- SRA Toolkit (for SRA data download)
+- STAR aligner (for FASTQ alignment)
 
-- Python 3.8+
-- CUDA-compatible GPU (recommended for training)
-- Sufficient disk space for model weights and datasets
-
-### Installation
+## Installation
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/YOUR_USERNAME/foundation_model.git
 cd foundation_model
 ```
 
-2. Install dependencies:
+2. Set up conda environment:
 ```bash
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate foundation_model
 ```
 
-3. Set up your environment:
+3. Install SRA Toolkit (on cluster):
 ```bash
-# Configure your environment variables
-cp .env.example .env
-# Edit .env with your configuration
+bash scripts/install_sra_toolkit_fixed.sh
+```
+
+4. Configure Synapse (if using Synapse downloads):
+```bash
+synapse config
 ```
 
 ## Usage
 
-### Training a Model
+### Main Pipeline
 
+Run the parallel optimized pipeline:
 ```bash
-python train.py --config configs/base_model.yaml
+sbatch scripts/run_parallel_optimized_pipeline.slurm
 ```
 
-### Evaluation
+### Synapse Data Download
 
+Download data from Synapse using IDs from CSV:
 ```bash
-python evaluate.py --model_path models/checkpoint.pt --test_data data/test.json
+python download_synapse_data.py --input data_list_full.csv --synapse-id syn53421674
 ```
 
-### Inference
+### Reference Genome Setup
 
+Download and build STAR indices:
 ```bash
-python inference.py --model_path models/checkpoint.pt --input "Your input text here"
+sbatch scripts/run_reference_download.slurm
+```
+
+### FASTQ Alignment
+
+Align FASTQ files to reference genomes:
+```bash
+bash scripts/align_fastq_and_cleanup.sh /path/to/STAR/index 32
 ```
 
 ## Project Structure
@@ -67,32 +87,33 @@ python inference.py --model_path models/checkpoint.pt --input "Your input text h
 ```
 foundation_model/
 ├── src/                    # Source code
-│   ├── models/            # Model architectures
-│   ├── training/          # Training scripts
-│   ├── evaluation/        # Evaluation utilities
-│   └── utils/             # Utility functions
-├── configs/               # Configuration files
-├── data/                  # Data directory
-├── models/                # Saved model checkpoints
-├── notebooks/             # Jupyter notebooks
-├── tests/                 # Unit tests
-├── docs/                  # Documentation
-└── scripts/               # Utility scripts
+│   ├── parallel_optimized_pipeline.py
+│   ├── sra_download_fix.py
+│   └── ...
+├── scripts/                # Utility scripts
+│   ├── run_parallel_optimized_pipeline.slurm
+│   ├── download_references_and_indices.sh
+│   └── ...
+├── configs/                # Configuration files
+│   └── streaming_config.json
+├── data/                   # Data directories
+│   ├── raw/               # Raw downloaded data
+│   └── processed/         # Processed data
+└── logs/                  # Log files
 ```
 
-## Contributing
+## Configuration
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+Edit `configs/streaming_config.json` to customize:
+- Download and processing parameters
+- Memory and CPU limits
+- Storage management settings
+- Quality control and normalization parameters
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+[Add your license here]
 
-## Acknowledgments
+## Contact
 
-- Thanks to the open-source community for various libraries and tools
-- Special thanks to contributors and researchers in the field
+[Add contact information]

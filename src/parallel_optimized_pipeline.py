@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
-Parallel Optimized ALS Foundation Model Pipeline
+Parallel Optimized Foundation Model Pipeline
 - Parallel download and processing
 - Optimized memory usage (utilize more than 1.68%)
 - Enhanced nested archive handling
+- Synapse, GEO, and SRA download support
 - No email addresses
 - Faster execution
 """
@@ -34,6 +35,7 @@ from rich.progress import Progress, TaskID, SpinnerColumn, TextColumn, BarColumn
 from rich.live import Live
 from rich.layout import Layout
 import psutil
+import configparser
 
 # Configure logging
 logging.basicConfig(
@@ -139,7 +141,7 @@ class DownloadTracker:
         self.save_tracker()
 
 class ParallelOptimizedPipeline:
-    """Parallel optimized pipeline for ALS foundation model"""
+    """Parallel optimized pipeline for foundation model"""
     
     def __init__(self, config_path: str):
         self.config = self.load_config(config_path)
@@ -187,9 +189,23 @@ class ParallelOptimizedPipeline:
     def load_dataset_list(self) -> List[Dict]:
         """Load dataset list from CSV"""
         try:
-            df = pd.read_csv(self.config['dataset_list_path'], sep=';;', engine='python', encoding='latin-1')
+            df = pd.read_csv(
+                self.config['dataset_list_path'], 
+                sep=';;', 
+                engine='python', 
+                encoding='latin-1',
+                error_bad_lines=False,
+                warn_bad_lines=False
+            )
+            # Clean up column names (remove trailing ;;)
+            df.columns = df.columns.str.rstrip(';').str.strip()
             # Remove unnamed columns
             df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
+            
+            # Ensure synapse_id column exists (even if empty)
+            if 'synapse_id' not in df.columns:
+                df['synapse_id'] = ''
+            
             return df.to_dict('records')
         except Exception as e:
             logger.error(f"Failed to load dataset list: {e}")
@@ -224,6 +240,7 @@ class ParallelOptimizedPipeline:
         """Worker function for downloading datasets"""
         dataset_id = dataset_info['dataset_id']
         data_type = dataset_info.get('data_type', '')
+        synapse_id = dataset_info.get('synapse_id', '').strip() if dataset_info.get('synapse_id') else None
         
         try:
             with self.status_lock:
@@ -239,11 +256,16 @@ class ParallelOptimizedPipeline:
             # Try different download strategies
             success = False
             
-            # Strategy 1: Try GEO download first
+            # Strategy 1: Try Synapse download first (if synapse_id is available)
+            if synapse_id and synapse_id.lower().startswith('syn'):
+                logger.info(f"🔗 Synapse ID found for {dataset_id}: {synapse_id}")
+                success = self.download_synapse_dataset(synapse_id, dataset_dir, dataset_id)
+            
+            # Strategy 2: Try GEO download
             if not success:
                 success = self.download_geo_dataset(dataset_id, dataset_dir, data_type)
             
-            # Strategy 2: Try SRA download as fallback
+            # Strategy 3: Try SRA download as fallback
             if not success:
                 success = self.download_sra_dataset(dataset_id, dataset_dir, data_type)
             
@@ -293,6 +315,95 @@ class ParallelOptimizedPipeline:
         except Exception as e:
             logger.warning(f"GEO download failed for {dataset_id}: {e}")
             return False
+    
+    def download_synapse_dataset(self, synapse_id: str, output_dir: Path, dataset_id: str) -> bool:
+        """Download dataset from Synapse"""
+        try:
+            import synapseclient
+            from synapseclient import Synapse
+            
+            # Initialize Synapse client (reuse if available, otherwise create new)
+            if not hasattr(self, '_synapse_client'):
+                self._synapse_client = self._init_synapse_client()
+            
+            if not self._synapse_client:
+                logger.warning(f"Synapse client not available for {dataset_id}")
+                return False
+            
+            logger.info(f"📥 Downloading from Synapse: {synapse_id} for {dataset_id}")
+            
+            # Get entity info first
+            entity = self._synapse_client.get(synapse_id, downloadFile=False)
+            entity_type = entity.concreteType if hasattr(entity, 'concreteType') else 'unknown'
+            
+            # If it's a folder or project, download recursively
+            if 'Folder' in entity_type or 'Project' in entity_type:
+                # Download to dataset directory
+                self._synapse_client.get(synapse_id, downloadLocation=str(output_dir), recursive=True)
+                
+                # Verify download
+                files = list(output_dir.rglob('*'))
+                if len(files) > 1:  # More than just the directory itself
+                    logger.info(f"✅ Synapse download successful: {dataset_id} ({len(files)} files)")
+                    return True
+            else:
+                # It's a file, download it
+                self._synapse_client.get(synapse_id, downloadLocation=str(output_dir))
+                if (output_dir / (entity.name if hasattr(entity, 'name') else synapse_id)).exists():
+                    logger.info(f"✅ Synapse download successful: {dataset_id}")
+                    return True
+            
+            return False
+            
+        except ImportError:
+            logger.warning(f"synapseclient not installed for {dataset_id}")
+            return False
+        except Exception as e:
+            logger.warning(f"Synapse download failed for {dataset_id}: {e}")
+            return False
+    
+    def _init_synapse_client(self):
+        """Initialize Synapse client with credentials"""
+        try:
+            import synapseclient
+            from synapseclient import Synapse
+            
+            # Read credentials from config file
+            config_path = Path.home() / '.synapseConfig'
+            if config_path.exists():
+                config = configparser.ConfigParser()
+                config.read(config_path)
+                # Try different profiles
+                for profile_name in ['profile j', 'default']:
+                    if profile_name in config:
+                        username = config[profile_name].get('username')
+                        authtoken = config[profile_name].get('authtoken')
+                        if username and authtoken:
+                            syn = Synapse()
+                            syn.login(authToken=authtoken, silent=True)
+                            logger.info("✅ Synapse client initialized")
+                            return syn
+                # Try any other profile
+                for section in config.sections():
+                    if section.startswith('profile ') or section == 'default':
+                        username = config[section].get('username')
+                        authtoken = config[section].get('authtoken')
+                        if username and authtoken:
+                            syn = Synapse()
+                            syn.login(authToken=authtoken, silent=True)
+                            logger.info("✅ Synapse client initialized")
+                            return syn
+            # Fallback to default login
+            syn = Synapse()
+            syn.login(silent=True)
+            logger.info("✅ Synapse client initialized")
+            return syn
+        except ImportError:
+            logger.warning("synapseclient not installed. Synapse downloads will be skipped.")
+            return None
+        except Exception as e:
+            logger.warning(f"Failed to initialize Synapse client: {e}")
+            return None
     
     def download_sra_dataset(self, dataset_id: str, output_dir: Path, data_type: str) -> bool:
         """Download dataset from SRA using enhanced methods"""

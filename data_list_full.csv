@@ -1,0 +1,296 @@
+﻿Title;;Organism;;dataset_id;;repository;;disease_status;;tissue_type;;data_type;;note;;
+An emergent disease-associated motor neuron state precedes cell death in a mouse model of ALS [scRNA-Seq];;Mus musculus;;GSE306676;;GEO;;"ALS (SOD1-G93A); control";;spinal cord;;H5, seurat;;;;
+An emergent disease-associated motor neuron state precedes cell death in a mouse model of ALS [multiome];;Mus musculus;;GSE306675;;GEO;;"ALS (SOD1-G93A); control";;spinal cord;;H5, TBI, TSV;;;"disease_status - ""ALS"", ""control"", ""healthy"", ""unknown""";
+A Mechanistic basis of fast myofiber vulnerability in neuromuscular diseases [snRNA-seq];;Mus musculus;;GSE298187;;GEO;;"ALS; Denerved; control";;muscle fibers;;MTX, TSV, seurat;;;"data_type - ""processed_matrix"", ""raw_fastq"", ""10x_genomics"", etc.";
+Spinal cord single-nuclei RNA sequencing of human ALS spinal cords [ALS human snRNAseq];;Homo sapiens;;GSE287257;;GEO;;"ALS; control";;spinal cord;;H5;;;;
+Neuronal Deficiency of Cytochrome c Oxidase Engineered by Mitochondrial DNA Editing Recapitulates Amyotrophic Lateral Sclerosis [snRNA-seq];;Rattus norvegicus;;GSE275999;;GEO;;"ALS (CⅣ); control";;spinal cord;;MTX, TSV;;mutation in mitochondrial genes;;
+Targeting EGLN2/PHD1 protects motor neurons and normalizes the astrocytic interferon response;;Mus musculus;;GSE219201;;GEO;;"ALS (SOD1G93A/PHD1+/+); ALS (SOD1G93A/PHD1-/-)";;spinal cord;;MTX, TSV;;;;
+ALS molecular subtypes are a combination of cellular and pathological features learned by deep multiomics classifiers (snRNA-seq);;Homo sapiens;;GSE271156;;GEO;;"ALS (sALS); ALS (sALS + FTD); control";;Motor cortex;;MTX, TSV;;;;
+Disentangling glial diversity in peripheral nerves at single-nuclei resolution [single-cell and single-nuclei RNA-seq];;Mus musculus;;GSE182098;;GEO;;ALS;;Sciatic, Peroneal, Sural, Vagus;;RDS;;genotypes are not properly mentioned;;
+Live single-cell RNA-sequencing data from ALS donors only.;;Homo sapiens;;GSE204704;;GEO;;ALS;;NA;;H5;;genotypes are not mentioned;;
+The Motor Neuron m6A Repertoire Governs Neuronal Homeostasis and Augmented m6A Production Mitigates ALS Symptom Manifestation [snMultiome-seq];;Mus musculus;;GSE290242;;GEO;;"ALS (Sun1sfGFP; ChAT-Cre; Mettl14floxed (cKO)); control";;spinal cord;;BIGWIG, H5, TBI, TSV;;;;
+Single cell RNA sequencing of spinal motor neurons and interneurons differentiated from isogenic FUS and TARDBP human induced pluripotent stem cell lines harbouring ALS-causative mutations;;Homo sapiens;;GSE226482;;GEO;;"ALS (FUSR495X); ALS (FUSP525L); ALS (TARDBPM337V); ALS(FUS-KO); control";;spinal motor neurons and interneurons ;;sra;;IPSC cells;;
+Differential Cellular Mechanisms Underlie Language and Executive Decline in Amyotrophic Lateral Sclerosis;;Homo sapiens;;GSE290359;;GEO;;ALS;;prefrontal cortex;;H5AD, CSV, H5, TBI, TSV;;genotypes are not mentioned, might be hidden in the data;;
+Single cell RNAseq of SOD1 mouse spinal cords;;Mus musculus;;GSE287569;;GEO;;"ALS (SOD1G93A); control";;spinal cord;;H5;;;;
+pTDP-43 levels correlate with cell type specific molecular alterations in the prefrontal cortex of C9orf72 ALS/FTD patients;;Homo sapiens;;GSE212630;;GEO;;ALS/FTD (C9);;prefrontal cortex;;H5, TBI, TSV;;;;
+Secreted neurofilament light chain (NfL) after neuronal damage induces myeloid cell activation and neuroinflammation [scRNA-Seq];;Mus musculus;;GSE287769;;GEO;;"Vehicle; FL-NfL; CC-NfL";;hippocampus;;tar, txt;;mices were injected. The genotypes are wild type;;
+Single-cell RNA-seq data of human PBMC from amyotrophic lateral sclerosis patients;;Homo sapiens;;GSE244263;;GEO;;"ALS; control";;pbmc;;tar;;;;
+A cross-disease human microglial framework identifies disease-enriched subsets and tool compounds for microglial polarization II.;;Homo sapiens;;GSE204702;;GEO;;"ALS; FTD; control";;multiple brain regions;;H5;;for detailed metada, the data has to be downloaded;;
+Characterising day 90 human C9ORF72-ALS/FTD cerebral organoids at single cell level;;Homo sapiens;;GSE264012;;GEO;;ALS/FTD (C9);;cerebral organoids;;MTX, TSV;;;;
+ALS molecular subtypes are a combination of cellular and pathological features learned by deep multiomics classifiers (snRNA-seq);;Homo sapiens;;GSE271156;;GEO;;"ALS; control";;motor cortex;;tar;;genotypes are not mentioned;;
+Single-cell RNA sequencing analysis of iPSC-derived motor neurons from an ALS patient carrying ATXN2 intermediate repeat expansions and a healthy control;;Homo sapiens;;GSE224582;;GEO;;"ALS (ATXN2); control";;iPSC-derived spinal motor neuron;;CSV, txt, rds;;;;
+Genetic background variation impacts microglial heterogeneity and disease progression in amyotrophic lateral sclerosis model mice;;Mus musculus;;GSE252050;;GEO;;"ALS (SOD1G93A); control";;spinal cord;;XLSX, sra;;there are variations to the mutant here;;
+Human neural networks with sparse TDP-43 pathology reveal NPTX2 misregulation in ALS/FTD (C9);;Homo sapiens;;GSE230647;;GEO;;"ALS; control";;iPSC neural stem cells (iCoMoNSCs) ;;tar, txt;;genotype info is in the files;;
+Transcriptomic profiling of electrophysiologically characterized human iPSC-derived motor neurons having SOD1 A4V mutation;;Homo sapiens;;GSE138120;;GEO;;"ALS (SOD1 A4V/+); control";;iPSC from cortical glial cells;;tab, txt, csv;;;;
+Deep sequencing of Phox2a nuclei reveals five classes of anterolateral system neurons;;Mus musculus;;GSE240528;;GEO;;Phox2a-Sun1GFP;;spinal cord;;txt, mtx, robj;;genotypes are the same, there are different treatments: SNI, naive, control;;
+Cortical glia in SOD1(G93A) mice are subtly affected by ALS-like pathology;;Mus musculus;;GSE206330;;GEO;;"ALS (SOD1(G93A)); control";;Cerebral cortex;;txt, csv;;;;
+C9orf72 deficiency promotes microglial mediated synaptic loss in aging and amyloid accumulation [scRNA-seq];;Mus musculus;;GSE164674;;GEO;;"ALS (C9KO-HET, C9KO-HOMO); control";;brain;;MTX, TSV, xlsx;;;;
+Disentangling glial diversity in peripheral nerves at single-nuclei resolution [single-cell and single-nuclei RNA-seq];;Mus musculus;;GSE182098;;GEO;;ALS (SOD1G93A);;Sciatic nerve, Peroneal nerve, Sural nerve, Vagus nerve;;rds;;;;
+Single cell RNA-sequencing of long-term human control and C9ORF72 ALS/FTD patient-specific iPSC-derived cortical organoid slice cultures;;Homo sapiens;;GSE180122;;GEO;;"ALS/FTD (CS30iALS-C9nxx, CS29iALS-C9nxx); Isogenic (ISO29); control";;cortical organoid;;csv;;;;
+Single-cell RNA-seq analysis of the brainstem of mutant SOD1 mice reveals perturbed cell types and pathways of amyotrophic lateral sclerosis;;Mus musculus;;GSE178693;;GEO;;"ALS (SOD1(G93A)); control";;brainstem;;tar;;;;
+scRNAseq of human iPSC-derived motor neurons from control and ALS patients.;;Homo sapiens;;GSE138121;;GEO;;"ALS (C9, sALS); control; Iso";;iPSC-derived motor neurons;;csv;;;;
+Stem cell-derived cranial and spinal motor neurons reveal proteostatic differences between ALS resistant and sensitive motor neurons;;Mus musculus;;GSE130938;;GEO;;"ALS resistant; ALS sensitive";;Stem cell-derived cranial and spinal motor neurons;;csv;;;;
+Stem cell derived spinal cord chips reproduce disease biomarkers in sporadic ALS patients [snRNAseq];;Homo sapiens;;GSE255605;;GEO;;"ALS (sALS); control";;iPSC-derived spinal cord;;CSV;;;;
+Single-nucleus sequencing reveals enriched expression of genetic risk factors in Extratelencephalic Neurons sensitive to degeneration in ALS;;Homo sapiens;;GSE226753;;GEO;;"ALS; control";;cortex;;txt;;genotypes are not mentioned;;
+Human iPSC-derived neural progenitor cells secreting GDNF provide protection in rodent models of ALS and retinal degeneration;;Homo sapiens;;GSE214210;;GEO;;"iNPC-GDNF; fNPC-GDNF";;NA;;csv;;;;
+Correction of dysregulated lipid metabolism normalizes gene expression in oligodendrocytes and prolongs lifespan in female poly-GA C9orf72 mouse model;;Mus musculus;;GSE262778;;GEO;;"ALS (C9-HPbCD, Vehicle); control (C9-HPbCD, Vehicle)";;hippocampus;;MTX, TSV, rds;;;;
+"GA-CFP data for the manuscript ""Correction of dysregulated lipid metabolism normalizes gene expression in oligodendrocytes and prolongs lifespan in female poly-GA C9orf72 mouse model""";;Mus musculus;;GSE289729;;GEO;;ALS (C9-GA-Nes, GA-CFP, rNLS8);;spinal cord;;csv, rsa;;;;
+Reversing lysosome-mTORC1-ribosome axis dysregulations to mitigate C9FTD/ALS neurodegeneration [snRNA-Seq];;Mus musculus;;GSE206664;;GEO;;"ALS (C9-BAC); ALS (C9 Hom); ALS (C9 Het); control";;cortex;;tar;;;;
+Neuronal–Glial Communication Perturbations in Murine SOD1G93A Spinal Cord;;Mus musculus;;GSE173524;;GEO;;"ALS(SOD1-G93A); control";;spinal;;tar, tsv, txt;;check the genotype more carefully;;
+Gan_52;;Homo sapiens;;GSM5550493;;GEO;;ALS (AD-linked R47H-TREM2);;frontal cortex;;tsv, mtx;;;;
+snRNA, C9-ALS;;Homo sapiens;;GSM6781906;;GEO;;ALS (C9) donor A1;;Frontal cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781907;;GEO;;ALS (C9) donor A1;;Motor cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781908;;GEO;;ALS (C9) donor A2;;Frontal cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781909;;GEO;;ALS (C9) donor A2;;Motor cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781910;;GEO;;ALS (C9) donor A3;;Frontal cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781911;;GEO;;ALS (C9) donor A3;;Motor cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781912;;GEO;;ALS (C9) donor A4;;Frontal cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781913;;GEO;;ALS (C9) donor A4;;Motor cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781914;;GEO;;ALS (C9) donor A5;;Frontal cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781915;;GEO;;ALS (C9) donor A5;;Motor cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781916;;GEO;;ALS (C9) donor A6;;Frontal cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781917;;GEO;;ALS (C9) donor A6;;Motor cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781918;;GEO;;FTD (C9) donor F1;;Frontal cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781919;;GEO;;FTD (C9) donor F1;;Motor cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781920;;GEO;;FTD (C9) donor F2;;Frontal cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781921;;GEO;;FTD (C9) donor F2;;Motor cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781922;;GEO;;FTD (C9) donor F3;;Frontal cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781923;;GEO;;FTD (C9) donor F3;;Motor cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781924;;GEO;;FTD (C9) donor F4;;Frontal cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781925;;GEO;;FTD (C9) donor F4;;Motor cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781926;;GEO;;FTD (C9) donor F5;;Frontal cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781927;;GEO;;FTD (C9) donor F5;;Motor cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781928;;GEO;; Control donor C1;;Frontal cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781929;;GEO;; Control donor C1;;Motor cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781930;;GEO;; Control donor C2;;Frontal cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781931;;GEO;; Control donor C2;;Motor cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781932;;GEO;; Control donor C3;;Frontal cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781933;;GEO;; Control donor C3;;Motor cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781934;;GEO;; Control donor C4;;Frontal cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781935;;GEO;; Control donor C4;;Motor cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781936;;GEO;; Control donor C5;;Frontal cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781937;;GEO;; Control donor C5;;Motor cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781938;;GEO;; Control donor C6;;Frontal cortex;;H5, TSV, MTX;;;;GSE219280
+snRNA, C9-ALS;;Homo sapiens;;GSM6781939;;GEO;; Control donor C6;;Motor cortex;;H5, TSV, MTX;;;;GSE219280
+donor F2;;Homo sapiens;;GSM6781920;;GEO;;FTD (C9);;Frontal cortex;;TSV, MTX;;;;
+donor F2;;Homo sapiens;;GSM6781921;;GEO;;FTD (C9);;Motor cortex;;TSV, MTX;;;;
+donor A1;;Homo sapiens;;GSM6781906;;GEO;;ALS (C9);;Frontal cortex;;TSV, MTX;;;;
+donor A1;;Homo sapiens;;GSM6781907;;GEO;;ALS (C9);;Motor cortex;;TSV, MTX;;;;
+donor A2;;Homo sapiens;;GSM6781880;;GEO;;ALS (C9);;Frontal cortex;;TSV, MTX;;;;
+donor A2;;Homo sapiens;;GSM6781881;;GEO;;ALS (C9);;Motor cortex;;TSV, MTX;;;;
+donor A3;;Homo sapiens;;GSM6781882;;GEO;;ALS (C9);;Frontal cortex;;TSV, MTX;;;;
+donor A3;;Homo sapiens;;GSM6781883;;GEO;;ALS (C9);;Motor cortex;;TSV, MTX;;;;
+donor A4;;Homo sapiens;;GSM6781912;;GEO;;ALS (C9);;Frontal cortex;;TSV, MTX;;;;
+donor A4;;Homo sapiens;;GSM6781913;;GEO;;ALS (C9);;Motor cortex;;TSV, MTX;;;;
+donor A5;;Homo sapiens;;GSM6781914;;GEO;;ALS (C9);;Frontal cortex;;TSV, MTX;;;;
+donor A5;;Homo sapiens;;GSM6781915;;GEO;;ALS (C9);;Motor cortex;;TSV, MTX;;;;
+donor A6;;Homo sapiens;;GSM6781916;;GEO;;ALS (C9);;Frontal cortex;;TSV, MTX;;;;
+donor A6;;Homo sapiens;;GSM6781917;;GEO;;ALS (C9);;Motor cortex;;TSV, MTX;;;;
+donor F1;;Homo sapiens;;GSM6781918;;GEO;;FTD (C9);;Frontal cortex;;TSV, MTX;;;;
+donor F1;;Homo sapiens;;GSM6781919;;GEO;;FTD (C9);;Motor cortex;;TSV, MTX;;;;
+donor F3;;Homo sapiens;;GSM6781922;;GEO;;FTD (C9);;Frontal cortex;;TSV, MTX;;;;
+donor F3;;Homo sapiens;;GSM6781923;;GEO;;FTD (C9);;Motor cortex;;TSV, MTX;;;;
+donor F4;;Homo sapiens;;GSM6781924;;GEO;;FTD (C9);;Frontal cortex;;TSV, MTX;;;;
+donor F4;;Homo sapiens;;GSM6781925;;GEO;;FTD (C9);;Motor cortex;;TSV, MTX;;;;
+donor F5;;Homo sapiens;;GSM6781926;;GEO;;FTD (C9);;Frontal cortex;;TSV, MTX;;;;
+donor F5;;Homo sapiens;;GSM6781927;;GEO;;FTD (C9);;Motor cortex;;TSV, MTX;;;;
+donor C1;;Homo sapiens;;GSM6781928;;GEO;;Control;;Frontal cortex;;TSV, MTX;;;;
+donor C1;;Homo sapiens;;GSM6781929;;GEO;;Control;;Motor cortex;;TSV, MTX;;;;
+donor C2;;Homo sapiens;;GSM6781930;;GEO;;Control;;Frontal cortex;;TSV, MTX;;;;
+donor C2;;Homo sapiens;;GSM6781931;;GEO;;Control;;Motor cortex;;TSV, MTX;;;;
+donor C3;;Homo sapiens;;GSM6781932;;GEO;;Control;;Frontal cortex;;TSV, MTX;;;;
+donor C3;;Homo sapiens;;GSM6781933;;GEO;;Control;;Motor cortex;;TSV, MTX;;;;
+donor C4;;Homo sapiens;;GSM6781934;;GEO;;Control;;Frontal cortex;;TSV, MTX;;;;
+donor C4;;Homo sapiens;;GSM6781935;;GEO;;Control;;Motor cortex;;TSV, MTX;;;;
+donor C5;;Homo sapiens;;GSM6781936;;GEO;;Control;;Frontal cortex;;TSV, MTX;;;;
+donor C5;;Homo sapiens;;GSM6781937;;GEO;;Control;;Motor cortex;;TSV, MTX;;;;
+donor C6;;Homo sapiens;;GSM6781938;;GEO;;Control;;Frontal cortex;;TSV, MTX;;;;
+donor C6;;Homo sapiens;;GSM6781939;;GEO;;Control;;Motor cortex;;TSV, MTX;;;;
+replicate1_male_female;;Mus musculus;;GSM4911289;;GEO;;Control;;spinal cord;;H5;;;;
+replicate2a_male_female;;Mus musculus;;GSM4911290;;GEO;;Control;;spinal cord;;H5;;;;
+replicate2b_male_female;;Mus musculus;;GSM4911291;;GEO;;Control;;spinal cord;;H5;;;;
+replicate3_female;;Mus musculus;;GSM4911292;;GEO;;Control;;spinal cord;;H5;;;;
+replicate4_male;;Mus musculus;;GSM4911293;;GEO;;Control;;spinal cord;;H5;;;;
+replicate5_female;;Mus musculus;;GSM4911294;;GEO;;Control;;spinal cord;;H5;;;;
+S1_Cerv_131 biol rep 1;;Homo sapiens;;GSM7136257;;GEO;;Control;;spinal cord;;H5;;;;
+S2_Cerv_131 biol rep 2;;Homo sapiens;;GSM7136258;;GEO;;Control;;spinal cord;;H5;;;;
+snRNA-seq Mut;;Mus musculus;;GSM7474612;;GEO;;Als (Pcdhα9);;spinal cord;;TSV, MTX;;;;GSE234783
+snRNA-seq WT;;Mus musculus;;GSM7474613;;GEO;;Control;;spinal cord;;TSV, MTX;;;;GSE234783
+snRNA-seq BAC;;Mus musculus;;GSM6260246;;GEO;;ALS (C9-BAC);;Cortex;;TSV, MTX;;;;GSE206666
+snRNA-seq HET;;Mus musculus;;GSM6260247;;GEO;;"ALS(C9-BAC;C9orf72+/-)";;Cortex;;TSV, MTX;;;;GSE206666
+snRNA-seq HOM;;Mus musculus;;GSM6260248;;GEO;;"ALS(C9-BAC;C9orf72-/-)";;Cortex;;TSV, MTX;;;;GSE206666
+snRNA-seq WT;;Mus musculus;;GSM6260249;;GEO;;control;;Cortex;;TSV, MTX;;;;GSE206666
+wt1;;Mus musculus;;GSM6260250;;GEO;;control;;Cortex;;txt (bam);;;;GSE206666
+wt2;;Mus musculus;;GSM6260251;;GEO;;control;;Cortex;;txt (bam);;;;GSE206666
+PBS1;;Mus musculus;;GSM6260252;;GEO;;"ALS (C9orf72+/-;C9-BAC)";;Cortex;;txt (bam);;;;GSE206666
+PBS2;;Mus musculus;;GSM6260253;;GEO;;"ALS (C9orf72+/-;C9-BAC)";;Cortex;;txt (bam);;;;GSE206666
+PBS3;;Mus musculus;;GSM6260254;;GEO;;"ALS (C9orf72+/-;C9-BAC)";;Cortex;;txt (bam);;;;GSE206666
+C9_1;;Mus musculus;;GSM6260255;;GEO;;"ALS (C9orf72+/-;C9-BAC with AAV-C9orf72)";;Cortex;;txt (bam);;;;GSE206666
+C9_2;;Mus musculus;;GSM6260256;;GEO;;"ALS (C9orf72+/-;C9-BAC with AAV-C9orf72)";;Cortex;;txt (bam);;;;GSE206666
+S8_1;;Mus musculus;;GSM6260257;;GEO;;"ALS (C9orf72+/-;C9-BAC with AAV-Smcr8)";;Cortex;;txt (bam);;;;GSE206666
+C9_3;;Mus musculus;;GSM6262626;;GEO;;"ALS (C9orf72+/-;C9-BAC with AAV-C9orf72)";;Cortex;;txt (bam);;;;GSE206666
+scRNA-seq of motor neuron and microglia co-cultures derived from C9ORF72 HRE iPSCs (ALS patient), C9ORF72 KO iPSCs and control iPSCs in unstimulated and LPS stimulated conditions;;Homo sapiens;;E-MTAB-14891;;EBI;;"ALS (CS29 iso 36 ko, CS29); control ( CS29 sio)";;na;;fastq;;;;
+Single cell RNA-sequencing of polyA tailed RNA from mutant SOD1 and isogenic control human motor neurons;;Homo sapiens;;E-MTAB-7353;;EBI;;"ALS (SOD1 E100G); control";;dermis;;fastq;;;;
+Single-cell transcriptomic;;Mus musculus;;GSE161621;;GEO;;control;;spinal cord;;H5;;;;
+Cellular Taxonomy of the Adult Human Spinal Cord;;Homo sapiens;;GSE190442;;GEO;;control;;spinal cord;;H5, csv;;;;
+Spinal_snRNA-seq_2;;Homo sapiens;;GSM7779044;;GEO;;control;;spinal cord;;tar;;;;GSE219281
+Spinal_snRNA-seq_3;;Homo sapiens;;GSM7779045;;GEO;;control;;spinal cord;;tar;;;;GSE219281
+Spinal_snRNA-seq_4;;Homo sapiens;;GSM7779046;;GEO;;control;;spinal cord;;tar;;;;GSE219281
+Spinal_snRNA-seq_5;;Homo sapiens;;GSM7779047;;GEO;;control;;spinal cord;;tar;;;;GSE219281
+Spinal_snRNA-seq_6;;Homo sapiens;;GSM7779048;;GEO;;control;;spinal cord;;tar;;;;GSE219281
+Spinal_snRNA-seq_7;;Homo sapiens;;GSM7779049;;GEO;;control;;spinal cord;;tar;;;;GSE219281
+Spinal_snRNA-seq_8;;Homo sapiens;;GSM7779050;;GEO;;control;;spinal cord;;tar;;;;GSE219281
+Spinal_snRNA-seq_9;;Homo sapiens;;GSM7779051;;GEO;;control;;spinal cord;;tar;;;;GSE219281
+Spinal_snRNA-seq_10;;Homo sapiens;;GSM7779052;;GEO;;control;;spinal cord;;tar;;;;GSE219281
+191112_ALS_110_snRNA-B9;;Homo sapiens;;syn53421674;;SYN;;ALS (sALS);;motor cortex;;TSV, MTX;;;;GSE174332
+191112_ALS_111_snRNA-B10;;Homo sapiens;;syn53421682;;SYN;;ALS (sALS);;motor cortex;;TSV, MTX;;;;GSE174332
+191112_ALS_112_snRNA-D1;;Homo sapiens;;syn53421781;;SYN;;ALS (sALS);;motor cortex;;TSV, MTX;;;;GSE174332
+191112_ALS_114_snRNA-B12;;Homo sapiens;;syn53421689;;SYN;;ALS (C9);;motor cortex;;TSV, MTX;;;;GSE174332
+191112_ALS_115_snRNA-C1;;Homo sapiens;;syn53421648;;SYN;;ALS (C9);;motor cortex;;TSV, MTX;;;;GSE174332
+191112_ALS_116_snRNA-C2;;Homo sapiens;;syn53421790;;SYN;;ALS (sALS);;motor cortex;;TSV, MTX;;;;GSE174332
+191112_ALS_117_snRNA-C3;;Homo sapiens;;syn53421764;;SYN;;ALS (sALS);;motor cortex;;TSV, MTX;;;;GSE174332
+191112_ALS_118_snRNA-C4;;Homo sapiens;;syn53421731;;SYN;;ALS (sALS);;motor cortex;;TSV, MTX;;;;GSE174332
+191112_ALS_120_snRNA-A1;;Homo sapiens;;syn53421692;;SYN;;ALS (sALS);;motor cortex;;TSV, MTX;;;;GSE174332
+191112_ALS_122_snRNA-D2;;Homo sapiens;;syn53421753;;SYN;;ALS (sALS);;motor cortex;;TSV, MTX;;;;GSE174332
+191112_ALS_124_snRNA-A3;;Homo sapiens;;syn53421729;;SYN;;ALS (sALS);;motor cortex;;TSV, MTX;;;;GSE174332
+191112_ALS_126_snRNA-A6;;Homo sapiens;;syn53421771;;SYN;;ALS (sALS);;motor cortex;;TSV, MTX;;;;GSE174332
+191112_ALS_127_snRNA-A4;;Homo sapiens;;syn53421732;;SYN;;ALS (sALS);;motor cortex;;TSV, MTX;;;;GSE174332
+191112_ALS_128_snRNA-A7;;Homo sapiens;;syn53421688;;SYN;;ALS (C9);;motor cortex;;TSV, MTX;;;;GSE174332
+191112_ALS_129_snRNA-A2;;Homo sapiens;;syn53421665;;SYN;;ALS (C9);;motor cortex;;TSV, MTX;;;;GSE174332
+191112_ALS_130_snRNA-A5;;Homo sapiens;;syn53421654;;SYN;;ALS (C9);;motor cortex;;TSV, MTX;;;;GSE174332
+191113_FTLD_202_snRNA-D3;;Homo sapiens;;syn53421683;;SYN;;FTLD (sFTLD);;motor cortex;;TSV, MTX;;;;GSE174332
+191113_FTLD_204_snRNA-D4;;Homo sapiens;;syn53421709;;SYN;;FTLD (sFTLD);;motor cortex;;TSV, MTX;;;;GSE174332
+191113_FTLD_207_snRNA-D5;;Homo sapiens;;syn53421655;;SYN;;FTLD (sFTLD);;motor cortex;;TSV, MTX;;;;GSE174332
+191113_FTLD_209_snRNA-D6;;Homo sapiens;;syn53421745;;SYN;;FTLD (sFTLD);;motor cortex;;TSV, MTX;;;;GSE174332
+191113_FTLD_211_snRNA-D7;;Homo sapiens;;syn53421768;;SYN;;FTLD (sFTLD);;motor cortex;;TSV, MTX;;;;GSE174332
+191113_FTLD_214_snRNA-D9;;Homo sapiens;;syn53421758;;SYN;;FTLD (sFTLD);;motor cortex;;TSV, MTX;;;;GSE174332
+191113_FTLD_216_snRNA-H3;;Homo sapiens;;syn53421706;;SYN;;FTLD (sFTLD);;motor cortex;;TSV, MTX;;;;GSE174332
+191113_FTLD_217_snRNA-D11;;Homo sapiens;;syn53421686;;SYN;;FTLD (sFTLD);;motor cortex;;TSV, MTX;;;;GSE174332
+191113_FTLD_218_snRNA-H4;;Homo sapiens;;syn53421738;;SYN;;FTLD (sFTLD);;motor cortex;;TSV, MTX;;;;GSE174332
+191113_FTLD_222_snRNA-E1;;Homo sapiens;;syn53421659;;SYN;;FTLD (sFTLD);;motor cortex;;TSV, MTX;;;;GSE174332
+191113_FTLD_225_snRNA-H5;;Homo sapiens;;syn53421681;;SYN;;FTLD (sFTLD);;motor cortex;;TSV, MTX;;;;GSE174332
+191113_FTLD_226_snRNA-E4;;Homo sapiens;;syn53421677;;SYN;;FTLD (sFTLD);;motor cortex;;TSV, MTX;;;;GSE174332
+191113_FTLD_228_snRNA-E5;;Homo sapiens;;syn53421760;;SYN;;FTLD (sFTLD);;motor cortex;;TSV, MTX;;;;GSE174332
+191113_FTLD_229_snRNA-E6;;Homo sapiens;;syn53421679;;SYN;;FTLD (C9);;motor cortex;;TSV, MTX;;;;GSE174332
+191114_PN_301_snRNA-E7;;Homo sapiens;;syn53421727;;SYN;;Control;;motor cortex;;TSV, MTX;;;;GSE174332
+191114_PN_303_snRNA-E8;;Homo sapiens;;syn53421695;;SYN;;Control;;motor cortex;;TSV, MTX;;;;GSE174332
+191114_PN_304_snRNA-E9;;Homo sapiens;;syn53421756;;SYN;;Control;;motor cortex;;TSV, MTX;;;;GSE174332
+191114_PN_306_snRNA-E10;;Homo sapiens;;syn53421699;;SYN;;Control;;motor cortex;;TSV, MTX;;;;GSE174332
+191114_PN_307_snRNA-E11;;Homo sapiens;;syn53421772;;SYN;;Control;;motor cortex;;TSV, MTX;;;;GSE174332
+191114_PN_309_snRNA-F1;;Homo sapiens;;syn53421685;;SYN;;Control;;motor cortex;;TSV, MTX;;;;GSE174332
+191114_PN_317_snRNA-F2;;Homo sapiens;;syn53421780;;SYN;;Control;;motor cortex;;TSV, MTX;;;;GSE174332
+191114_PN_318_snRNA-F3;;Homo sapiens;;syn53421703;;SYN;;Control;;motor cortex;;TSV, MTX;;;;GSE174332
+191114_PN_319_snRNA-F4;;Homo sapiens;;syn53421746;;SYN;;Control;;motor cortex;;TSV, MTX;;;;GSE174332
+191114_PN_322_snRNA-F5;;Homo sapiens;;syn53421700;;SYN;;Control;;motor cortex;;TSV, MTX;;;;GSE174332
+191114_PN_323_snRNA-F6;;Homo sapiens;;syn53421774;;SYN;;Control;;motor cortex;;TSV, MTX;;;;GSE174332
+191114_PN_324_snRNA-F7;;Homo sapiens;;syn53421723;;SYN;;Control;;motor cortex;;TSV, MTX;;;;GSE174332
+191114_PN_325_snRNA-F8;;Homo sapiens;;syn53421786;;SYN;;Control;;motor cortex;;TSV, MTX;;;;GSE174332
+191114_PN_328_snRNA-F9;;Homo sapiens;;syn53421747;;SYN;;Control;;motor cortex;;TSV, MTX;;;;GSE174332
+200721_FTLD_206_snRNA-A10;;Homo sapiens;;syn53421787;;SYN;;FTLD (sFTLD);;motor cortex;;TSV, MTX;;;;GSE174332
+200721_FTLD_210_snRNA-A11;;Homo sapiens;;syn53421767;;SYN;;FTLD (C9);;motor cortex;;TSV, MTX;;;;GSE174332
+200721_FTLD_214_snRNA-A12;;Homo sapiens;;syn53421660;;SYN;;FTLD (C9);;motor cortex;;TSV, MTX;;;;GSE174332
+200721_FTLD_229_snRNA-B2;;Homo sapiens;;syn53421652;;SYN;;FTLD (sFTLD);;motor cortex;;TSV, MTX;;;;GSE174332
+200721_PN_302_snRNA-B4;;Homo sapiens;;syn53421783;;SYN;;Control;;motor cortex;;TSV, MTX;;;;GSE174332
+201019_ALS_101_snRNA-B1;;Homo sapiens;;syn53421785;;SYN;;ALS (sALS);;motor cortex;;TSV, MTX;;;;GSE174332
+201019_ALS_102_snRNA-B2;;Homo sapiens;;syn53421736;;SYN;;ALS (sALS);;motor cortex;;TSV, MTX;;;;GSE174332
+201019_ALS_103_snRNA-B3;;Homo sapiens;;syn53421705;;SYN;;ALS (sALS);;motor cortex;;TSV, MTX;;;;GSE174332
+201019_ALS_104_snRNA-B4;;Homo sapiens;;syn53421721;;SYN;;ALS (sALS);;motor cortex;;TSV, MTX;;;;GSE174332
+201019_ALS_106_snRNA-B5;;Homo sapiens;;syn53421716;;SYN;;ALS (sALS);;motor cortex;;TSV, MTX;;;;GSE174332
+201019_ALS_108_snRNA-B6;;Homo sapiens;;syn53421720;;SYN;;ALS (sALS);;motor cortex;;TSV, MTX;;;;GSE174332
+201019_ALS_113_snRNA-B7;;Homo sapiens;;syn53421750;;SYN;;ALS (C9);;motor cortex;;TSV, MTX;;;;GSE174332
+201019_PN_311_snRNA-B8;;Homo sapiens;;syn53421664;;SYN;;Control;;motor cortex;;TSV, MTX;;;;GSE174332
+201025_FTLD_232_snRNA-C5;;Homo sapiens;;syn53421690;;SYN;;FTLD (C9);;motor cortex;;TSV, MTX;;;;GSE174332
+201025_FTLD_234_snRNA-C6;;Homo sapiens;;syn53421676;;SYN;;FTLD (C9);;motor cortex;;TSV, MTX;;;;GSE174332
+201025_FTLD_235_snRNA-C7;;Homo sapiens;;syn53421675;;SYN;;FTLD (C9);;motor cortex;;TSV, MTX;;;;GSE174332
+201025_FTLD_237_snRNA-C9;;Homo sapiens;;syn53421708;;SYN;;FTLD (C9);;motor cortex;;TSV, MTX;;;;GSE174332
+201025_FTLD_238_snRNA-C10;;Homo sapiens;;syn53421714;;SYN;;FTLD (C9);;motor cortex;;TSV, MTX;;;;GSE174332
+201025_FTLD_239_snRNA-C11;;Homo sapiens;;syn53421662;;SYN;;FTLD (C9);;motor cortex;;TSV, MTX;;;;
+201025_FTLD_240_snRNA-C12;;Homo sapiens;;syn53421661;;SYN;;FTLD (C9);;motor cortex;;TSV, MTX;;;;
+210526_ALS_101_snRNA-H5;;Homo sapiens;;syn53421752;;SYN;;ALS (sALS);;prefrontal cortex;;TSV, MTX;;;;
+210526_ALS_102_snRNA-H6;;Homo sapiens;;syn53421694;;SYN;;ALS (sALS);;prefrontal cortex;;TSV, MTX;;;;
+210526_ALS_103_snRNA-H7;;Homo sapiens;;syn53421704;;SYN;;ALS (sALS);;prefrontal cortex;;TSV, MTX;;;;
+210526_ALS_104_snRNA-H8;;Homo sapiens;;syn53421650;;SYN;;ALS (sALS);;prefrontal cortex;;TSV, MTX;;;;
+210526_ALS_106_snRNA-H9;;Homo sapiens;;syn53421773;;SYN;;ALS (sALS);;prefrontal cortex;;TSV, MTX;;;;
+210526_ALS_108_snRNA-H10;;Homo sapiens;;syn53421667;;SYN;;ALS (sALS);;prefrontal cortex;;TSV, MTX;;;;
+210526_ALS_110_snRNA-H11;;Homo sapiens;;syn53421748;;SYN;;ALS (sALS);;prefrontal cortex;;TSV, MTX;;;;
+210526_ALS_111_snRNA-A1;;Homo sapiens;;syn53421646;;SYN;;ALS (sALS);;prefrontal cortex;;TSV, MTX;;;;
+210526_ALS_112_snRNA-A2;;Homo sapiens;;syn53421693;;SYN;;ALS (sALS);;prefrontal cortex;;TSV, MTX;;;;
+210526_ALS_113_snRNA-A3;;Homo sapiens;;syn53421639;;SYN;;ALS (C9);;prefrontal cortex;;TSV, MTX;;;;
+210526_ALS_114_snRNA-A4;;Homo sapiens;;syn53421734;;SYN;;ALS (C9);;prefrontal cortex;;TSV, MTX;;;;
+210526_ALS_115_snRNA-A5;;Homo sapiens;;syn53421769;;SYN;;ALS (C9);;prefrontal cortex;;TSV, MTX;;;;
+210526_ALS_116_snRNA-A6;;Homo sapiens;;syn53421643;;SYN;;ALS (sALS);;prefrontal cortex;;TSV, MTX;;;;
+210526_ALS_117_snRNA-A7;;Homo sapiens;;syn53421728;;SYN;;ALS (sALS);;prefrontal cortex;;TSV, MTX;;;;
+210526_ALS_118_snRNA-A8;;Homo sapiens;;syn53421779;;SYN;;ALS (sALS);;prefrontal cortex;;TSV, MTX;;;;
+210526_ALS_120_snRNA-A9;;Homo sapiens;;syn53421711;;SYN;;ALS (sALS);;prefrontal cortex;;TSV, MTX;;;;
+210526_ALS_122_snRNA-A10;;Homo sapiens;;syn53421737;;SYN;;ALS (sALS);;prefrontal cortex;;TSV, MTX;;;;
+210526_ALS_124_snRNA-A11;;Homo sapiens;;syn53421668;;SYN;;ALS (sALS);;prefrontal cortex;;TSV, MTX;;;;
+210526_ALS_126_snRNA-A12;;Homo sapiens;;syn53421765;;SYN;;ALS (sALS);;prefrontal cortex;;TSV, MTX;;;;
+210526_ALS_127_snRNA-B1;;Homo sapiens;;syn53421763;;SYN;;ALS (sALS);;prefrontal cortex;;TSV, MTX;;;;
+210526_ALS_128_snRNA-F7;;Homo sapiens;;syn53421684;;SYN;;ALS (C9);;prefrontal cortex;;TSV, MTX;;;;
+210526_ALS_129_snRNA-B3;;Homo sapiens;;syn53421671;;SYN;;ALS (C9);;prefrontal cortex;;TSV, MTX;;;;
+210526_ALS_130_snRNA-B4;;Homo sapiens;;syn53421743;;SYN;;ALS (C9);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_202_snRNA-B5;;Homo sapiens;;syn53421647;;SYN;;FTLD (sFTLD);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_204_snRNA-B6;;Homo sapiens;;syn53421782;;SYN;;FTLD (sFTLD);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_206_snRNA-B7;;Homo sapiens;;syn53421788;;SYN;;FTLD (sFTLD);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_207_snRNA-B8;;Homo sapiens;;syn53421742;;SYN;;FTLD (sFTLD);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_209_snRNA-B9;;Homo sapiens;;syn53421658;;SYN;;FTLD (sFTLD);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_210_snRNA-B10;;Homo sapiens;;syn53421739;;SYN;;FTLD (C9);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_211_snRNA-B11;;Homo sapiens;;syn53421672;;SYN;;FTLD (sFTLD);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_214_snRNA-B12;;Homo sapiens;;syn53421766;;SYN;;FTLD (C9);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_216_snRNA-C1;;Homo sapiens;;syn53421722;;SYN;;FTLD (sFTLD);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_217_snRNA-C2;;Homo sapiens;;syn53421666;;SYN;;FTLD (sFTLD);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_218_snRNA-C3;;Homo sapiens;;syn53421777;;SYN;;FTLD (sFTLD);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_222_snRNA-C4;;Homo sapiens;;syn53421649;;SYN;;FTLD (sFTLD);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_225_snRNA-C6;;Homo sapiens;;syn53421673;;SYN;;FTLD (sFTLD);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_226_snRNA-C7;;Homo sapiens;;syn53421726;;SYN;;FTLD (sFTLD);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_228_snRNA-C8;;Homo sapiens;;syn53421663;;SYN;;FTLD (sFTLD);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_229_snRNA-B9;;Homo sapiens;;syn53421645;;SYN;;FTLD (C9);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_232_snRNA-C11;;Homo sapiens;;syn53421713;;SYN;;FTLD (C9);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_234_snRNA-C12;;Homo sapiens;;syn53421761;;SYN;;FTLD (C9);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_235_snRNA-D1;;Homo sapiens;;syn53421749;;SYN;;FTLD (C9);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_236_snRNA-D2;;Homo sapiens;;syn53421751;;SYN;;FTLD (C9);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_237_snRNA-D3;;Homo sapiens;;syn53421707;;SYN;;FTLD (C9);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_238_snRNA-D4;;Homo sapiens;;syn53421735;;SYN;;FTLD (C9);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_239_snRNA-D5;;Homo sapiens;;syn53421762;;SYN;;FTLD (C9);;prefrontal cortex;;TSV, MTX;;;;
+210526_FTLD_240_snRNA-D6;;Homo sapiens;;syn53421640;;SYN;;FTLD (C9);;prefrontal cortex;;TSV, MTX;;;;
+210526_PN_301_snRNA-D7;;Homo sapiens;;syn53421744;;SYN;;Control;;prefrontal cortex;;TSV, MTX;;;;
+210526_PN_302_snRNA-D8;;Homo sapiens;;syn53421687;;SYN;;Control;;prefrontal cortex;;TSV, MTX;;;;
+210526_PN_303_snRNA-D9;;Homo sapiens;;syn53421784;;SYN;;Control;;prefrontal cortex;;TSV, MTX;;;;
+210526_PN_304_snRNA-D10;;Homo sapiens;;syn53421702;;SYN;;Control;;prefrontal cortex;;TSV, MTX;;;;
+210526_PN_306_snRNA-D11;;Homo sapiens;;syn53421789;;SYN;;Control;;prefrontal cortex;;TSV, MTX;;;;
+210526_PN_307_snRNA-D12;;Homo sapiens;;syn53421678;;SYN;;Control;;prefrontal cortex;;TSV, MTX;;;;
+210526_PN_309_snRNA-E2;;Homo sapiens;;syn53421712;;SYN;;Control;;prefrontal cortex;;TSV, MTX;;;;
+210526_PN_311_snRNA-E3;;Homo sapiens;;syn53421698;;SYN;;Control;;prefrontal cortex;;TSV, MTX;;;;
+210526_PN_317_snRNA-E4;;Homo sapiens;;syn53421776;;SYN;;Control;;prefrontal cortex;;TSV, MTX;;;;
+210526_PN_318_snRNA-H12;;Homo sapiens;;syn53421669;;SYN;;Control;;prefrontal cortex;;TSV, MTX;;;;
+210526_PN_319_snRNA-E5;;Homo sapiens;;syn53421642;;SYN;;Control;;prefrontal cortex;;TSV, MTX;;;;
+210526_PN_322_snRNA-E6;;Homo sapiens;;syn53421651;;SYN;;Control;;prefrontal cortex;;TSV, MTX;;;;
+210526_PN_323_snRNA-B7;;Homo sapiens;;syn53421724;;SYN;;Control;;prefrontal cortex;;TSV, MTX;;;;
+210526_PN_324_snRNA-F4;;Homo sapiens;;syn53421701;;SYN;;Control;;prefrontal cortex;;TSV, MTX;;;;
+210526_PN_325_snRNA-F5;;Homo sapiens;;syn53421715;;SYN;;Control;;prefrontal cortex;;TSV, MTX;;;;
+210526_PN_328_snRNA-F6;;Homo sapiens;;syn53421759;;SYN;;Control;;prefrontal cortex;;TSV, MTX;;;;
+210910_MCX_ALS_131_snRNA-C2;;Homo sapiens;;syn53421697;;SYN;;ALS (C9);;motor cortex;;TSV, MTX;;;;
+210910_MCX_ALS_132_snRNA-C3;;Homo sapiens;;syn53421754;;SYN;;ALS (C9);;motor cortex;;TSV, MTX;;;;
+210910_MCX_ALS_133_snRNA-C4;;Homo sapiens;;syn53421730;;SYN;;ALS (C9);;motor cortex;;TSV, MTX;;;;
+210910_MCX_ALS_134_snRNA-C5;;Homo sapiens;;syn53421725;;SYN;;ALS (C9);;motor cortex;;TSV, MTX;;;;
+210910_MCX_ALS_135_snRNA-C6;;Homo sapiens;;syn53421657;;SYN;;ALS (C9);;motor cortex;;TSV, MTX;;;;
+210910_MCX_ALS_136_snRNA-C7;;Homo sapiens;;syn53421718;;SYN;;ALS (C9);;motor cortex;;TSV, MTX;;;;
+210910_MCX_ALS_137_snRNA-C8;;Homo sapiens;;syn53421719;;SYN;;ALS (C9);;motor cortex;;TSV, MTX;;;;
+210910_MCX_ALS_138_snRNA-C9;;Homo sapiens;;syn53421778;;SYN;;ALS (C9);;motor cortex;;TSV, MTX;;;;
+210910_MCX_ALS_139_snRNA-D6;;Homo sapiens;;syn53421710;;SYN;;ALS (C9);;motor cortex;;TSV, MTX;;;;
+210910_MCX_ALS_140_snRNA-D7;;Homo sapiens;;syn53421741;;SYN;;ALS (C9);;motor cortex;;TSV, MTX;;;;
+210910_PFC_ALS_131_snRNA-C10;;Homo sapiens;;syn53421775;;SYN;;ALS (C9);;prefrontal cortex;;TSV, MTX;;;;
+210910_PFC_ALS_132_snRNA-C11;;Homo sapiens;;syn53421680;;SYN;;ALS (C9);;prefrontal cortex;;TSV, MTX;;;;
+210910_PFC_ALS_133_snRNA-C12;;Homo sapiens;;syn53421717;;SYN;;ALS (C9);;prefrontal cortex;;TSV, MTX;;;;
+210910_PFC_ALS_134_snRNA-D1;;Homo sapiens;;syn53421696;;SYN;;ALS (C9);;prefrontal cortex;;TSV, MTX;;;;
+210910_PFC_ALS_135_snRNA-D2;;Homo sapiens;;syn53421644;;SYN;;ALS (C9);;prefrontal cortex;;TSV, MTX;;;;
+210910_PFC_ALS_136_snRNA-D3;;Homo sapiens;;syn53421770;;SYN;;ALS (C9);;prefrontal cortex;;TSV, MTX;;;;
+210910_PFC_ALS_137_snRNA-D4;;Homo sapiens;;syn53421670;;SYN;;ALS (C9);;prefrontal cortex;;TSV, MTX;;;;
+210910_PFC_ALS_138_snRNA-D5;;Homo sapiens;;syn53421740;;SYN;;ALS (C9);;prefrontal cortex;;TSV, MTX;;;;
+210910_PFC_ALS_139_snRNA-D8;;Homo sapiens;;syn53421757;;SYN;;ALS (C9);;prefrontal cortex;;TSV, MTX;;;;
+210910_PFC_ALS_140_snRNA-D9;;Homo sapiens;;syn53421656;;SYN;;ALS (C9);;prefrontal cortex;;TSV, MTX;;;;
+220616_BL6_MCX_snRNA-A1;;Mus musculus;;syn53421691;;SYN;;Control;;Motor cortex;;TSV, MTX;;;;
+220616_BL6_MCX_snRNA-A2;;Mus musculus;;syn53421733;;SYN;;Control;;Motor cortex;;TSV, MTX;;;;
+220616_BL6_MCX_snRNA-H10;;Mus musculus;;syn53421653;;SYN;;Control;;Motor cortex;;TSV, MTX;;;;
+220616_BL6_MCX_snRNA-H11;;Mus musculus;;syn53421755;;SYN;;Control;;Motor cortex;;TSV, MTX;;;;
+220616_BL6_MCX_snRNA-H12;;Mus musculus;;syn53421641;;SYN;;Control;;Motor cortex;;TSV, MTX;;;;

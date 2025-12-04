@@ -146,6 +146,7 @@ data/processed/
 data/synapse/
 synapse_downloads/
 *.csv
+!data_list_full.csv
 *.json
 *.jsonl
 *.parquet
